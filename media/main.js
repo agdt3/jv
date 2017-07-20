@@ -21,4 +21,25 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  function getCurrentIndex($item) {
+    return parseInt($item.dataset.index);
+  }
+
+  function getItemByIndex(index) {
+    return document.querySelector(".hero-image[data-index='" + index + "']");
+  }
+
+  var $rightControl = document.querySelector(".carousel-right-control");
+  $rightControl.addEventListener('click', function() {
+    var $currentItem = document.querySelector('.active');
+    var activeIndex = getCurrentIndex($currentItem);
+    var $nextItem = getItemByIndex(activeIndex + 1);
+    console.log($nextItem);
+  });
+
+  var $leftControl = document.querySelector(".carousel-left-control");
+  $leftControl.addEventListener('click', function() {
+    console.log("fdsa");
+  });
+
 });

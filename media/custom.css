@@ -2,6 +2,7 @@
   position: fixed;
   width: 100%;
   background-color: navy;
+  z-index: 100;
 }
 
 .navigation {
@@ -59,4 +60,36 @@
 
 .desktop-spacer {
   height: 192px;
+}
+
+.hero-image {
+  text-align: center;
+  position: relative;
+}
+
+.hero-image img {
+  height: auto;
+  width: auto;
+  max-height: 450px;
+}
+
+.carousel-controls {
+  position: absolute;
+  z-index: 50;
+}
+
+.carousel-left-control {
+  
+}
+
+.carousel-right-control {
+  float: right;
+}
+
+.icon .fa.fa-angle-left {
+  font-size: 10em;
+}
+
+.icon .fa.fa-angle-right {
+  font-size: 10em;
 }
