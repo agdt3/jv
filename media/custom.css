@@ -1,0 +1,38 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: navy;
+}
+
+.navigation {
+  background-color: navy;
+}
+
+.navbar-menu-centered {
+  justify-content: center;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+.buttons-wrapper {
+  padding-top: 10px;
+}
+
+.title-image {
+  display: flex;
+  justify-content: center;
+}
+
+.title-image img {
+  padding-top: 10px;
+}
+
+.social-icon i {
+  color: white;
+}
+
+.social-icon i:hover {
+  color: grey;
+}
