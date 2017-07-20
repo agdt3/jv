@@ -12,6 +12,26 @@
   justify-content: center;
 }
 
+.navbar-item {
+  color: white;
+}
+
+.navbar-link {
+  color: white;
+}
+
+.navbar-dropdown a.navbar-item {
+  color: navy;
+}
+
+.navbar-vertical-divider {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .no-padding-bottom {
   padding-bottom: 0;
 }
