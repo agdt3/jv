@@ -36,3 +36,7 @@
 .social-icon i:hover {
   color: grey;
 }
+
+.desktop-spacer {
+  height: 192px;
+}
