@@ -73,16 +73,33 @@
   max-height: 450px;
 }
 
+.carousel {
+  position: relative;
+}
+
 .carousel-controls {
   position: absolute;
+  width: 100%;
   z-index: 50;
+  top: 45%;
+  left: 0;
+}
+
+.carousel-control {
+  opacity: 0.5;
+  display: inline-block;
+}
+
+.carousel-control:hover {
+  color: grey;
 }
 
 .carousel-left-control {
-  
+  margin-left: 3%;
 }
 
 .carousel-right-control {
+  margin-right: 3%;
   float: right;
 }
 

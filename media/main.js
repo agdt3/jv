@@ -25,21 +25,41 @@ document.addEventListener('DOMContentLoaded', function () {
     return parseInt($item.dataset.index);
   }
 
-  function getItemByIndex(index) {
+  function getItemByIndex(index, max) {
+    if (index < 1) {
+      index = max;
+    }
+    else if (index > max) {
+      index = 1;
+    }
+
     return document.querySelector(".hero-image[data-index='" + index + "']");
+  }
+
+  function transitionItem($current, $next) {
+    $current.classList.remove("active");
+    $current.classList.add("is-hidden");
+
+    $next.classList.remove("is-hidden");
+    $next.classList.add("active");
   }
 
   var $rightControl = document.querySelector(".carousel-right-control");
   $rightControl.addEventListener('click', function() {
+    var itemCount = document.querySelectorAll('.hero-image').length;
     var $currentItem = document.querySelector('.active');
     var activeIndex = getCurrentIndex($currentItem);
-    var $nextItem = getItemByIndex(activeIndex + 1);
-    console.log($nextItem);
-  });
+    var $nextItem = getItemByIndex(activeIndex + 1, itemCount);
+    transitionItem($currentItem, $nextItem);
+   });
 
   var $leftControl = document.querySelector(".carousel-left-control");
   $leftControl.addEventListener('click', function() {
-    console.log("fdsa");
+    var itemCount = document.querySelectorAll('.hero-image').length;
+    var $currentItem = document.querySelector('.active');
+    var activeIndex = getCurrentIndex($currentItem);
+    var $nextItem = getItemByIndex(activeIndex - 1, itemCount);
+    transitionItem($currentItem, $nextItem);
   });
 
 });
