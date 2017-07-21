@@ -37,14 +37,14 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function transitionItem($current, $next) {
-    $current.classList.remove("active");
-    $current.classList.add("is-hidden");
+    $current.classList.remove('active');
+    $current.classList.add('is-hidden');
 
-    $next.classList.remove("is-hidden");
-    $next.classList.add("active");
+    $next.classList.remove('is-hidden');
+    $next.classList.add('active');
   }
 
-  var $rightControl = document.querySelector(".carousel-right-control");
+  var $rightControl = document.querySelector('.carousel-right-control');
   $rightControl.addEventListener('click', function() {
     var itemCount = document.querySelectorAll('.hero-image').length;
     var $currentItem = document.querySelector('.active');
@@ -53,13 +53,26 @@ document.addEventListener('DOMContentLoaded', function () {
     transitionItem($currentItem, $nextItem);
    });
 
-  var $leftControl = document.querySelector(".carousel-left-control");
+  var $leftControl = document.querySelector('.carousel-left-control');
   $leftControl.addEventListener('click', function() {
     var itemCount = document.querySelectorAll('.hero-image').length;
     var $currentItem = document.querySelector('.active');
     var activeIndex = getCurrentIndex($currentItem);
     var $nextItem = getItemByIndex(activeIndex - 1, itemCount);
     transitionItem($currentItem, $nextItem);
+  });
+
+  var $learnMoreControl = document.querySelector('.learn-more-control');
+  $learnMoreControl.addEventListener('click', function() {
+    var $hiddenNews = document.querySelectorAll('article.media.is-hidden');
+    var max = 3;
+    if ($hiddenNews.length < 3) {
+      max = $hiddenNews.length;
+    }
+
+    for (var i = 0; i < max; i++) {
+      $hiddenNews[i].classList.remove('is-hidden');
+    }
   });
 
 });

@@ -33,6 +33,10 @@
   margin-right: 5px;
 }
 
+.navbar-burger.burger span {
+  border: 1px solid white;
+}
+
 .no-padding-bottom {
   padding-bottom: 0;
 }
@@ -63,14 +67,30 @@
 }
 
 .hero-image {
+  line-height: 0;
   text-align: center;
   position: relative;
+  max-height: 450px;
 }
 
 .hero-image img {
   height: auto;
   width: auto;
   max-height: 450px;
+}
+
+.hero-overlay {
+  background-color: navy;
+  display: flex;
+  position: absolute;
+  width: 60%;
+  height: 40%;
+  left: 20%;
+  bottom:0;
+}
+
+.hero-overlay h2 {
+  color: white;
 }
 
 .carousel {
@@ -104,9 +124,17 @@
 }
 
 .icon .fa.fa-angle-left {
-  font-size: 10em;
+  font-size: 9em;
 }
 
 .icon .fa.fa-angle-right {
-  font-size: 10em;
+  font-size: 9em;
+}
+
+.learn-more-control {
+
+}
+
+.footer {
+  background-color: navy;
 }
