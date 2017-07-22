@@ -18,7 +18,7 @@
           </figure>
         </div>
         <div class="column is-one-quarter is-hidden-mobile no-padding-bottom">
-          <div class="buttons-wrapper is-inline-block">
+          <div class="buttons-wrapper is-inline-block is-hidden-touch">
             <a class="social-icon" href="https://www.twitter.com">
               <span class="icon is-medium">
                 <i class="fa fa-twitter"></i>
@@ -44,7 +44,7 @@
         </div>
         <div id="navMenu" class="navbar-menu navbar-menu-centered">
           <a class="navbar-item" href="http://bulma.io/">Home</a>
-          <div class="navbar-vertical-divider">
+          <div class="navbar-vertical-divider is-hidden-touch">
               <span class="icon is-small">
                 <i class="fa fa-star"></i>
               </span>
@@ -60,7 +60,7 @@
               <a class="navbar-item " href="/documentation/overview/start/">Endorsement</a>
             </div>
           </div>
-          <div class="navbar-vertical-divider">
+          <div class="navbar-vertical-divider is-hidden-touch">
               <span class="icon is-small">
                 <i class="fa fa-star"></i>
               </span>
@@ -74,15 +74,15 @@
               <a class="navbar-item " href="/documentation/overview/start/">Am I registered?</a>
             </div>
           </div>
-          <div class="navbar-vertical-divider">
+          <div class="navbar-vertical-divider is-hidden-touch">
               <span class="icon is-small">
                 <i class="fa fa-star"></i>
               </span>
           </div>
-          <a class="navbar-item " href="http://bulma.io/">
+          <a class="navbar-item" href="http://bulma.io/">
             Fix Congress
           </a>
-          <div class="navbar-vertical-divider">
+          <div class="navbar-vertical-divider is-hidden-touch">
               <span class="icon is-small">
                 <i class="fa fa-star"></i>
               </span>
@@ -98,7 +98,7 @@
               <a class="navbar-item " href="/documentation/overview/start/">Employment</a>
             </div>
           </div>
-          <div class="navbar-vertical-divider">
+          <div class="navbar-vertical-divider is-hidden-touch">
               <span class="icon is-small">
                 <i class="fa fa-star"></i>
               </span>
@@ -116,6 +116,7 @@
       </nav>
     </section>
     <div class="desktop-spacer is-hidden-mobile"></div>
+    <div class="mobile-spacer is-hidden-tablet"></div>
     <section class="hero">
       <div class="carousel">
         <div class="carousel-controls">
@@ -131,22 +132,42 @@
         </div>
         <figure class="hero-image active" data-index="1">
           <img src="images/mountains.jpg"/>
-          <container class="hero-overlay">
-            <h2 class="title is-2 has-text-centered">
+          <figure-caption class="container hero-overlay has-text-centered">
+            <h2 class="hero-overlay-title title is-2">
               Mountains!
             </h2>
-            <p>Mountains are great!</p>
-          </container>
+            <p class="hero-overlay-text subtitle is-4 is-hidden-mobile">Mountains are great and we really like them. Come look at some!</p>
+          </figure-caption>
         </figure>
         <figure class="hero-image is-hidden" data-index="2">
           <img src="images/family.jpg"/>
-          <container class="hero-overlay">Family!</container>
+          <figure-caption class="container hero-overlay has-text-centered">
+            <h2 class="hero-overlay-title title is-2">
+              Family!
+            </h2>
+            <p class="hero-overlay-text subtitle is-4 is-hidden-mobile">It's adam and steve, not adam and eve...</p>
+          </figure-caption>
         </figure>
         <figure class="hero-image is-hidden" data-index="3">
           <img src="images/politics.jpg"/>
-          <container class="hero-overlay">Some older dude!</container>
+          <figure-caption class="container hero-overlay has-text-centered">
+            <h2 class="hero-overlay-title title is-2">
+              Old People!
+            </h2>
+            <p class="hero-overlay-text subtitle is-4 is-hidden-mobile">The internet is a series of tubes...</p>
+          </figure-caption>
         </figure>
       </div>
+    </section>
+    <section class="section no-padding-bottom is-hidden-tablet">
+      <container class="container">
+        <a class="mobile-donate-button button is-large is-fullwidth has-text-centered is-danger">
+          Donate
+        </a>
+        <a class="mobile-involve-button button is-large is-fullwidth has-text-centered is-warning">
+          Get involved
+        </a>
+      </container>
     </section>
     <section class="section">
       <div class="columns">
@@ -214,10 +235,10 @@
         </div>
         <div class="column is-3">
           <div class="sidebar-wrapper">
-            <a class="box has-text-centered">
+            <a class="box has-text-centered is-hidden-mobile">
               Give to the campaign
             </a>
-            <a class="box has-text-centered">
+            <a class="box has-text-centered is-hidden-mobile">
               Get involved
             </a>
             <div class="box">
