@@ -121,7 +121,26 @@
 
 .hero-overlay-text {
   color: white;
+  font-weight: 500;
 }
+
+@media handheld and (max-width: 999px), screen and (max-width: 999px) {
+  .hero-overlay-title.is-2 {
+    font-size: 2em;
+  }
+
+  .hero-overlay-text.is-4 {
+    font-size: 1em;
+  }
+}
+
+@media handheld and (max-width: 768px), screen and (max-width: 768px) {
+  .hero-overlay-title.title {
+    margin-bottom: 0;
+  }
+}
+
+
 
 .carousel {
   position: relative;
@@ -136,12 +155,12 @@
 }
 
 .carousel-control {
-  opacity: 0.5;
+  opacity: 0.9;
   display: inline-block;
 }
 
 .carousel-control:hover {
-  color: grey;
+  opacity: 0.5;
 }
 
 .carousel-left-control {
