@@ -164,3 +164,77 @@
 .footer {
   background-color: navy;
 }
+
+.footer .nav-lite-wrapper a {
+  color: white;
+}
+
+.footer .contact-wrapper a {
+  color: white;
+}
+
+.footer .contact-wrapper div {
+  color: white;
+}
+
+.footer .contact-wrapper span {
+  color: white;
+}
+
+.footer .disclaimer-wrapper {
+  color: white;
+}
+
+.footer .disclaimer-wrapper .title-image-small {
+  display: inline-block;
+}
+
+.footer .disclaimer-wrapper .title-image-small img {
+  height: auto;
+  width: 50%;
+}
+
+.footer .disclaimer-wrapper .disclaimer div {
+  display: inline-block;
+  padding: 0.5rem;
+  border: 2px solid white;
+}
+
+/* Buttons */
+.button.is-danger {
+  background-color: rgb(230, 37, 37);
+  font-weight: 600;
+}
+
+.button.is-warning {
+  font-weight: 600;
+}
+
+.button.is-danger:hover {
+  background-color: rgb(230, 100, 100);
+}
+
+.button.is-warning {
+  background-color: rgb(41, 131, 209);
+  color: white;
+}
+
+.button.is-warning:hover {
+  background-color: rgb(100, 161, 209);
+}
+
+.button.is-warning.is-outlined {
+  background-color: rgb(41, 131, 209);
+  border-color: rgb(41, 131, 209);
+  color: white;
+}
+
+.button.is-warning.is-outlined:hover {
+  background-color: rgb(100, 161, 209);
+  border-color: rgb(100, 161, 209);
+}
+
+.button.sidebar-button {
+  height: 60px;
+  margin-bottom: 1rem;
+}
