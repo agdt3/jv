@@ -219,6 +219,11 @@
   border: 2px solid white;
 }
 
+/* Form */
+.update-form-wrapper {
+  background-color: lightgrey;
+}
+
 /* Buttons */
 .button.is-danger {
   background-color: rgb(230, 37, 37);
