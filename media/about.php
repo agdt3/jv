@@ -42,7 +42,7 @@
               <li><strong>Help Progressives:</strong> Begin the “Activate Idaho” coalition initiative.</li>
               <li><strong>In This Together:</strong> Helping constituents to see that that most of our major issues and problems are interconnected.</li>
               <li><strong>Promote the Common Good:</strong> I have a vision for Idaho, and America, of cohesion and compromise between Democrats, Progressives, Independents, and those Republicans that believe in our Constitution. I believe that we can all work toward the common good; by design and process, our Constitution is the framework for achieving a compromise that benefits all.</li>
-              <li><strong>Civic Responsibility and Volunteerism:</strong> America is a wonderful experiment in Democracy that takes work.  We cannot follow the few who think only of themselves, but realize that America is not easy and America takes work!  We cannot complain about taxes, but then expect all the services and protections we receive. <strong>American is only as good as what we give!<strong></li>
+              <li><strong>Civic Responsibility and Volunteerism:</strong> America is a wonderful experiment in Democracy that takes work.  We cannot follow the few who think only of themselves, but realize that America is not easy and America takes work!  We cannot complain about taxes, but then expect all the services and protections we receive. <strong>American is only as good as what we give!</strong></li>
             </ul>
           </article>
           <hr/>
