@@ -10,109 +10,8 @@
     <link rel="stylesheet" href="custom.css">
   </head>
   <body>
-    <section class="header">
-      <div class="columns">
-        <div class="column is-half is-offset-one-quarter is-hidden-mobile no-padding-bottom">
-          <figure class="title-image">
-            <img src="images/header-logo.png"/>
-          </figure>
-        </div>
-        <div class="column is-one-quarter is-hidden-mobile no-padding-bottom">
-          <div class="buttons-wrapper is-inline-block is-hidden-touch">
-            <a class="social-icon" href="https://www.twitter.com">
-              <span class="icon is-medium">
-                <i class="fa fa-twitter"></i>
-              </span>
-            </a>
-            <a class="social-icon" href="https://www.facebook.com">
-              <span class="icon is-medium">
-                <i class="fa fa-facebook"></i>
-              </span>
-            </a>
-            <a href="involved.html" class="button is-warning is-outlined">GET INVOLVED</a>
-            <a class="button is-danger">DONATE</a>
-          </div>
-        </div>
-      </div>
-      <nav class="navigation navbar">
-        <div class="navbar-brand">
-          <a href="index.html" class="navbar-item is-hidden-tablet">
-            <figure class="title-image-mobile">
-              <img src="images/header-logo.png"/>
-            </figure>
-          </a>
-          <div class="navbar-burger burger" data-target="navMenu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div id="navMenu" class="navbar-menu navbar-menu-centered">
-          <a class="navbar-item" href="index.html">Home</a>
-          <div class="navbar-vertical-divider is-hidden-touch">
-              <span class="icon is-small">
-                <i class="fa fa-star"></i>
-              </span>
-          </div>
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="/documentation/overview/start/">
-              About
-            </a>
-            <div class="navbar-dropdown ">
-              <a class="navbar-item " href="/documentation/overview/start/">Bio</a>
-              <a class="navbar-item " href="/documentation/overview/start/">Why I'm running</a>
-              <a class="navbar-item " href="/documentation/overview/start/">Plan to win</a>
-              <a class="navbar-item " href="/documentation/overview/start/">Endorsement</a>
-            </div>
-          </div>
-          <div class="navbar-vertical-divider is-hidden-touch">
-              <span class="icon is-small">
-                <i class="fa fa-star"></i>
-              </span>
-          </div>
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="/documentation/overview/start/">
-              Vote
-            </a>
-            <div class="navbar-dropdown ">
-              <a class="navbar-item " href="/documentation/overview/start/">Register to Vote</a>
-              <a class="navbar-item " href="/documentation/overview/start/">Am I registered?</a>
-            </div>
-          </div>
-          <div class="navbar-vertical-divider is-hidden-touch">
-              <span class="icon is-small">
-                <i class="fa fa-star"></i>
-              </span>
-          </div>
-         	<div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="/documentation/overview/start/">Issues</a>
-            <div class="navbar-dropdown ">
-              <a class="navbar-item " href="/documentation/overview/start/">Health Care</a>
-              <a class="navbar-item " href="/documentation/overview/start/">Public Lands</a>
-              <a class="navbar-item " href="/documentation/overview/start/">Education</a>
-              <a class="navbar-item " href="/documentation/overview/start/">Jobs</a>
-              <a class="navbar-item " href="/documentation/overview/start/">Taxes</a>
-              <a class="navbar-item " href="/documentation/overview/start/">Fix Congress</a>
-              <a class="navbar-item " href="/documentation/overview/start/">Employment</a>
-            </div>
-          </div>
-          <div class="navbar-vertical-divider is-hidden-touch">
-              <span class="icon is-small">
-                <i class="fa fa-star"></i>
-              </span>
-          </div>
-         	<div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="http://bulma.io/">Media</a>
-            <div class="navbar-dropdown ">
-              <a class="navbar-item " href="/documentation/overview/start/">Press Releases</a>
-              <a class="navbar-item " href="/documentation/overview/start/">TV Ads</a>
-              <a class="navbar-item " href="/documentation/overview/start/">Campaign</a>
-              <a class="navbar-item " href="/documentation/overview/start/">Fake News</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </section>
+    <div id="fb-root"></div>
+    <?php include_once "header.php" ?>
     <div class="desktop-spacer is-hidden-mobile"></div>
     <div class="mobile-spacer is-hidden-tablet"></div>
     <section class="hero">
@@ -231,7 +130,7 @@
             </p>
           </div>
         </div>
-        <div class="sidebar-wrapper column is-2-desktop is-4-tablet">
+        <div class="column sidebar-wrapper is-2-desktop is-4-tablet">
           <a class="button sidebar-button is-danger is-fullwidth has-text-centered is-hidden-mobile">
             Give to the campaign
           </a>
@@ -267,10 +166,14 @@
             Volunteer
           </a>
           <div class="box">
-            Twitter box
+            <a class="twitter-timeline"
+                href="https://twitter.com/votevandermaas">
+              Tweets by @votevandermaas
+            </a>
           </div>
           <div class="box">
-            Facebook box
+            <div class="fb-page" data-href="https://www.facebook.com/votevandermaas2018/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/votevandermaas2018/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/votevandermaas2018/">Votevandermaas</a></blockquote>
+            </div>
           </div>
         </div>
       </div>
