@@ -12,6 +12,8 @@
   <body>
     <div id="fb-root"></div>
     <?php include_once "header.php" ?>
+    <div class="desktop-spacer is-hidden-mobile"></div>
+    <div class="mobile-spacer is-hidden-tablet"></div>
     <section class="section">
       <div class="columns">
         <div class="column is-6-desktop is-offset-2-desktop is-8-tablet">
@@ -20,8 +22,11 @@
             <h1 class="title is-1">Biography</h1>
             <p>
               James is probably like most of you. He went through the school of hard knocks… maybe harder than most.  He was born in Maryland, has two sisters, and was abandoned by his father when he was just a one year old. If you can imagine a divorced woman raising three kids – James and his two sisters – all by herself in the late 50’s and 60’s, you know that he had to grow up fast. His mother did the best she could, but they were raised in poverty. From about nine years old, James and his sisters had to work hard and contribute all they earned to help support the family. James moved out on his own at sixteen, joking that to be able to get by, he had to be eighteen for about three years, until he caught up!</p>
+<br/>
 <p>James has an early history of the public service spirit: at fourteen he volunteered at a local fire department and later became a fireman/EMT-paramedic.  Later, he turned to a career in law enforcement, from which he retired about 6 years ago.  Even while in law enforcement, James was no stranger to hard work and he also started several businesses, ran a successful telecommunications company, and has done business consulting and work on non-profits since.</p>
+<br/>
 <p>James is proud of his three wonderful sons.  He has been “mister mom” since 2000, eventually with full custody, and like many of us juggled quality time, work and daycare for years.  His oldest son is a Marine who served for nine years in the United States Marines Corps with three tours in Iraq.  His middle son is now working in Florida to be close to his sweetheart, and his youngest still lives here in Idaho.</p>
+<br/>
 <p>James has a wide range of knowledge and experience including: Police/Fire 911 communications; dispatcher/trainer, SWAT Team, GIS Crime analysis mapping, Technical Services Unit, Vice-President on the P.A.L. (Police Activities League) Board, mentoring to youth and troubled kids to prevent gang activity, member of the County Sheriff’s Cliff and Dive Search and Rescue team, various homeland security related assignments, a bone marrow donor.</p>
           </article>
           <hr/>
@@ -34,7 +39,7 @@
           <a class="anchor-tag" id="plan"></a>
           <article>
             <h1 class="title is-1">Plan to Win</h1>
-            <ul>
+            <ul class="plan-list">
               <li><strong>Listen and Learn:</strong> It’s time that the politicians listened to the American people. I will be conducting a “Listening Tour” by physically going to all the small and large towns up and down the 1st District and learning from the people directly what is most important to them!</li>
               <li><strong>Connect and Respect:</strong> Returning to the same towns to build recognition and connect with the people. Answering as many voter questions as possible. Follow up on all unanswered questions, in person if possible.</li>
               <li><strong>GOTV:</strong> Implement the “We Miss You” and “Come back from the ‘R’ side” voter drives.</li>
