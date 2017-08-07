@@ -110,6 +110,7 @@
             </form>
           </div>
           <hr/>
+          <a class="anchor-tag" id="updates"></a>
           <div class="update-form-wrapper box">
             <form id="update-form">
               <h4 class="form-caption has-text-centered title is-4">
