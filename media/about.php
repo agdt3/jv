@@ -17,7 +17,7 @@
     <section class="section">
       <div class="columns">
         <div class="column is-6-desktop is-offset-2-desktop is-8-tablet">
-          <a class="anchor-tag" id="biography"></a>
+          <a class="anchor-tag" id="bio"></a>
           <article>
             <h1 class="title is-1">Biography</h1>
             <p>

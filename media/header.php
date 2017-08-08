@@ -63,8 +63,9 @@
           Vote
         </a>
         <div class="navbar-dropdown ">
-          <a class="navbar-item " href="">Register to Vote</a>
-          <a class="navbar-item " href="">Am I registered?</a>
+          <a class="navbar-item " href="vote.php#register_to_vote">Register to Vote</a>
+          <a class="navbar-item " href="vote.php#check_registration">Am I registered?</a>
+          <a class="navbar-item " href="vote.php#voter_resources">Voter Resources</a>
         </div>
       </div>
       <div class="navbar-vertical-divider is-hidden-touch">
