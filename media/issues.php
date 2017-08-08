@@ -14,7 +14,6 @@
     <?php include_once "header.php" ?>
     <div class="desktop-spacer is-hidden-mobile"></div>
     <div class="mobile-spacer is-hidden-tablet"></div>
-    <?php include_once "hero.php" ?>
     <section class="section no-padding-bottom is-hidden-tablet">
       <container class="container">
         <a class="mobile-donate-button button is-large is-fullwidth has-text-centered is-danger">
