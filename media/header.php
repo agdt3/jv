@@ -76,13 +76,17 @@
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link" href="issues.php">Issues</a>
         <div class="navbar-dropdown ">
-          <a class="navbar-item " href="issues.php#health_care">Health Care</a>
+          <a class="navbar-item " href="issues.php#healthcare">Health Care</a>
           <a class="navbar-item " href="issues.php#public_lands">Public Lands</a>
           <a class="navbar-item " href="issues.php#education">Education</a>
           <a class="navbar-item " href="issues.php#jobs">Jobs</a>
           <a class="navbar-item " href="issues.php#taxes">Taxes</a>
           <a class="navbar-item " href="issues.php#fix_congress">Fix Congress</a>
-          <a class="navbar-item " href="issues.php#employment">Employment</a>
+          <a class="navbar-item " href="issues.php#economy">Economy</a>
+          <a class="navbar-item " href="issues.php#second_ammendment">2nd Ammendment</a>
+          <a class="navbar-item " href="issues.php#welfare">Welfare</a>
+          <a class="navbar-item " href="issues.php#middle_class">Middle Class</a>
+          <a class="navbar-item " href="issues.php#abortion">Abortion</a>
         </div>
       </div>
       <div class="navbar-vertical-divider is-hidden-touch">
