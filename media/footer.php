@@ -4,7 +4,6 @@
       <div class="nav-lite-wrapper column has-text-centered">
         <a href="about.php" class="button is-link">About</a>
         <a href="vote.php" class="button is-link">Vote</a>
-        <a href="issues.php#fix_congress" class="button is-link">Fix Congress</a>
         <a href="involved.php" class="button is-link">Get Involved</a>
         <a href="issues.php" class="button is-link">Issues</a>
         <a href="media.php" class="button is-link">Media</a>

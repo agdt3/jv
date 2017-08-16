@@ -69,6 +69,14 @@
 								<div class="control">
                   <label class="checkbox">
                     <input type="checkbox">
+                    Intern/Work at campaign HQ
+                  </label>
+								</div>
+              </div>
+              <div class="field">
+								<div class="control">
+                  <label class="checkbox">
+                    <input type="checkbox">
                     Register Voters
                   </label>
 								</div>

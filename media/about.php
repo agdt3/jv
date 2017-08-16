@@ -51,9 +51,16 @@
             </ul>
           </article>
           <hr/>
+          <a class="anchor-tag" id="support"></a>
+          <article>
+            <h1 class="title is-1">Ways to support</h1>
+            <p> Lorem ipsum
+            </p>
+          </article>
+          <hr/>
           <a class="anchor-tag" id="endorsement"></a>
           <article>
-            <h1 class="title is-1">Endorsements</h1>
+            <h1 class="title is-1">Endorsements and Supporters</h1>
             <ul>
             </ul>
           </article>

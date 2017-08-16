@@ -50,7 +50,8 @@
           <a class="navbar-item " href="about.php#bio">Bio</a>
           <a class="navbar-item " href="about.php#running">Why I'm running</a>
           <a class="navbar-item " href="about.php#plan">Plan to win</a>
-          <a class="navbar-item " href="about.php#endorsement">Endorsement</a>
+          <a class="navbar-item " href="about.php#support">Ways to Support</a>
+          <a class="navbar-item " href="about.php#endorsement">Endorsements</a>
         </div>
       </div>
       <div class="navbar-vertical-divider is-hidden-touch">
@@ -76,17 +77,17 @@
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link" href="issues.php">Issues</a>
         <div class="navbar-dropdown ">
-          <a class="navbar-item " href="issues.php#healthcare">Health Care</a>
-          <a class="navbar-item " href="issues.php#public_lands">Public Lands</a>
-          <a class="navbar-item " href="issues.php#education">Education</a>
-          <a class="navbar-item " href="issues.php#jobs">Jobs</a>
-          <a class="navbar-item " href="issues.php#taxes">Taxes</a>
-          <a class="navbar-item " href="issues.php#fix_congress">Fix Congress</a>
-          <a class="navbar-item " href="issues.php#economy">Economy</a>
-          <a class="navbar-item " href="issues.php#second_ammendment">2nd Ammendment</a>
-          <a class="navbar-item " href="issues.php#welfare">Welfare</a>
-          <a class="navbar-item " href="issues.php#middle_class">Middle Class</a>
-          <a class="navbar-item " href="issues.php#abortion">Abortion</a>
+          <a class="navbar-item" href="issues.php#healthcare">Health Care</a>
+          <a class="navbar-item" href="issues.php#public_lands">Public Lands</a>
+          <a class="navbar-item" href="issues.php#education">Education</a>
+          <a class="navbar-item" href="issues.php#jobs">Jobs</a>
+          <a class="navbar-item" href="issues.php#taxes">Taxes</a>
+          <a class="navbar-item" href="issues.php#economy">Economy</a>
+          <a class="navbar-item" href="issues.php#finance">Campaign Finance</a>
+          <a class="navbar-item" href="issues.php#second_ammendment">2nd Ammendment</a>
+          <a class="navbar-item" href="issues.php#welfare">Welfare</a>
+          <a class="navbar-item" href="issues.php#middle_class">Middle Class</a>
+          <a class="navbar-item" href="issues.php#abortion">Abortion</a>
         </div>
       </div>
       <div class="navbar-vertical-divider is-hidden-touch">

@@ -30,7 +30,7 @@
       </div>
     </form>
   </div>
-  <a class="button sidebar-button is-warning is-fullwidth has-text-centered is-hidden-mobile">
+  <a href="involved.php" class="button sidebar-button is-warning is-fullwidth has-text-centered is-hidden-mobile">
     Volunteer
   </a>
   <div class="box">
