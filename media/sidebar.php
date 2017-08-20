@@ -33,6 +33,9 @@
   <a href="involved.php" class="button sidebar-button is-warning is-fullwidth has-text-centered is-hidden-mobile">
     Volunteer
   </a>
+  <a href="map.php" class="button sidebar-button is-fullwidth has-text-centered is-hidden-mobile">
+    District Map
+  </a>
   <div class="box">
     <a class="twitter-timeline"
         href="https://twitter.com/votevandermaas">
