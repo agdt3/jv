@@ -29,6 +29,7 @@
         <div class="column is-6-desktop is-offset-2-desktop is-8-tablet">
           <div class="vote-option-wrapper">
             <a class="anchor-tag" id="register_to_vote"></a>
+            <hr/>
             <article>
               <h1 class="title is-1">Register to Vote</h1>
               <div>
@@ -40,6 +41,7 @@
               </div>
             </article>
             <a class="anchor-tag" id="check_registration"></a>
+            <hr/>
             <article>
               <h1 class="title is-1">Am I Registered?</h1>
               <div>
@@ -51,6 +53,7 @@
               </div>
             </article>
             <a class="anchor-tag" id="voter_resources"></a>
+            <hr/>
             <article>
               <h1 class="title is-1">Voter Resources</h1>
               <div>
@@ -58,6 +61,14 @@
                 <div>
                 </div>
               </div>
+            </article>
+            <a class="anchor-tag" id="district_map"></a>
+            <hr/>
+            <article>
+              <h1 class="title is-1">District Map</h1>
+              <figure>
+                <img src="images/idaho_1st_district.tif"/>
+              </figure>
             </article>
           </div>
         </div>
