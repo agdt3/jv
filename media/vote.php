@@ -29,12 +29,13 @@
         <div class="column is-6-desktop is-offset-2-desktop is-8-tablet">
           <div class="vote-option-wrapper">
             <a class="anchor-tag" id="register_to_vote"></a>
-            <hr/>
             <article>
               <h1 class="title is-1">Register to Vote</h1>
-              <div>
-                <i class="fa fa-check-circle"></i>
-                <div>
+              <div class="columns">
+                <div class="column is-2">
+                  <span><i class="fa fa-check-circle"></i></span>
+                </div>
+                <div class="column is-10">
                   <p>Follow the instructions on this form. Complete the form an deliver or send in to be eligible to vote</p>
                   <a href="http://www.idahovotes.gov/VoterReg/voter_registration.pdf">Click here to register!</a>
                 </div>
@@ -44,9 +45,11 @@
             <hr/>
             <article>
               <h1 class="title is-1">Am I Registered?</h1>
-              <div>
-                <i class="fa fa-question-circle"></i>
-                <div>
+              <div class="columns">
+                <div class="column is-2">
+                  <span><i class="fa fa-question-circle"></i></span>
+                </div>
+                <div class="column is-10">
                   <p>Enter your information and make sure your address is correct</p>
                   <a href="http://www.idahovotes.gov/YPP_NEW/AmIRegistered.aspx">Click here to check if you're registered</a>
                 </div>
@@ -56,19 +59,28 @@
             <hr/>
             <article>
               <h1 class="title is-1">Voter Resources</h1>
-              <div>
-                <i class="fa fa-group"></i>
-                <div>
+              <div class="columns">
+                <div class="column is-2">
+                  <span><i class="fa fa-group"></i></span>
+                </div>
+                <div class="column is-10">
+                  <ul>
+                    <li><a href="https://www.voteriders.org/">Voteriders</a></li>
+                    <li><a href="https://www.fvap.gov/vao/vag">Absentee Voting Guide</a></li>
+                    <li><a href="http://www.dmv.org/id-idaho/voter-registration.php">DMV Voting Registration</a></li>
+                  </ul>
                 </div>
               </div>
             </article>
             <a class="anchor-tag" id="district_map"></a>
             <hr/>
             <article>
-              <h1 class="title is-1">District Map</h1>
-              <figure>
-                <img src="images/idaho_1st_district.tif"/>
-              </figure>
+              <div class="columns"
+                <h1 class="title is-1">District Map</h1>
+                <figure>
+                  <img src="images/idaho_1st_district.png"/>
+                </figure>
+              </div>
             </article>
           </div>
         </div>
