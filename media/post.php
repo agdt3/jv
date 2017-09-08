@@ -22,7 +22,7 @@ function getSheetData() {
   return $sheets;
 }
 
-function insertRow($data=null) {
+function insertRow($service, $data=null) {
   $spreadsheetId = getSheetData()['updates_sheet_id'];
 
   $valueInputOption = 'RAW';
@@ -44,6 +44,8 @@ function insertRow($data=null) {
   );
 
   $result = $service->spreadsheets_values->update($spreadsheetId, $range, $body, $params);
+
+  return $result;
 }
 
 ?>
