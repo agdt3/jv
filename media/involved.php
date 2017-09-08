@@ -18,92 +18,92 @@
       <div class="columns">
         <div class="column is-6-desktop is-offset-2-desktop is-8-tablet">
           <div class="volunteer-form-wrapper box">
-            <form id="volunteer-form">
+            <form id="volunteer-form" action="volunteer_handler.php" method="post">
               <h4 class="form-caption has-text-centered title is-4">
                 VOLUNTEER!
               </h4>
               <div class="field is-grouped">
-								<div class="control is-expanded">
-									<input class="input is-info" type="text" placeholder="First Name">
-								</div>
-								<div class="control is-expanded">
-									<input class="input is-info" type="text" placeholder="Last Name">
-								</div>
+                <div class="control is-expanded">
+                  <input class="input is-info" type="text" placeholder="First Name">
+                </div>
+                <div class="control is-expanded">
+                  <input class="input is-info" type="text" placeholder="Last Name">
+                </div>
               </div>
-							<div class="field">
-								<div class="control has-icons-left">
-									<input class="input is-info" type="email" placeholder="Email">
+              <div class="field">
+                <div class="control has-icons-left">
+                  <input class="input is-info" type="email" placeholder="Email">
                   <span class="icon is-small is-left">
                     <i class="fa fa-envelope"></i>
                   </span>
-								</div>
+                </div>
               </div>
               <div class="field">
-								<div class="control has-icons-left">
-									<input class="input is-info" type="tel" placeholder="Phone Number">
+                <div class="control has-icons-left">
+                  <input class="input is-info" type="tel" placeholder="Phone Number">
                   <span class="icon is-small is-left">
                     <i class="fa fa-phone"></i>
                   </span>
-								</div>
+                </div>
               </div>
               <div class="field">
-								<div class="control has-icons-left">
-									<input class="input is-info" type="text" placeholder="Zip Code">
+                <div class="control has-icons-left">
+                  <input class="input is-info" type="text" placeholder="Zip Code">
                   <span class="icon is-small is-left">
                     <i class="fa fa-address-card"></i>
                   </span>
-								</div>
+                </div>
               </div>
-							<div class="control">
+              <div class="control">
                 <label class="label">How would you like to help?</label>
               </div>
               <div class="field">
-								<div class="control">
+                <div class="control">
                   <label class="checkbox">
                     <input type="checkbox">
                     Endorse
                   </label>
-								</div>
+                </div>
               </div>
               <div class="field">
-								<div class="control">
+                <div class="control">
                   <label class="checkbox">
                     <input type="checkbox">
                     Intern/Work at campaign HQ
                   </label>
-								</div>
+                </div>
               </div>
               <div class="field">
-								<div class="control">
+                <div class="control">
                   <label class="checkbox">
                     <input type="checkbox">
                     Register Voters
                   </label>
-								</div>
+                </div>
               </div>
               <div class="field">
-								<div class="control">
+                <div class="control">
                   <label class="checkbox">
                     <input type="checkbox">
                     Phone Bank
                   </label>
-								</div>
+                </div>
               </div>
               <div class="field">
-								<div class="control">
+                <div class="control">
                   <label class="checkbox">
                     <input type="checkbox">
                     Go Door to Door
                   </label>
-								</div>
+                </div>
               </div>
               <div class="field">
-								<div class="control">
+                <div class="control">
                   <label class="checkbox">
                     <input type="checkbox">
                     Get a Yard Sign
                   </label>
-								</div>
+                </div>
               </div>
               <div class="field">
                 <div class="control">
@@ -111,40 +111,40 @@
                 </div>
               </div>
               <div class="field">
-								<div class="control">
+                <div class="control">
                   <button class="button is-warning is-fullwidth">Submit</button>
-								</div>
-							</div>
+                </div>
+              </div>
             </form>
           </div>
           <hr/>
           <a class="anchor-tag" id="updates"></a>
           <div class="update-form-wrapper box">
-            <form id="update-form">
+            <form id="update-form" action="update_handler.php" method="post">
               <h4 class="form-caption has-text-centered title is-4">
                 GET UPDATES
               </h4>
-							<div class="field">
-								<div class="control has-icons-left">
-									<input class="input is-info" type="email" placeholder="Email">
+              <div class="field">
+                <div class="control has-icons-left">
+                  <input class="input is-info" type="email" placeholder="Email">
                   <span class="icon is-small is-left">
                     <i class="fa fa-envelope"></i>
                   </span>
-								</div>
-							</div>
-							<div class="field">
-								<div class="control has-icons-left">
-									<input class="input is-info" type="text" placeholder="Zip Code">
+                </div>
+              </div>
+              <div class="field">
+                <div class="control has-icons-left">
+                  <input class="input is-info" type="text" placeholder="Zip Code">
                   <span class="icon is-small is-left">
                     <i class="fa fa-address-card"></i>
                   </span>
-								</div>
-							</div>
+                </div>
+              </div>
               <div class="field">
-								<div class="control">
+                <div class="control">
                   <button class="button is-warning is-fullwidth">Register</button>
-								</div>
-							</div>
+                </div>
+              </div>
             </form>
           </div>
         </div>
