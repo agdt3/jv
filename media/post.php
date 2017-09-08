@@ -1,9 +1,12 @@
 <?php
+require_once '/home/jvandermaas/vendor/autoload.php';
 
 function getClient() {
+  putenv("GOOGLE_APPLICATION_CREDENTIALS=service_secret.json");
   $client = new Google_Client();
   $client->setApplicationName("JV");
-  $client->setDeveloperKey("AIzaSyC5Bl20W_ix-1dzgp40XgKtwhvHSmJH6AI");
+  $client->useApplicationDefaultCredentials();
+  $client->setScopes(['https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/spreadsheets']);
 
   return $client;
 }
@@ -27,7 +30,7 @@ function insertRow($service, $data=null) {
 
   $valueInputOption = 'RAW';
 
-  $range = 'Class Data!A1:A3';
+  $range = 'A1:C1';
 
   $values = array(
       array(
