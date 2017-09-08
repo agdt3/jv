@@ -24,15 +24,15 @@
               </h4>
               <div class="field is-grouped">
                 <div class="control is-expanded">
-                  <input class="input is-info" type="text" placeholder="First Name">
+                  <input class="input is-info" type="text" name="first_name" placeholder="First Name">
                 </div>
                 <div class="control is-expanded">
-                  <input class="input is-info" type="text" placeholder="Last Name">
+                  <input class="input is-info" type="text" name="last_name" placeholder="Last Name">
                 </div>
               </div>
               <div class="field">
                 <div class="control has-icons-left">
-                  <input class="input is-info" type="email" placeholder="Email">
+                  <input class="input is-info" type="email" name="email" placeholder="Email">
                   <span class="icon is-small is-left">
                     <i class="fa fa-envelope"></i>
                   </span>
@@ -40,7 +40,7 @@
               </div>
               <div class="field">
                 <div class="control has-icons-left">
-                  <input class="input is-info" type="tel" placeholder="Phone Number">
+                  <input class="input is-info" type="tel" name="telephone" placeholder="Phone Number">
                   <span class="icon is-small is-left">
                     <i class="fa fa-phone"></i>
                   </span>
@@ -48,7 +48,7 @@
               </div>
               <div class="field">
                 <div class="control has-icons-left">
-                  <input class="input is-info" type="text" placeholder="Zip Code">
+                  <input class="input is-info" type="text" name="zip" placeholder="Zip Code">
                   <span class="icon is-small is-left">
                     <i class="fa fa-address-card"></i>
                   </span>
@@ -60,7 +60,7 @@
               <div class="field">
                 <div class="control">
                   <label class="checkbox">
-                    <input type="checkbox">
+                    <input type="checkbox" name="endorse">
                     Endorse
                   </label>
                 </div>
@@ -68,7 +68,7 @@
               <div class="field">
                 <div class="control">
                   <label class="checkbox">
-                    <input type="checkbox">
+                    <input type="checkbox" name="intern">
                     Intern/Work at campaign HQ
                   </label>
                 </div>
@@ -76,7 +76,7 @@
               <div class="field">
                 <div class="control">
                   <label class="checkbox">
-                    <input type="checkbox">
+                    <input type="checkbox" name="register">
                     Register Voters
                   </label>
                 </div>
@@ -84,7 +84,7 @@
               <div class="field">
                 <div class="control">
                   <label class="checkbox">
-                    <input type="checkbox">
+                    <input type="checkbox" name="phonebank">
                     Phone Bank
                   </label>
                 </div>
@@ -92,7 +92,7 @@
               <div class="field">
                 <div class="control">
                   <label class="checkbox">
-                    <input type="checkbox">
+                    <input type="checkbox" name="canvas">
                     Go Door to Door
                   </label>
                 </div>
@@ -100,14 +100,14 @@
               <div class="field">
                 <div class="control">
                   <label class="checkbox">
-                    <input type="checkbox">
+                    <input type="checkbox" name="yardsign">
                     Get a Yard Sign
                   </label>
                 </div>
               </div>
               <div class="field">
                 <div class="control">
-                  <textarea class="textarea" placeholder="Leave a message for James Vandermaas"></textarea>
+                  <textarea class="textarea" name="message" placeholder="Leave a message for James Vandermaas"></textarea>
                 </div>
               </div>
               <div class="field">
@@ -126,7 +126,7 @@
               </h4>
               <div class="field">
                 <div class="control has-icons-left">
-                  <input class="input is-info" type="email" placeholder="Email">
+                  <input class="input is-info" type="email" name="email" placeholder="Email">
                   <span class="icon is-small is-left">
                     <i class="fa fa-envelope"></i>
                   </span>
@@ -134,7 +134,7 @@
               </div>
               <div class="field">
                 <div class="control has-icons-left">
-                  <input class="input is-info" type="text" placeholder="Zip Code">
+                  <input class="input is-info" type="text" name="zip" placeholder="Zip Code">
                   <span class="icon is-small is-left">
                     <i class="fa fa-address-card"></i>
                   </span>

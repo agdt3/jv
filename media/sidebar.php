@@ -3,13 +3,13 @@
     Support the campaign
   </a>
   <div class="box update-form-wrapper">
-    <form id="update-form">
+    <form id="update-form" action="update_handler.php" method="post">
       <h4 class="form-caption has-text-centered title is-4">
         Get Updates!
       </h4>
       <div class="field">
         <div class="control has-icons-left">
-          <input class="input is-info" type="email" placeholder="Email">
+          <input class="input is-info" type="email" name="email" placeholder="Email">
           <span class="icon is-small is-left">
             <i class="fa fa-envelope"></i>
           </span>
@@ -17,7 +17,7 @@
       </div>
       <div class="field">
         <div class="control has-icons-left">
-          <input class="input is-info" type="text" placeholder="Zip Code">
+          <input class="input is-info" type="text" name="zip" placeholder="Zip Code">
           <span class="icon is-small is-left">
             <i class="fa fa-address-card"></i>
           </span>
