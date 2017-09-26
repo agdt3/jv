@@ -144,11 +144,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  function buildJsonPostRequest(url, json_data) {
+  function buildJsonPostRequest(url, json_data, sheet_type) {
     var headers = new Headers({
       'Accept': 'application/json',
       'Content-Type': 'application/json'
     });
+
+    json_data['sheet_type'] = sheet_type;
 
     var init = {
       method: 'POST',
@@ -168,6 +170,8 @@ document.addEventListener('DOMContentLoaded', function () {
     $volunteerButton.addEventListener('click', function () {
       var $form = document.getElementById('volunteer-form');
       var form_values_map = getFormData($form);
+      var handler_url = '/handler.php';
+      var sheet_type = 'volunteer_sheet';
 
       var required_field_names = [
         'first_name',
@@ -184,10 +188,13 @@ document.addEventListener('DOMContentLoaded', function () {
         return
       }
       else {
-        var req = buildJsonPostRequest('/volunteer_handler.php', form_values_map);
+        var req = buildJsonPostRequest(handler_url, form_values_map);
         fetch(req).then(function(response){
           if (response.ok) {
-            console.log('done');
+            console.log('done', response);
+          }
+          else {
+            console.log('fail', response);
           }
         });
       }

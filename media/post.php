@@ -16,27 +16,34 @@ function getService($client) {
   return $service;
 }
 
-function getSheetData() {
+function getSheetId() {
   $sheets = array(
-    'updates_sheet_id' => '1r5N99_MQWmEG_jEUWZg6pFeUlYQwtDgYVAod-DxY9o0',
-    'volunteer_sheet_id' => '12QvUM0slsI25WX_W5U7gRQClawydTNOfxpIukboWX_U'
+    'updates' => '1r5N99_MQWmEG_jEUWZg6pFeUlYQwtDgYVAod-DxY9o0',
+    'volunteer' => '12QvUM0slsI25WX_W5U7gRQClawydTNOfxpIukboWX_U'
   );
 
   return $sheets;
 }
 
-function insertRow($service, $data=null) {
-  $spreadsheetId = getSheetData()['updates_sheet_id'];
+function insertRow($service, $sheet_type, $data=null) {
+  $spreadsheetId = getSheetId()[$sheet_type];
 
   $valueInputOption = 'RAW';
 
-  $range = 'A1:C1';
+  $range = 'A1:Z1';
 
+  /*
   $values = array(
       array(
         'a', '1', '}'
       ),
   );
+  */
+  if (is_null($data)) {
+    $data = array();
+  }
+
+  $values = array($data);
 
   $body = new Google_Service_Sheets_ValueRange(array(
     'values' => $values
