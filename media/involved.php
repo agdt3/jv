@@ -112,7 +112,7 @@
               </div>
               <div class="field">
                 <div class="control">
-                  <button class="button is-warning is-fullwidth">Submit</button>
+                  <button id="volunteer-submit" class="button is-warning is-fullwidth">Submit</button>
                 </div>
               </div>
             </form>
@@ -142,7 +142,7 @@
               </div>
               <div class="field">
                 <div class="control">
-                  <button class="button is-warning is-fullwidth">Register</button>
+                  <button id="update-submit" class="button is-warning is-fullwidth">Register</button>
                 </div>
               </div>
             </form>
