@@ -11,9 +11,21 @@ function parse_volunteer_data($data_obj) {
   return $values;
 }
 
-function response($msg, $status=200) {
+function response($msg, $code=200) {
+	// treat this as json
+	header('Content-Type: application/json');
+
+	$status = array(
+			200 => '200 OK',
+			400 => '400 Bad Request',
+			422 => 'Unprocessable Entity',
+			500 => '500 Internal Server Error'
+			);
+	// ok, validation error, or failure
+	header('Status: '.$status[$code]);
+
   return json_encode(array(
-    'status' => $status,
+    'status' => $code,
     'message' => $msg
   ));
 }

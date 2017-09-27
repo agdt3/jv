@@ -11,8 +11,10 @@
     </div>
     <div class="columns">
       <div class="contact-wrapper column has-text-centered">
-        <a href="mailto:info@jamesvandermaas.com">info@jamesvandermaas.com</a> | <span class="phone">(858) 848-7515</span>
-        <div class="address">PO Box 22074 San Diego, CA 92192</div>
+        <div class="campaign-name">James Vandermaas for Idaho</div>
+        <a href="mailto:info@jamesvandermaas.com">info@VoteVandermaas.com</a> | <span class="phone">(208) 585-1760</span>
+        <div class="campaign-address">P.O. Box 447, Eagle, ID 83616</div>
+        <div class="treasurer">Treasurer | Susan Eastlake</div>
       </div>
       <div class="buttons-wrapper column has-text-centered">
         <a class="social-icon" href="https://twitter.com/votevandermaas/">
@@ -34,7 +36,7 @@
           <img src="/images/header-logo.png">
         </figure>
         <div class="disclaimer"><div>Paid for by James Vandermaas for Congress</div></div>
-        <div class="credits">Political website design by ragtag</div>
+        <div class="credits">Political website design by Ragtag</div>
       </div>
     </div>
   </div>
