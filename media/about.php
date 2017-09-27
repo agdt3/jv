@@ -54,8 +54,7 @@
           <a class="anchor-tag" id="support"></a>
           <article>
             <h1 class="title is-1">Ways to support</h1>
-            <p> Lorem ipsum
-            </p>
+            <?php include_once "support_fragment.php" ?>
           </article>
           <hr/>
           <a class="anchor-tag" id="endorsement"></a>

@@ -114,6 +114,16 @@
               </div>
             </article>
             <hr/>
+            <a class="anchor-tag" id="campaign"></a>
+            <article>
+              <h1 class="title is-1">Campaign Finance</h1>
+              <p>[INSERT BLURB HERE]</p>
+              <span class="article-learn-more" data-id="campaign">Learn more...</span>
+              <div class="extra-content is-hidden" data-id="campaign">
+                <?php include_once "support_fragment.php" ?>
+              </div>
+            </article>
+            <hr/>
             <a class="anchor-tag" id="second_ammendment"></a>
             <article>
               <h1 class="title is-1">2nd Ammendment</h1>
