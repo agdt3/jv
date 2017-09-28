@@ -23,12 +23,12 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   /* LEARN MORE */
-  var learnMoreButtons = document.querySelectAll('.article-learn-more');
+  var learnMoreButtons = document.querySelectorAll('.article-learn-more');
   if (learnMoreButtons.length > 0) {
     learnMoreButtons.forEach((el) => {
       el.addEventListener("click", (e) => {
         var id = el.dataset.id;
-        var extraContent = document.querySelect('.extra-content[data-id="' + id + '"]');
+        var extraContent = document.querySelector('.extra-content[data-id="' + id + '"]');
         if (extraContent) {
           extraContent.classList.toggle('is-hidden');
         }
@@ -62,35 +62,41 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   var $rightControl = document.querySelector('.carousel-right-control');
-  $rightControl.addEventListener('click', function() {
-    var itemCount = document.querySelectorAll('.hero-image').length;
-    var $currentItem = document.querySelector('.active');
-    var activeIndex = getCurrentIndex($currentItem);
-    var $nextItem = getItemByIndex(activeIndex + 1, itemCount);
-    transitionItem($currentItem, $nextItem);
-   });
+  if ($rightControl) {
+    $rightControl.addEventListener('click', function() {
+      var itemCount = document.querySelectorAll('.hero-image').length;
+      var $currentItem = document.querySelector('.active');
+      var activeIndex = getCurrentIndex($currentItem);
+      var $nextItem = getItemByIndex(activeIndex + 1, itemCount);
+      transitionItem($currentItem, $nextItem);
+     });
+  }
 
   var $leftControl = document.querySelector('.carousel-left-control');
-  $leftControl.addEventListener('click', function() {
-    var itemCount = document.querySelectorAll('.hero-image').length;
-    var $currentItem = document.querySelector('.active');
-    var activeIndex = getCurrentIndex($currentItem);
-    var $nextItem = getItemByIndex(activeIndex - 1, itemCount);
-    transitionItem($currentItem, $nextItem);
-  });
+  if ($leftControl) {
+    $leftControl.addEventListener('click', function() {
+      var itemCount = document.querySelectorAll('.hero-image').length;
+      var $currentItem = document.querySelector('.active');
+      var activeIndex = getCurrentIndex($currentItem);
+      var $nextItem = getItemByIndex(activeIndex - 1, itemCount);
+      transitionItem($currentItem, $nextItem);
+    });
+  }
 
   var $learnMoreControl = document.querySelector('.learn-more-control');
-  $learnMoreControl.addEventListener('click', function() {
-    var $hiddenNews = document.querySelectorAll('article.media.is-hidden');
-    var max = 3;
-    if ($hiddenNews.length < 3) {
-      max = $hiddenNews.length;
-    }
+  if ($learnMoreControl) {
+    $learnMoreControl.addEventListener('click', function() {
+      var $hiddenNews = document.querySelectorAll('article.media.is-hidden');
+      var max = 3;
+      if ($hiddenNews.length < 3) {
+        max = $hiddenNews.length;
+      }
 
-    for (var i = 0; i < max; i++) {
-      $hiddenNews[i].classList.remove('is-hidden');
-    }
-  });
+      for (var i = 0; i < max; i++) {
+        $hiddenNews[i].classList.remove('is-hidden');
+      }
+    });
+  }
 });
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -118,32 +124,14 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       }
     }
-    /*
-    if (form) {
-      var form_values = {
-        first_name: form.querySelector('input[name="first_name"]').value,
-        last_name: form.querySelector('input[name="last_name"]').value,
-        email: form.querySelector('input[name="email"]').value,
-        telephone: form.querySelector('input[name="telephone"]').value,
-        zip: form.querySelector('input[name="zip"]').value,
-        endorse: form.querySelector('input[name="endorse"]').checked,
-        intern: form.querySelector('input[name="intern"]').checked,
-        register: form.querySelector('input[name="register"]').checked,
-        phonebank: form.querySelector('input[name="phonebank"]').checked,
-        canvas: form.querySelector('input[name="canvas"]').checked,
-        yardsign: form.querySelector('input[name="yardsign"]').checked,
-        message: form.querySelector('input[name="message"]').value
-      }
-      */
-      return form_values;
-    }
+    return form_values;
   }
 
   function validateFormData(form_values_map, required_field_names) {
     var error_field_names = [];
     required_field_names.forEach(function(required_field_name) {
       if (form_values_map[required_field_name] === "" ||
-          form_values_map[required_field_name] === undefined
+          form_values_map[required_field_name] === undefined ||
           form_values_map[required_field_name] === false) {
         error_field_names.push(required_field_name);
       }

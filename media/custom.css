@@ -277,3 +277,17 @@ a.anchor-tag {
 .plan-list li {
   margin: 1rem 0;
 }
+
+/* Issues */
+.extra-content {
+  padding-left: 4em;
+  p {
+    margin-bottom: 1rem;
+  }
+  ul {
+    li {
+      margin-bottom: 0.5rem;
+      margin-left: 2rem;
+    }
+  }
+}

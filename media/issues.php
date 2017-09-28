@@ -32,7 +32,7 @@
             <article>
               <h1 class="title is-1">Healthcare</h1>
               <p>Healthcare is not just sound fiscal policy, but is also a question of our humanity! We ALL have a right to affordable healthcare and my plan shows how cost-effective healthcare can be a reality.  Single Payer/Universal Healthcare is an essential investment in our infrastructure, economy, and lowering taxes.</p>
-              <span class="article-learn-more" data-id="healthcare">Learn more...</span>
+              <a class="article-learn-more button is-link" data-id="healthcare">Learn more...</a>
               <div class="extra-content is-hidden" data-id="healthcare">
                 <p>Creating an American version of ‘universal healthcare’ starting with Medicare as the perfect tool to model, and creating what I am calling "Consolidated-Medicare", will make it work for all of us. This approach is far more affordable for all, including the taxpayers, and shows that cost-effective healthcare can be a reality.  Don’t be fooled or believe the lies of those who think we’re copying other countries or that don’t believe healthcare is a right; using ‘Consolidated-Medicare’ as a Single Payer/Universal ‘type of’ Healthcare is and will be uniquely American, is an essential investment in our infrastructure, in our economy, our middle-class and an ideal solution for lowering costs and taxes!<p>
               <p>Medicare is very functional, affordable, respected, and creating what I call "Consolidated-Medicare" makes it work for all of us.</p>
@@ -43,7 +43,7 @@
             <article>
               <h1 class="title is-1">Public Lands</h1>
               <p>Idaho is NOT for sale! I will fight to keep public lands public and accessible, protect all your land rights and keep private lands private.</p>
-              <span class="article-learn-more" data-id="public-lands">Learn more...</span>
+              <a class="article-learn-more button is-link" data-id="public-lands">Learn more...</a>
               <div class="extra-content is-hidden" data-id="public-lands">
                 <p>Republicans try to convince us our federal public lands are a "states rights" issue, and that we need to return them to state control – this makes NO sense! Why take on this additional cost and responsibility when the federal government is paying a bill Idaho can’t afford?</p>
                 <ul>
@@ -62,7 +62,7 @@
             <article>
               <h1 class="title is-1">Education</h1>
               <p>An Education that starts when you start learning, and continues to your career of choice. Education is an essential investment our nation’s future, and the key to our long-term success and our nation’s security.</p>
-              <span class="article-learn-more" data-id="education">Learn more...</span>
+              <a class="article-learn-more button is-link" data-id="education">Learn more...</a>
               <div class="extra-content is-hidden" data-id="education">
                 <p>Education is an essential investment in our human infrastructure utilizing our untapped intellectual resources, which is the key to rebuilding our middle-class, to creating a truly free-market, to our long term success in this now global economy, and to our Nation’s future and economic security.</p>
                 <ul>
@@ -87,7 +87,7 @@
             <article>
               <h1 class="title is-1">Jobs and Employment</h1>
               <p>I plan to create affordable jobs using targeted infrastructure, education, job training, and tax relief plans that both stimulate and grow the economy! I plan to create jobs that actually pay wages that allow you to afford to be self-sufficient, through education, specialize or vocational job training, tax incentives to business, and rationally applied changes to the minimum wage based upon regional cost of living indexes.</p>
-              <span class="article-learn-more" data-id="jobs">Learn more...</span>
+              <a class="article-learn-more button is-link" data-id="jobs">Learn more...</a>
               <div class="extra-content is-hidden" data-id="jobs">
                 <p>My goal is to create a more educated and well-trained workforce, tax relief plans that encourage investment that both stimulate and grow the economy and our workforce, while also creating "affordable jobs*". We must also develop targeted infrastructure projects that support future growth and repair or replace existing infrastructure that is failing!</p>
                 <p>Affordable Jobs? These are obs that actually pay respectable wages that afford you the dignity and pride of being self-sufficient, and the ability to live an independent lifestyle. Through rationally applied changes to the minimum wage based upon regional cost of living indexes.</p>
@@ -98,7 +98,7 @@
             <article>
               <h1 class="title is-1">Taxes</h1>
               <p>My goal is to cut waste and eliminate any un-necessary taxes by investing in infrastructure projects that create actual return on investment, increasing our tax revenue by creating more affordable jobs, balance the budget with a reserve, and pay down our national debt.</p>
-              <span class="article-learn-more" data-id="taxes">Learn more...</span>
+              <a class="article-learn-more button is-link" data-id="taxes">Learn more...</a>
               <div class="extra-content is-hidden" data-id="taxes">
                 <p>I believe taxes should be fair and equitable for all, providing essential services and stimulating growth. With more emphasis on education, creating a more able workforce, investment in more forward-thinking infrastructure projects that create actual return on investment, creating more jobs. This increases the number of citizens paying taxes, making us able to cut waste and eliminate any un-necessary taxes, balance the budget with a reserve, and pay down our national debt!</p>
               </div>
@@ -108,7 +108,7 @@
             <article>
               <h1 class="title is-1">Economy</h1>
               <p>All Infrastructure projects to be “win-win” scenarios with an expectation of multi-layered growth and return on our investment!</p>
-              <span class="article-learn-more" data-id="economy">Learn more...</span>
+              <a class="article-learn-more button is-link" data-id="economy">Learn more...</a>
               <div class="extra-content is-hidden" data-id="economy">
                 <p>In addition to the effects of the education, jobs and healthcare plans on the economy, only invest in infrastructure projects that promote growth and economic development, creating ‘win-win’ scenarios for all stakeholders with an expectation of mutual return on our investment!</p>
               </div>
@@ -118,7 +118,7 @@
             <article>
               <h1 class="title is-1">Campaign Finance</h1>
               <p>[INSERT BLURB HERE]</p>
-              <span class="article-learn-more" data-id="campaign">Learn more...</span>
+              <a class="article-learn-more button is-link" data-id="campaign">Learn more...</a>
               <div class="extra-content is-hidden" data-id="campaign">
                 <?php include_once "support_fragment.php" ?>
               </div>
