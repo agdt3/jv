@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
+  /* NAVBAR */
+
   // Get all "navbar-burger" elements
   var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
@@ -19,6 +21,22 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   }
+
+  /* LEARN MORE */
+  var learnMoreButtons = document.querySelectAll('.article-learn-more');
+  if (learnMoreButtons.length > 0) {
+    learnMoreButtons.forEach((el) => {
+      el.addEventListener("click", (e) => {
+        var id = el.dataset.id;
+        var extraContent = document.querySelect('.extra-content[data-id="' + id + '"]');
+        if (extraContent) {
+          extraContent.classList.toggle('is-hidden');
+        }
+      });
+    });
+  }
+
+  /* CAROUSEL */
 
   function getCurrentIndex($item) {
     return parseInt($item.dataset.index);
