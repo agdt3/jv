@@ -18,7 +18,7 @@
       <div class="columns">
         <div class="column is-6-desktop is-offset-2-desktop is-8-tablet">
           <div class="volunteer-form-wrapper box">
-            <form id="volunteer-form" action="volunteer_handler.php" method="post">
+            <form id="volunteer-form">
               <h4 class="form-caption has-text-centered title is-4">
                 VOLUNTEER!
               </h4>
@@ -120,7 +120,7 @@
           <hr/>
           <a class="anchor-tag" id="updates"></a>
           <div class="update-form-wrapper box">
-            <form id="update-form" action="update_handler.php" method="post">
+            <form id="update-form">
               <h4 class="form-caption has-text-centered title is-4">
                 GET UPDATES
               </h4>
