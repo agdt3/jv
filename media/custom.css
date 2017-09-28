@@ -291,3 +291,13 @@ a.anchor-tag {
     }
   }
 }
+
+/* Vote */
+.vote-option-wrapper {
+  i.fa {
+    font-size: 5rem;
+  }
+  a {
+    color: navy;
+  }
+}

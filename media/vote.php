@@ -75,11 +75,11 @@
             <a class="anchor-tag" id="district_map"></a>
             <hr/>
             <article>
-              <div class="columns"
-                <h1 class="title is-1">District Map</h1>
-                <figure>
-                  <img src="images/idaho_1st_district.png"/>
-                </figure>
+              <div class="columns">
+                <div class="column is-12">
+                  <h1 class="title is-1">District Map</h1>
+                  <iframe width="100%" height="800" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.govtrack.us/congress/members/embed/mapframe?state=id&district=1&bounds=-120.197,49.045,-111.167,41.724"></iframe>
+                </div>
               </div>
             </article>
           </div>
