@@ -216,6 +216,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var $updateButton = document.querySelector('#update-submit');
   if ($updateButton) {
     $updateButton.addEventListener('click', function () {
+      e.preventDefault();
       var $form = document.getElementById('update-form');
       var form_values_map = getFormData($form);
       var handler_url = '/handler.php';
@@ -226,22 +227,25 @@ document.addEventListener('DOMContentLoaded', function () {
         'zip'
       ];
 
-      var error_field_names = validateFormData(form_values, required_field_names);
+      var error_field_names = validateFormData(form_values_map, required_field_names);
 
       if (error_field_names.length > 0) {
         showFormErrors($form, error_field_names);
         return
       }
       else {
-         var req = buildJsonPostRequest(handler_url, form_values_map, sheet_type);
+        $updateButton.disabled = true;
+        var req = buildJsonPostRequest(handler_url, form_values_map, sheet_type);
         fetch(req)
         .then(response => {
+          $updateButton.disabled = false;
           return response.json();
         })
         .then(data => {
           return data;
         })
         .catch(error => {
+          $updateButton.disabled = false;
           return error;
         });
       }
