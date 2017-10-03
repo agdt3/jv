@@ -3,7 +3,7 @@
     Support the campaign
   </a>
   <div class="box update-form-wrapper">
-    <form id="update-form" action="update_handler.php" method="post">
+    <form id="update-form">
       <h4 class="form-caption has-text-centered title is-4">
         Get Updates!
       </h4>
@@ -25,7 +25,7 @@
       </div>
       <div class="field">
         <div class="control">
-          <button class="button is-warning is-fullwidth">Register</button>
+          <button id="update-submit" class="button is-warning is-fullwidth">Register</button>
         </div>
       </div>
     </form>
