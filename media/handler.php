@@ -43,7 +43,7 @@ try {
   return response("success", 200);
 }
 catch (Exception $e) {
-  return response($e, 500);
+  return response($e->getMessage(), 500);
 }
 
 ?>

@@ -27,7 +27,7 @@
             <i class="fa fa-facebook"></i>
           </span>
         </a>
-        <a class="button is-danger">DONATE</a>
+        <a href="https://secure.actblue.com/donate/jamesvandermaas" class="button is-danger">DONATE</a>
       </div>
     </div>
     <div class="columns">

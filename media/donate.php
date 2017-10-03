@@ -21,7 +21,7 @@
             <h1 class="title is-1">A message to the donor</h1>
             <p>
           </article>
-          <a href="" class="link">Donate</a>
+          <a href="https://secure.actblue.com/donate/jamesvandermaas" class="link">Donate</a>
         </div>
         <?php include_once "sidebar.php"; ?>
       </div>

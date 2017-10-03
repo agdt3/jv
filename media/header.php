@@ -18,8 +18,8 @@
           </span>
         </a>
         <a href="involved.php" class="button is-warning is-outlined">Get Involved</a>
-        <a class="button is-danger">DONATE</a>
-      </div>
+        <a href="https://secure.actblue.com/donate/jamesvandermaas" class="button is-danger">DONATE</a>
+       </div>
     </div>
   </div>
   <nav class="navigation navbar">
@@ -82,9 +82,13 @@
           <a class="navbar-item" href="issues.php#education">Education</a>
           <a class="navbar-item" href="issues.php#jobs">Jobs</a>
           <a class="navbar-item" href="issues.php#taxes">Taxes</a>
+          <a class="navbar-item" href="issues.php#social_security">Social Security / Medicare</a>
+          <a class="navbar-item" href="issues.php#energy">Energy</a>
           <a class="navbar-item" href="issues.php#economy">Economy</a>
-          <a class="navbar-item" href="issues.php#finance">Campaign Finance</a>
-          <a class="navbar-item" href="issues.php#second_ammendment">2nd Ammendment</a>
+          <a class="navbar-item" href="issues.php#homeland_security">Homeland Security</a>
+          <a class="navbar-item" href="issues.php#immigration">Immigration</a>
+          <a class="navbar-item" href="issues.php#campaign_finance">Campaign Finance</a>
+          <a class="navbar-item" href="issues.php#second_amendment">2nd Amendment</a>
           <a class="navbar-item" href="issues.php#welfare">Welfare</a>
           <a class="navbar-item" href="issues.php#middle_class">Middle Class</a>
           <a class="navbar-item" href="issues.php#abortion">Abortion</a>

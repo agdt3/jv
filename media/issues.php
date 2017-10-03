@@ -31,18 +31,21 @@
             <a class="anchor-tag" id="healthcare"></a>
             <article>
               <h1 class="title is-1">Healthcare</h1>
-              <p>Healthcare is not just sound fiscal policy, but is also a question of our humanity! We ALL have a right to affordable healthcare and my plan shows how cost-effective healthcare can be a reality.  Single Payer/Universal Healthcare is an essential investment in our infrastructure, economy, and lowering taxes.</p>
+              <p>We ALL have a right to affordable and cost-effective healthcare - it can be a reality. We can strengthen and expand Medicare while lowering costs. We will stabilize the market by fixing the current law, have Congress pay pay what they promised, then reduce more costs by allowing Medicare to negotiate drug prices and other services. </p>
               <a class="article-learn-more button is-link" data-id="healthcare">Learn more...</a>
               <div class="extra-content is-hidden" data-id="healthcare">
-                <p>Creating an American version of ‘universal healthcare’ starting with Medicare as the perfect tool to model, and creating what I am calling "Consolidated-Medicare", will make it work for all of us. This approach is far more affordable for all, including the taxpayers, and shows that cost-effective healthcare can be a reality.  Don’t be fooled or believe the lies of those who think we’re copying other countries or that don’t believe healthcare is a right; using ‘Consolidated-Medicare’ as a Single Payer/Universal ‘type of’ Healthcare is and will be uniquely American, is an essential investment in our infrastructure, in our economy, our middle-class and an ideal solution for lowering costs and taxes!<p>
-              <p>Medicare is very functional, affordable, respected, and creating what I call "Consolidated-Medicare" makes it work for all of us.</p>
+                <p>* Fix the flaws in the existing law to keep all insured </p>  
+                <p>* Continue 're-insurance' subsidies to keep providers on the exchanges and prices down </p> 
+                <p>* End legislative sabotage of the ACA </p>
+              <p>Creating an American version of "universal healthcare" starting with Medicare as the perfect tool to model, and creating what I am calling "Consolidated-Medicare", will make it work for all of us. This approach is far more affordable for all, including the taxpayers, and shows that cost-effective healthcare can be a reality.  Don’t be fooled or believe the lies of those who think we’re copying other countries or that don’t believe healthcare is a right; using ‘Consolidated-Medicare’ as a Single Payer/Universal ‘type of’ Healthcare is and will be uniquely American, is an essential investment in our infrastructure, in our economy, our middle-class and an ideal solution for lowering costs and taxes!<p>
+              <p>Medicare is very functional, affordable, respected, and creating "Consolidated-Medicare" makes it work for all of us.</p>
               </div>
             </article>
             <hr/>
             <a class="anchor-tag" id="public_lands"></a>
             <article>
               <h1 class="title is-1">Public Lands</h1>
-              <p>Idaho is NOT for sale! I will fight to keep public lands public and accessible, protect all your land rights and keep private lands private.</p>
+              <p>Idaho is NOT for sale! Keep public lands public and protected, accessible for hunting, recreation, and your enjoyment. Idaho cannot afford to maintain & protect these these lands and would have to sell them - then they would be inaccessible & gone forever - We cannot let this happen! </p>
               <a class="article-learn-more button is-link" data-id="public-lands">Learn more...</a>
               <div class="extra-content is-hidden" data-id="public-lands">
                 <p>Republicans try to convince us our federal public lands are a "states rights" issue, and that we need to return them to state control – this makes NO sense! Why take on this additional cost and responsibility when the federal government is paying a bill Idaho can’t afford?</p>
@@ -61,7 +64,7 @@
             <a class="anchor-tag" id="education"></a>
             <article>
               <h1 class="title is-1">Education</h1>
-              <p>An Education that starts when you start learning, and continues to your career of choice. Education is an essential investment our nation’s future, and the key to our long-term success and our nation’s security.</p>
+              <p>Work to implement 'Scholar-Quest Program' - Reform education to focus from Pre-K to preparing students for careers, whether a vocational or college degree. Build relevant curriculum with input from industry leaders. Make college free through revenue neutral tax deductions, incentives and reforms. Require graduates to perform community service ‘pay-back’. Unleash economic activity by eliminating student debt. Education is an essential investment our nation’s future, the key to our long-term economic success and security.</p>
               <a class="article-learn-more button is-link" data-id="education">Learn more...</a>
               <div class="extra-content is-hidden" data-id="education">
                 <p>Education is an essential investment in our human infrastructure utilizing our untapped intellectual resources, which is the key to rebuilding our middle-class, to creating a truly free-market, to our long term success in this now global economy, and to our Nation’s future and economic security.</p>
@@ -85,8 +88,8 @@
             <hr/>
             <a class="anchor-tag" id="jobs"></a>
             <article>
-              <h1 class="title is-1">Jobs and Employment</h1>
-              <p>I plan to create affordable jobs using targeted infrastructure, education, job training, and tax relief plans that both stimulate and grow the economy! I plan to create jobs that actually pay wages that allow you to afford to be self-sufficient, through education, specialize or vocational job training, tax incentives to business, and rationally applied changes to the minimum wage based upon regional cost of living indexes.</p>
+              <h1 class="title is-1">Jobs and Wages</h1>
+              <p>Create affordable jobs using targeted infrastructure, education, job training, and tax relief plans that both stimulate and grow the economy! Create jobs with wages that allow you to be self-sufficient. Use education, specialized or vocational job training, employment based tax incentives that encourage business to hire, and rationally applied changes to the minimum wage based upon regional cost of living indexes.</p>
               <a class="article-learn-more button is-link" data-id="jobs">Learn more...</a>
               <div class="extra-content is-hidden" data-id="jobs">
                 <p>My goal is to create a more educated and well-trained workforce, tax relief plans that encourage investment that both stimulate and grow the economy and our workforce, while also creating "affordable jobs*". We must also develop targeted infrastructure projects that support future growth and repair or replace existing infrastructure that is failing!</p>
@@ -97,43 +100,83 @@
             <a class="anchor-tag" id="taxes"></a>
             <article>
               <h1 class="title is-1">Taxes</h1>
-              <p>My goal is to cut waste and eliminate any un-necessary taxes by investing in infrastructure projects that create actual return on investment, increasing our tax revenue by creating more affordable jobs, balance the budget with a reserve, and pay down our national debt.</p>
+              <p>I will fight to cut waste and eliminate any unnecessary taxes, invest in infrastructure projects that create actual return on investment, increase our tax revenue by creating more 'affordable jobs'. I will work to create a balanced budget with a cash reserve, and pay down our national debt.</p>
               <a class="article-learn-more button is-link" data-id="taxes">Learn more...</a>
               <div class="extra-content is-hidden" data-id="taxes">
-                <p>I believe taxes should be fair and equitable for all, providing essential services and stimulating growth. With more emphasis on education, creating a more able workforce, investment in more forward-thinking infrastructure projects that create actual return on investment, creating more jobs. This increases the number of citizens paying taxes, making us able to cut waste and eliminate any un-necessary taxes, balance the budget with a reserve, and pay down our national debt!</p>
+                <p> Taxes should be for providing essential services and stimulating growth, with more emphasis on education, creating a more able workforce. Investment in more forward-thinking infrastructure projects that create an actual return on our investment, creating more jobs. This increases the number of citizens paying taxes, making eliminate any unnecessary taxes, balance the budget with a reserve, and pay down our national debt!</p>
+              </div>
+            </article>
+            <hr/>
+            <a class="anchor-tag" id="social_security"></a>
+            <article>
+              <h1 class="title is-1">Social Security / Medicare</h1>
+              <p>I will protect these programs. You, your parents and grandparents have paid for these programs all your working lives and you deserve to get the benefits you paid for. I will make sure Congress pays back the trillions of dollars it ‘borrowed’ from your Social Security and Medicare. That repayment, plus the current 2.5 Trillion dollar surplus, will keep Social Security and Medicare safe for you and your children. We will adjust Social Security payments to keep pace with inflation. </p>
+              <a class="article-learn-more button is-link" data-id="economy">Learn more...</a>
+              <div class="extra-content is-hidden" data-id="social_security">
+                <p>In addition to the effects of the education, jobs and healthcare plans on the economy, only invest in infrastructure projects that promote growth and economic development, creating ‘win-win’ scenarios for all stakeholders with an expectation of mutual return on our investment!</p>
+              </div>
+            </article>
+            <hr/>
+            <a class="anchor-tag" id="energy"></a>
+            <article>
+              <h1 class="title is-1">Energy</h1>
+              <p>It's time to increase investment in Solar and Wind energy, especially because they are free. Not only is it cheap, safe and won't run out, but it also creates good-paying jobs here in Idaho. Idaho can become an energy independent state, an energy exporting state, and the first state to reduce energy cost while protecting our environment!</p>
+              <a class="article-learn-more button is-link" data-id="energy">Learn more...</a>
+              <div class="extra-content is-hidden" data-id="taxes">
+                <p> Taxes should be for providing essential services and stimulating growth, with more emphasis on education, creating a more able workforce. Investment in more forward-thinking infrastructure projects that create an actual return on our investment, creating more jobs. This increases the number of citizens paying taxes, making eliminate any unnecessary taxes, balance the budget with a reserve, and pay down our national debt!</p>
               </div>
             </article>
             <hr/>
             <a class="anchor-tag" id="economy"></a>
             <article>
               <h1 class="title is-1">Economy</h1>
-              <p>All Infrastructure projects to be “win-win” scenarios with an expectation of multi-layered growth and return on our investment!</p>
+              <p>Growth requires infrastructure development and investment in our most precious resource – our people! We create a strong economy when all our citizens are trained and working.</p>
               <a class="article-learn-more button is-link" data-id="economy">Learn more...</a>
               <div class="extra-content is-hidden" data-id="economy">
                 <p>In addition to the effects of the education, jobs and healthcare plans on the economy, only invest in infrastructure projects that promote growth and economic development, creating ‘win-win’ scenarios for all stakeholders with an expectation of mutual return on our investment!</p>
               </div>
             </article>
             <hr/>
-            <a class="anchor-tag" id="campaign"></a>
+            <a class="anchor-tag" id="homeland_security"></a>
+            <article>
+              <h1 class="title is-1">Homeland Security</h1>
+              <p>I spent over 30 years in Law Enforcement keeping people safe. As a former member of a SWAT Team, Sheriff's Cliff-Dive Search & Rescue, and more, I will continue keeping Americans safe!  I will demand that DHS take the Russian threat seriously and do all it can to protect America’s elections from manipulation.</p>
+              <a class="article-learn-more button is-link" data-id="campaign">Learn more...</a>
+              <div class="extra-content is-hidden" data-id="homeland_security">
+                <?php include_once "support_fragment.php" ?>
+              </div>
+            </article>
+            <hr/>
+            <a class="anchor-tag" id="immigration"></a>
+            <article>
+              <h1 class="title is-1">Immigration</h1>
+              <p>Enforce existing laws, and reform what doesn't work! </p>
+              <a class="article-learn-more button is-link" data-id="immigration">Learn more...</a>
+              <div class="extra-content is-hidden" data-id="immigration">
+                <?php include_once "support_fragment.php" ?>
+              </div>
+            </article>
+            <hr/>
+            <a class="anchor-tag" id="campaign_finance"></a>
             <article>
               <h1 class="title is-1">Campaign Finance</h1>
-              <p>[INSERT BLURB HERE]</p>
+              <p>[INFORMATION PENDING]</p>
               <a class="article-learn-more button is-link" data-id="campaign">Learn more...</a>
               <div class="extra-content is-hidden" data-id="campaign">
                 <?php include_once "support_fragment.php" ?>
               </div>
             </article>
             <hr/>
-            <a class="anchor-tag" id="second_ammendment"></a>
+            <a class="anchor-tag" id="second_amendment"></a>
             <article>
-              <h1 class="title is-1">2nd Ammendment</h1>
+              <h1 class="title is-1">2nd Amendment</h1>
               <p>Pro! Over half our population have guns and do handle them responsibly. Our concerns are for those few that endanger our families and loved ones.</p>
             </article>
             <hr/>
             <a class="anchor-tag" id="welfare"></a>
             <article>
               <h1 class="title is-1">Welfare</h1>
-              <p>The system is clearly broken and most of these folks just need help to be productive.  Providing the education and tools for success save us money in the long run, and create productive tax-paying citizens.</p>
+              <p>Invest in a ‘Path to Work’. We will help the unemployed and those on public assistance by providing education, job training, and placement to help them achieve financial independence. The system is clearly broken and unfortunately misguided efforts to save money trap people on welfare. These folks just need help to be productive, and providing the education and tools necessary for their success save us all money in the long run, and creates productive tax-paying citizens.</p>
             </article>
             <hr/>
             <a class="anchor-tag" id="middle_class"></a>
