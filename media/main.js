@@ -157,7 +157,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     json_data['sheet_type'] = sheet_type;
-    console.log(json_data);
 
     var init = {
       method: 'POST',
@@ -175,10 +174,9 @@ document.addEventListener('DOMContentLoaded', function () {
   var $volunteerButton = document.querySelector('#volunteer-submit');
   if ($volunteerButton) {
     $volunteerButton.addEventListener('click', function (e) {
-      e.preventDefault(); 
+      e.preventDefault();
       var $form = document.getElementById('volunteer-form');
       var form_values_map = getFormData($form);
-      console.log(form_values_map);
       var handler_url = '/handler.php';
       var sheet_type = 'volunteer';
 
@@ -197,31 +195,20 @@ document.addEventListener('DOMContentLoaded', function () {
         return
       }
       else {
+        $volunteerButton.disabled = true;
         var req = buildJsonPostRequest(handler_url, form_values_map, sheet_type);
-	fetch(req)
-    .then(response => {
-        console.log(response);
-        return response.json();
-    })
-    .then(data => {
-        console.log(data);
-        return data;
-    })
-    .catch(error => {
-	console.log(error);
-        return error;
-    });
-
-/*
-        fetch(req).then(function(response){
-          if (response.ok) {
-            console.log('done', response);
-          }
-          else {
-            console.log('fail', response.json());
-          }
+        fetch(req)
+        .then(response => {
+          $volunteerButton.disabled = false;
+          return response.json();
+        })
+        .then(data => {
+          return data;
+        })
+        .catch(error => {
+          $volunteerButton.disabled = false;
+          return error;
         });
-*/
       }
     });
   }
@@ -231,12 +218,11 @@ document.addEventListener('DOMContentLoaded', function () {
     $updateButton.addEventListener('click', function () {
       var $form = document.getElementById('update-form');
       var form_values_map = getFormData($form);
+      var handler_url = '/handler.php';
+      var sheet_type = 'update';
 
       var required_field_names = [
-        'first_name',
-        'last_name',
         'email',
-        'telephone',
         'zip'
       ];
 
@@ -247,16 +233,20 @@ document.addEventListener('DOMContentLoaded', function () {
         return
       }
       else {
-        var req = buildJsonPostRequest('/update_handler.php', form_values_map);
-        fetch(req).then(function(response){
-          if (response.ok) {
-            console.log('done');
-          }
+         var req = buildJsonPostRequest(handler_url, form_values_map, sheet_type);
+        fetch(req)
+        .then(response => {
+          return response.json();
+        })
+        .then(data => {
+          return data;
+        })
+        .catch(error => {
+          return error;
         });
       }
     });
   }
-
 });
 
 // Facebook
@@ -273,18 +263,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Twitter
 window.twttr = (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0],
+    var js,
+        fjs = d.getElementsByTagName(s)[0],
         t = window.twttr || {};
-      if (d.getElementById(id)) return t;
-        js = d.createElement(s);
-          js.id = id;
-            js.src = "https://platform.twitter.com/widgets.js";
-              fjs.parentNode.insertBefore(js, fjs);
 
-                t._e = [];
-                  t.ready = function(f) {
-                        t._e.push(f);
-                          };
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
 
-                    return t;
+    t._e = [];
+    t.ready = function(f) {
+      t._e.push(f);
+    };
+
+    return t;
 }(document, "script", "twitter-wjs"));

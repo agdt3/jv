@@ -32,13 +32,6 @@ function insertRow($service, $sheet_type, $data=null) {
 
   $range = 'A1:Z1';
 
-  /*
-  $values = array(
-      array(
-        'a', '1', '}'
-      ),
-  );
-  */
   if (is_null($data)) {
     $data = array();
   }
@@ -53,7 +46,7 @@ function insertRow($service, $sheet_type, $data=null) {
     'valueInputOption' => $valueInputOption
   );
 
-  $result = $service->spreadsheets_values->update($spreadsheetId, $range, $body, $params);
+  $result = $service->spreadsheets_values->append($spreadsheetId, $range, $body, $params);
 
   return $result;
 }
