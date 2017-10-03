@@ -104,12 +104,12 @@ document.addEventListener('DOMContentLoaded', function () {
     var form_map = {};
     if ($form) {
       var $input_fields = $form.getElementsByTagName("input");
-      var $textareas = $form.getElementByTagName("textarea");
+      var $textareas = $form.getElementsByTagName("textarea");
 
       if ($input_fields.length > 0) {
         for (var i = 0; i < $input_fields.length; i++) {
           var $input_field = $input_fields[i];
-          if ($input_field.type === 'text') {
+          if ($input_field.type === 'text' || $input_field.type === 'tel' || $input_field.type === 'email') {
             form_map[$input_field.name] = $input_field.value;
           }
           else if ($input_field.type === 'checkbox') {
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       }
     }
-    return form_values;
+    return form_map;
   }
 
   function validateFormData(form_values_map, required_field_names) {
@@ -157,13 +157,14 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     json_data['sheet_type'] = sheet_type;
+    console.log(json_data);
 
     var init = {
       method: 'POST',
       headers: headers,
       cache: 'default',
       credentials: 'same-origin',
-      body: new FormData(JSON.stringify(json_data)),
+      body: JSON.stringify(json_data),
     };
 
     var req = new Request(url, init);
@@ -173,11 +174,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
   var $volunteerButton = document.querySelector('#volunteer-submit');
   if ($volunteerButton) {
-    $volunteerButton.addEventListener('click', function () {
+    $volunteerButton.addEventListener('click', function (e) {
+      e.preventDefault(); 
       var $form = document.getElementById('volunteer-form');
       var form_values_map = getFormData($form);
+      console.log(form_values_map);
       var handler_url = '/handler.php';
-      var sheet_type = 'volunteer_sheet';
+      var sheet_type = 'volunteer';
 
       var required_field_names = [
         'first_name',
@@ -187,22 +190,38 @@ document.addEventListener('DOMContentLoaded', function () {
         'zip'
       ];
 
-      var error_field_names = validateFormData(form_values, required_field_names);
+      var error_field_names = validateFormData(form_values_map, required_field_names);
 
       if (error_field_names.length > 0) {
         showFormErrors($form, error_field_names);
         return
       }
       else {
-        var req = buildJsonPostRequest(handler_url, form_values_map);
+        var req = buildJsonPostRequest(handler_url, form_values_map, sheet_type);
+	fetch(req)
+    .then(response => {
+        console.log(response);
+        return response.json();
+    })
+    .then(data => {
+        console.log(data);
+        return data;
+    })
+    .catch(error => {
+	console.log(error);
+        return error;
+    });
+
+/*
         fetch(req).then(function(response){
           if (response.ok) {
             console.log('done', response);
           }
           else {
-            console.log('fail', response);
+            console.log('fail', response.json());
           }
         });
+*/
       }
     });
   }

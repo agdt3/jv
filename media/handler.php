@@ -13,7 +13,7 @@ function parse_volunteer_data($data_obj) {
 
 function response($msg, $code=200) {
 	// treat this as json
-	header('Content-Type: application/json');
+	header('Content-type:application/json;charset=utf-8');
 
 	$status = array(
 			200 => '200 OK',
@@ -21,7 +21,7 @@ function response($msg, $code=200) {
 			422 => 'Unprocessable Entity',
 			500 => '500 Internal Server Error'
 			);
-	// ok, validation error, or failure
+
 	header('Status: '.$status[$code]);
 
   return json_encode(array(
@@ -40,10 +40,10 @@ try {
   $service = getService($client);
 
   $result = insertRow($service, $sheet_type, $data_values);
-  return response("success", 200);
+  echo response("success", 200);
 }
 catch (Exception $e) {
-  return response($e->getMessage(), 500);
+  echo response($e->getMessage(), 500);
 }
 
 ?>
