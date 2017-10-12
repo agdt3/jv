@@ -42,7 +42,9 @@
               <figure class="about-pic about-pic-right">
                 <img src="images/family_bio.jpg"></img>
               </figure>
-              <p>I am a hard-working guy with a wide range of experience who is tired of sitting on the sidelines when I know I have good ideas and solutions that can help make life better for us all.  I see the bigger picture and am very solution oriented – we already have the tools to be able to do more with less – we just need the right leadership to get us there!</p>
+              <p>I am a hard-working guy with a wide range of experience who is tired of sitting on the sidelines when I know I have good ideas and solutions that can help make life better for us all.</p>
+              <br/>
+              <p>I know I have good ideas and solutions that can help make life better for us all.  I see the bigger picture and am very solution oriented – we already have the tools to be able to do more with less – we just need the right leadership to get us there!</p>
             </div>
           </article>
           <hr/>

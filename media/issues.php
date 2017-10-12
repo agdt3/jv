@@ -32,6 +32,9 @@
             <article>
               <h1 class="title is-1">Healthcare</h1>
               <div class="main-content">
+                <figure class="issues-pic issues-pic-left">
+                  <i class="fa fa-plus-circle"></i>
+                </figure>
                 <p>We ALL have a right to affordable and cost-effective healthcare - it can be a reality. We can strengthen and expand Medicare in phases, covering more people while lowering costs. We can stabilize the market by fixing the current laws, have Congress actually pay what they promised, then reduce more costs by repealing the Republican's prescription law that forces us to pay full price, then allowing Medicare to negotiate down drug prices and other services.</p>
               </div>
               <a class="article-learn-more button is-link" data-id="healthcare">Learn more...</a>
@@ -57,6 +60,9 @@
             <article>
               <h1 class="title is-1">Public Lands</h1>
               <div class="main-content">
+                <figure class="issues-pic issues-pic-right">
+                  <img src="images/issues_environment.jpg"></img>
+                </figure>
                 <p>Idaho is NOT for sale! Keep public lands public and protected, accessible for hunting, recreation, and your enjoyment. Idaho state government cannot afford to maintain and protect these these lands like the Federal government does for us; they already know this, and would have to sell our lands - then they would be inaccessible and gone forever - We cannot let this happen!</p>
               </div>
               <a class="article-learn-more button is-link" data-id="public-lands">Learn more...</a>

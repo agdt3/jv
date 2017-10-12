@@ -341,3 +341,8 @@ div.vote-option-wrapper a {
   padding-left: 1rem;
 }
 
+/* Support */
+.support-fragment ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
