@@ -33,7 +33,7 @@
               <h1 class="title is-1">Healthcare</h1>
               <div class="main-content">
                 <figure class="issues-pic issues-pic-left">
-                  <i class="fa fa-plus-circle"></i>
+                  <i class="fa fa-plus-heartbeat"></i>
                 </figure>
                 <p>We ALL have a right to affordable and cost-effective healthcare - it can be a reality. We can strengthen and expand Medicare in phases, covering more people while lowering costs. We can stabilize the market by fixing the current laws, have Congress actually pay what they promised, then reduce more costs by repealing the Republican's prescription law that forces us to pay full price, then allowing Medicare to negotiate down drug prices and other services.</p>
               </div>
@@ -137,6 +137,9 @@
             <article>
               <h1 class="title is-1">Taxes</h1>
               <div class="main-content">
+                <figure class="issues-pic issues-pic-left">
+                  <i class="fa fa-dollar"></i>
+                </figure>
                 <p>I will fight to cut waste and eliminate any unnecessary taxes, invest in infrastructure projects that create actual return on investment, increase our tax revenue by creating more 'affordable jobs'. I will work to create a balanced budget with a cash reserve, and pay down our national debt.</p>
               </div>
               <a class="article-learn-more button is-link" data-id="taxes">Learn more...</a>
@@ -149,6 +152,9 @@
             <article>
               <h1 class="title is-1">Social Security / Medicare</h1>
               <div class="main-content">
+                <figure class="issues-pic issues-pic-right">
+                  <i class="fa fa-medkit"></i>
+                </figure>
                 <p>I will protect these programs. You, your parents and grandparents have paid for these programs all your working lives and you deserve to get the benefits you paid for. I will make sure Congress pays back the trillions of dollars it "borrowed" from your Social Security and Medicare. That repayment, plus the current 2.5 Trillion dollar surplus, will keep Social Security and Medicare safe for you and your children. We will adjust Social Security payments to keep pace with inflation. </p>
               </div>
               <a class="article-learn-more button is-link" data-id="economy">Learn more...</a>
@@ -161,6 +167,9 @@
             <article>
               <h1 class="title is-1">Energy</h1>
               <div class="main-content">
+                <figure class="issues-pic issues-pic-left">
+                  <i class="fa fa-bolt"></i>
+                </figure>
                 <p>It's time to increase investment in Solar and Wind energy, especially because they are free. Not only is it cheap, safe and won't run out, but it also creates good-paying jobs here in Idaho. Idaho can become an energy independent state, an energy exporting state, and the first state to reduce energy cost while protecting our environment!</p>
               </div>
               <a class="article-learn-more button is-link" data-id="energy">Learn more...</a>
@@ -173,6 +182,9 @@
             <article>
               <h1 class="title is-1">Economy</h1>
               <div class="main-content">
+                <figure class="issues-pic issues-pic-right">
+                  <i class="fa fa-line-chart"></i>
+                </figure>
                 <p>Growth requires infrastructure development and investment in our most precious resource – our people! We create a strong economy when all our citizens are trained and working.</p>
               </div>
               <a class="article-learn-more button is-link" data-id="economy">Learn more...</a>
@@ -185,6 +197,9 @@
             <article>
               <h1 class="title is-1">Homeland Security</h1>
               <div class="main-content">
+                <figure class="issues-pic issues-pic-left">
+                  <i class="fa fa-lock"></i>
+                </figure>
                 <p>I spent over 30 years in Law Enforcement keeping people safe. As a former member of a SWAT Team, Sheriff's Cliff-Dive Search and Rescue, and more, I will continue keeping Americans safe!  I will demand that DHS take the Russian threat seriously and do all it can to protect America’s elections from manipulation.</p>
               </div>
               <a class="article-learn-more button is-link" data-id="campaign">Learn more...</a>
@@ -197,6 +212,9 @@
             <article>
               <h1 class="title is-1">Immigration</h1>
               <div class="main-content">
+                <figure class="issues-pic issues-pic-right">
+                  <i class="fa fa-user-circle-o"></i>
+                </figure>
                 <p>Enforce existing laws, and reform what doesn't work! </p>
               </div>
               <a class="article-learn-more button is-link" data-id="immigration">Learn more...</a>
@@ -209,6 +227,9 @@
             <article>
               <h1 class="title is-1">Campaign Finance</h1>
               <div class="main-content">
+                 <figure class="issues-pic issues-pic-left">
+                  <i class="fa fa-money"></i>
+                </figure>
                 <p>[INFORMATION PENDING]</p>
               </div>
               <a class="article-learn-more button is-link" data-id="campaign">Learn more...</a>
@@ -221,6 +242,9 @@
             <article>
               <h1 class="title is-1">2nd Amendment</h1>
               <div class="main-content">
+                 <figure class="issues-pic issues-pic-right">
+                  <i class="fa fa-balance-scale"></i>
+                </figure>
                 <p>Pro! Over half our population have guns and do handle them responsibly. Our concerns are for those few that endanger our families and loved ones.</p>
               </div>
             </article>
@@ -229,6 +253,9 @@
             <article>
               <h1 class="title is-1">Welfare</h1>
               <div class="main-content">
+                 <figure class="issues-pic issues-pic-left">
+                  <i class="fa fa-handshake-o"></i>
+                </figure>
                 <p>Invest in a "Path to Work". We will help the unemployed and those on public assistance by providing education, job training, and placement to help them achieve financial independence. The system is clearly broken and unfortunately misguided efforts to save money trap people on welfare. These folks just need help to be productive, and providing the education and tools necessary for their success save us all money in the long run, and creates productive tax-paying citizens.</p>
               </div>
             </article>
@@ -237,6 +264,9 @@
             <article>
               <h1 class="title is-1">Middle Class</h1>
               <div class="main-content">
+                 <figure class="issues-pic issues-pic-right">
+                  <i class="fa fa-group"></i>
+                </figure>
                 <p>A strong and productive middle-class with affordable jobs is the key to a strong and productive economy, and key to keeping our country healthy and safe.</p>
               </div>
             </article>
@@ -245,6 +275,9 @@
             <article>
               <h1 class="title is-1">Abortion</h1>
               <div class="main-content">
+                <figure class="issues-pic issues-pic-left">
+                  <i class="fa fa-stethoscope"></i>
+                </figure>
                 <p>I am a Christian and actually am personally "pro-life". That is my choice. As a Christian, I respect the bible, specifically Matthew 7, "Judge not, that ye be not judged.", so I firmly believe it is not for me to judge the choices of others - it is between them and God.</p>
               </div>
             </article>

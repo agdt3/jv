@@ -301,6 +301,10 @@ a.anchor-tag {
   max-width: 300px;
 }
 
+.issues-pic i {
+  font-size: 10rem;
+}
+
 .issues-pic-left {
   float: left;
   padding-right: 1rem;
