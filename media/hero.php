@@ -22,7 +22,7 @@
     </figure>
     <figure class="hero-image is-hidden" data-index="2">
       <!--img src="images/IMG_2096.JPG"/-->
-      <img src="images/environment_hero.jpg"/>
+      <img src="images/environment_hero.jpeg"/>
       <figure-caption class="container hero-overlay has-text-centered">
         <h2 class="hero-overlay-title title is-2">
           Why am I Running?
@@ -32,7 +32,7 @@
     </figure>
     <figure class="hero-image is-hidden" data-index="3">
       <!--img src="images/Jim-&-Keith-E_Crop.jpg"/-->
-      <img src="images/education_hero.jpg"/>
+      <img src="images/education_hero.jpeg"/>
       <figure-caption class="container hero-overlay has-text-centered">
         <h2 class="hero-overlay-title title is-2">
           Ensuring Idaho has a voice!
@@ -40,7 +40,7 @@
         <p class="hero-overlay-text subtitle is-4 is-hidden-mobile">Working Together to Make This an Election of Change</p>
       </figure-caption>
     </figure>
-    <figure class="hero-image active" data-index="4"
+    <figure class="hero-image is-hidden" data-index="4">
       <img src="images/family.jpg"/>
       <figure-caption class="container hero-overlay has-text-centered">
         <h2 class="hero-overlay-title title is-2">

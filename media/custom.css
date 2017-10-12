@@ -281,23 +281,36 @@ a.anchor-tag {
 /* Issues */
 .extra-content {
   padding-left: 4em;
-  p {
-    margin-bottom: 1rem;
-  }
-  ul {
-    li {
-      margin-bottom: 0.5rem;
-      margin-left: 2rem;
-    }
-  }
+}
+
+.extra-content p {
+  margin-bottom: 1rem;
+}
+
+.extra-content p ul li {
+  margin-bottom: 0.5rem;
+  margin-left: 2rem;
 }
 
 /* Vote */
-div.vote-option-wrapper {
-  i.fa {
-    font-size: 5rem;
-  }
-  a {
-    color: navy;
-  }
+div.vote-option-wrapper i.fa {
+  font-size: 5rem;
 }
+
+div.vote-option-wrapper a {
+  color: navy;
+  font-size: 2rem;
+}
+
+/* About */
+.about-pic {
+  height: 100%;
+  max-width: 300px;
+}
+
+.about-pic-left {
+  float: left;
+  padding-right: 1rem;
+}
+
+
