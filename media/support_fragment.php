@@ -7,13 +7,11 @@
 <p>On a personal level, I have even approached Democrats currently in office who have heard my positions and what I have to say. They’ve promised to support me 100%, but only after I show that I have and can raise campaign funds. So much for the traditional American belief that any qualified person could run for office!</p>
 <br/>
 <p>Folks, in so many ways, this terrible “conventional wisdom” has gotten us where we are today:</p>
-<p>
-  <ul>
-    <li>The Republicans are well funded and we aren’t!</li>
-    <li>The Republicans are in office, and we aren’t!</li>
-    <li>The wealthy are the only ones able to run for office!</li>
-  </ul>
-</p>
+<ul>
+  <li>The Republicans are well funded and we aren’t!</li>
+  <li>The Republicans are in office, and we aren’t!</li>
+  <li>The wealthy are the only ones able to run for office!</li>
+</ul>
 <br/>
 <p>I am not a conventional candidate. I am not willing to follow “conventional wisdom” and do it as it’s always been done.  I firmly believe that America is ready for representatives that are one of them, that understand and have lived in poverty and had to work hard on their way to a better life.  I’m running now because I can’t stand to see anyone try to take that away from us.<p>
 <br/>

@@ -322,6 +322,10 @@ div.vote-option-wrapper a {
 }
 
 /* About */
+.about-main-content {
+  display: inline-block;
+}
+
 .about-pic {
   height: 100%;
   max-width: 300px;
