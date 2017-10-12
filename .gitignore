@@ -2,3 +2,4 @@
 .sass-cache
 package-lock.json
 /media/images/**
+.DS_Store

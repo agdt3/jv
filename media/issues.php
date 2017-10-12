@@ -34,10 +34,12 @@
               <p>We ALL have a right to affordable and cost-effective healthcare - it can be a reality. We can strengthen and expand Medicare while lowering costs. We will stabilize the market by fixing the current law, have Congress pay pay what they promised, then reduce more costs by allowing Medicare to negotiate drug prices and other services. </p>
               <a class="article-learn-more button is-link" data-id="healthcare">Learn more...</a>
               <div class="extra-content is-hidden" data-id="healthcare">
-                <p>* Fix the flaws in the existing law to keep all insured </p>  
-                <p>* Continue 're-insurance' subsidies to keep providers on the exchanges and prices down </p> 
-                <p>* End legislative sabotage of the ACA </p>
-              <p>Creating an American version of "universal healthcare" starting with Medicare as the perfect tool to model, and creating what I am calling "Consolidated-Medicare", will make it work for all of us. This approach is far more affordable for all, including the taxpayers, and shows that cost-effective healthcare can be a reality.  Don’t be fooled or believe the lies of those who think we’re copying other countries or that don’t believe healthcare is a right; using ‘Consolidated-Medicare’ as a Single Payer/Universal ‘type of’ Healthcare is and will be uniquely American, is an essential investment in our infrastructure, in our economy, our middle-class and an ideal solution for lowering costs and taxes!<p>
+                <ul>
+                  <li>Fix the flaws in the existing law to keep all insured </li>
+                  <li>Continue 're-insurance' subsidies to keep providers on the exchanges and prices down </li>
+                  <li>End legislative sabotage of the ACA</li>
+                </ul>
+              <p>Creating an American version of "universal healthcare" starting with Medicare as the perfect tool to model, and creating what I am calling "Consolidated-Medicare", will make it work for all of us. This approach is far more affordable for all, including the taxpayers, and shows that cost-effective healthcare can be a reality. Don’t be fooled or believe the lies of those who think we're copying other countries or that don’t believe healthcare is a right; using "Consolidated-Medicare" as a Single Payer/Universal "type of" Healthcare is and will be uniquely American, is an essential investment in our infrastructure, in our economy, our middle-class and an ideal solution for lowering costs and taxes!<p>
               <p>Medicare is very functional, affordable, respected, and creating "Consolidated-Medicare" makes it work for all of us.</p>
               </div>
             </article>
@@ -52,7 +54,7 @@
                 <ul>
                   <li>The Federal government owns and pay to manage 32,621,631 acres in Idaho, which is 61.6% of land in the state, caring for the land that we enjoy.</li>
                   <li>A recent study reveals Idaho would experience up to a $250 million deficit if Idaho owned and had to pay to manage this land; enough to cover the costs of timber mgmt., recreation and road maintenance, or fire protection – which in 2015 alone cost over $300 million, 70% of which the federal government paid. Imagine Idaho being responsible for that entire $300 million.</li>
-                  <li>The Republican political stranglehold on Idaho is also giving away access to our public lands to Texas gas companies and giving away mineral rights of private landholders by passing laws written by the gas industry lobbyists, using ‘forced-pooling’ to steal resources and our property rights!</li>
+                  <li>The Republican political stranglehold on Idaho is also giving away access to our public lands to Texas gas companies and giving away mineral rights of private landholders by passing laws written by the gas industry lobbyists, using "forced-pooling" to steal resources and our property rights!</li>
                   <li>Republicans are repealing laws that make our rivers save for fishing, for drinking water, and creating laws that put our ground water at risk.</li>
                   <li><a href="http://www.spokesman.com/stories/2017/feb/05/push-to-turn-over-federal-lands-to-the-states-may-">http://www.spokesman.com/stories/2017/feb/05/push-to-turn-over-federal-lands-to-the-states-may-</a></li>
                   <li><a href="https://ballotpedia.org/Federal_land_ownership_by_state">https://ballotpedia.org/Federal_land_ownership_by_state</a></li>
@@ -64,7 +66,7 @@
             <a class="anchor-tag" id="education"></a>
             <article>
               <h1 class="title is-1">Education</h1>
-              <p>Work to implement 'Scholar-Quest Program' - Reform education to focus from Pre-K to preparing students for careers, whether a vocational or college degree. Build relevant curriculum with input from industry leaders. Make college free through revenue neutral tax deductions, incentives and reforms. Require graduates to perform community service ‘pay-back’. Unleash economic activity by eliminating student debt. Education is an essential investment our nation’s future, the key to our long-term economic success and security.</p>
+              <p>Work to implement "Scholar-Quest Program" - Reform education to focus from Pre-K to preparing students for careers, whether a vocational or college degree. Build relevant curriculum with input from industry leaders. Make college free through revenue neutral tax deductions, incentives and reforms. Require graduates to perform community service "pay-back". Unleash economic activity by eliminating student debt. Education is an essential investment our nation’s future, the key to our long-term economic success and security.</p>
               <a class="article-learn-more button is-link" data-id="education">Learn more...</a>
               <div class="extra-content is-hidden" data-id="education">
                 <p>Education is an essential investment in our human infrastructure utilizing our untapped intellectual resources, which is the key to rebuilding our middle-class, to creating a truly free-market, to our long term success in this now global economy, and to our Nation’s future and economic security.</p>
@@ -110,10 +112,10 @@
             <a class="anchor-tag" id="social_security"></a>
             <article>
               <h1 class="title is-1">Social Security / Medicare</h1>
-              <p>I will protect these programs. You, your parents and grandparents have paid for these programs all your working lives and you deserve to get the benefits you paid for. I will make sure Congress pays back the trillions of dollars it ‘borrowed’ from your Social Security and Medicare. That repayment, plus the current 2.5 Trillion dollar surplus, will keep Social Security and Medicare safe for you and your children. We will adjust Social Security payments to keep pace with inflation. </p>
+              <p>I will protect these programs. You, your parents and grandparents have paid for these programs all your working lives and you deserve to get the benefits you paid for. I will make sure Congress pays back the trillions of dollars it "borrowed" from your Social Security and Medicare. That repayment, plus the current 2.5 Trillion dollar surplus, will keep Social Security and Medicare safe for you and your children. We will adjust Social Security payments to keep pace with inflation. </p>
               <a class="article-learn-more button is-link" data-id="economy">Learn more...</a>
               <div class="extra-content is-hidden" data-id="social_security">
-                <p>In addition to the effects of the education, jobs and healthcare plans on the economy, only invest in infrastructure projects that promote growth and economic development, creating ‘win-win’ scenarios for all stakeholders with an expectation of mutual return on our investment!</p>
+                <p>In addition to the effects of the education, jobs and healthcare plans on the economy, only invest in infrastructure projects that promote growth and economic development, creating "win-win" scenarios for all stakeholders with an expectation of mutual return on our investment!</p>
               </div>
             </article>
             <hr/>
@@ -133,7 +135,7 @@
               <p>Growth requires infrastructure development and investment in our most precious resource – our people! We create a strong economy when all our citizens are trained and working.</p>
               <a class="article-learn-more button is-link" data-id="economy">Learn more...</a>
               <div class="extra-content is-hidden" data-id="economy">
-                <p>In addition to the effects of the education, jobs and healthcare plans on the economy, only invest in infrastructure projects that promote growth and economic development, creating ‘win-win’ scenarios for all stakeholders with an expectation of mutual return on our investment!</p>
+                <p>In addition to the effects of the education, jobs and healthcare plans on the economy, only invest in infrastructure projects that promote growth and economic development, creating "win-win" scenarios for all stakeholders with an expectation of mutual return on our investment!</p>
               </div>
             </article>
             <hr/>
@@ -176,7 +178,7 @@
             <a class="anchor-tag" id="welfare"></a>
             <article>
               <h1 class="title is-1">Welfare</h1>
-              <p>Invest in a ‘Path to Work’. We will help the unemployed and those on public assistance by providing education, job training, and placement to help them achieve financial independence. The system is clearly broken and unfortunately misguided efforts to save money trap people on welfare. These folks just need help to be productive, and providing the education and tools necessary for their success save us all money in the long run, and creates productive tax-paying citizens.</p>
+              <p>Invest in a "Path to Work". We will help the unemployed and those on public assistance by providing education, job training, and placement to help them achieve financial independence. The system is clearly broken and unfortunately misguided efforts to save money trap people on welfare. These folks just need help to be productive, and providing the education and tools necessary for their success save us all money in the long run, and creates productive tax-paying citizens.</p>
             </article>
             <hr/>
             <a class="anchor-tag" id="middle_class"></a>

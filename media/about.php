@@ -20,6 +20,9 @@
           <a class="anchor-tag" id="bio"></a>
           <article>
             <h1 class="title is-1">Biography</h1>
+            <figure class="about-pic about-pic-left">
+              <img src="images/james_bio.png"></img>
+            </figure>
             <p>
               James is probably like most of you. He went through the school of hard knocks… maybe harder than most.  He was born in Maryland, has two sisters, and was abandoned by his father when he was just a one year old. If you can imagine a divorced woman raising three kids – James and his two sisters – all by herself in the late 50’s and 60’s, you know that he had to grow up fast. His mother did the best she could, but they were raised in poverty. From about nine years old, James and his sisters had to work hard and contribute all they earned to help support the family. James moved out on his own at sixteen, joking that to be able to get by, he had to be eighteen for about three years, until he caught up!</p>
 <br/>
