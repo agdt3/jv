@@ -279,6 +279,10 @@ a.anchor-tag {
 }
 
 /* Issues */
+.main-content {
+  display: inline-block;
+}
+
 .extra-content {
   padding-left: 4em;
 }
