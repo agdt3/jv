@@ -281,6 +281,7 @@ a.anchor-tag {
 /* Issues */
 .main-content {
   display: inline-block;
+  width: 100%;
 }
 
 .extra-content {

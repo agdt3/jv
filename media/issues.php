@@ -33,7 +33,7 @@
               <h1 class="title is-1">Healthcare</h1>
               <div class="main-content">
                 <figure class="issues-pic issues-pic-left">
-                  <i class="fa fa-plus-heartbeat"></i>
+                  <i class="fa fa-heartbeat"></i>
                 </figure>
                 <p>We ALL have a right to affordable and cost-effective healthcare - it can be a reality. We can strengthen and expand Medicare in phases, covering more people while lowering costs. We can stabilize the market by fixing the current laws, have Congress actually pay what they promised, then reduce more costs by repealing the Republican's prescription law that forces us to pay full price, then allowing Medicare to negotiate down drug prices and other services.</p>
               </div>
