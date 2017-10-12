@@ -292,6 +292,21 @@ a.anchor-tag {
   margin-left: 2rem;
 }
 
+.issues-pic {
+  height: 100%;
+  max-width: 300px;
+}
+
+.issues-pic-left {
+  float: left;
+  padding-right: 1rem;
+}
+
+.issues-pic-right {
+  float: right;
+  padding-left: 1rem;
+}
+
 /* Vote */
 div.vote-option-wrapper i.fa {
   font-size: 5rem;
@@ -313,4 +328,8 @@ div.vote-option-wrapper a {
   padding-right: 1rem;
 }
 
+.about-pic-right {
+  float: right;
+  padding-left: 1rem;
+}
 

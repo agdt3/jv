@@ -79,6 +79,9 @@ Useful links that help explain;
             <a class="anchor-tag" id="education"></a>
             <article>
               <h1 class="title is-1">Education</h1>
+              <figure class="issues-pic issues-pic-left">
+                <img src="images/issues_education.jpg"></img>
+              </figure>
               <p>I commit to treating education as though it is one of our most valuable assets - Which it is! I will work to reform legislative support of education to focus on the children, from Pre-K to preparing students for careers, whether a vocational certification or 2 or 4Year college degree. Build relevant curriculum with input from industry leaders. Make college free through revenue neutral tax deductions, incentives and reforms for business and industry. Require graduates to perform community service ‘pay-back’. Unleash tremendous economic activity by eliminating student debt. Our children are an as yet untapped intellectual resource and could do so much more if only provided with the tools for success - Imagine what all our children could do if educated to their potential.  Education is an investment in the future of our children, an essential investment our nation’s future, and the key to our long-term economic success, growth and security.</p>
               <a class="article-learn-more button is-link" data-id="education">Learn more...</a>
               <div class="extra-content is-hidden" data-id="education">
@@ -100,6 +103,9 @@ Useful links that help explain;
             <a class="anchor-tag" id="jobs"></a>
             <article>
               <h1 class="title is-1">Jobs and Wages</h1>
+              <figure class="issues-pic issues-pic-right">
+                <img src="images/issues_jobs.jpg"></img>
+              </figure>
               <p>Create affordable jobs using targeted infrastructure, education, job training, and tax relief plans that both stimulate and grow the economy! Create jobs with wages that allow you to be self-sufficient. Use education, specialized or vocational job training, 'employment based' tax incentives that encourage business to hire & retain, and rationally applied changes to the minimum wage based upon regional cost of living indexes.</p>
               <a class="article-learn-more button is-link" data-id="jobs">Learn more...</a>
               <div class="extra-content is-hidden" data-id="jobs">
