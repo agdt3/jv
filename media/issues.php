@@ -125,10 +125,10 @@ Useful links that help explain;
             <a class="anchor-tag" id="social_security"></a>
             <article>
               <h1 class="title is-1">Social Security / Medicare</h1>
-              <p>I will protect these programs. You, your parents and grandparents have paid for these programs all your working lives and you deserve to get the benefits you paid for. I will make sure Congress pays back the trillions of dollars it ‘borrowed’ from your Social Security and Medicare. That repayment, plus the current 2.5 Trillion dollar surplus, will keep Social Security and Medicare safe for you and your children. We will adjust Social Security payments to keep pace with inflation. </p>
+              <p>I will protect these programs. You, your parents and grandparents have paid for these programs all your working lives and you deserve to get the benefits you paid for. I will make sure Congress pays back the trillions of dollars it "borrowed" from your Social Security and Medicare. That repayment, plus the current 2.5 Trillion dollar surplus, will keep Social Security and Medicare safe for you and your children. We will adjust Social Security payments to keep pace with inflation. </p>
               <a class="article-learn-more button is-link" data-id="economy">Learn more...</a>
               <div class="extra-content is-hidden" data-id="social_security">
-                <p>In addition to the effects of the education, jobs and healthcare plans on the economy, only invest in infrastructure projects that promote growth and economic development, creating ‘win-win’ scenarios for all stakeholders with an expectation of mutual return on our investment!</p>
+                <p>In addition to the effects of the education, jobs and healthcare plans on the economy, only invest in infrastructure projects that promote growth and economic development, creating "win-win" scenarios for all stakeholders with an expectation of mutual return on our investment!</p>
               </div>
             </article>
             <hr/>
@@ -148,7 +148,7 @@ Useful links that help explain;
               <p>Growth requires infrastructure development and investment in our most precious resource – our people! We create a strong economy when all our citizens are trained and working.</p>
               <a class="article-learn-more button is-link" data-id="economy">Learn more...</a>
               <div class="extra-content is-hidden" data-id="economy">
-                <p>In addition to the effects of the education, jobs and healthcare plans on the economy, only invest in infrastructure projects that promote growth and economic development, creating ‘win-win’ scenarios for all stakeholders with an expectation of mutual return on our investment!</p>
+                <p>In addition to the effects of the education, jobs and healthcare plans on the economy, only invest in infrastructure projects that promote growth and economic development, creating "win-win" scenarios for all stakeholders with an expectation of mutual return on our investment!</p>
               </div>
             </article>
             <hr/>
@@ -191,7 +191,7 @@ Useful links that help explain;
             <a class="anchor-tag" id="welfare"></a>
             <article>
               <h1 class="title is-1">Welfare</h1>
-              <p>Invest in a ‘Path to Work’. We will help the unemployed and those on public assistance by providing education, job training, and placement to help them achieve financial independence. The system is clearly broken and unfortunately misguided efforts to save money trap people on welfare. These folks just need help to be productive, and providing the education and tools necessary for their success save us all money in the long run, and creates productive tax-paying citizens.</p>
+              <p>Invest in a "Path to Work". We will help the unemployed and those on public assistance by providing education, job training, and placement to help them achieve financial independence. The system is clearly broken and unfortunately misguided efforts to save money trap people on welfare. These folks just need help to be productive, and providing the education and tools necessary for their success save us all money in the long run, and creates productive tax-paying citizens.</p>
             </article>
             <hr/>
             <a class="anchor-tag" id="middle_class"></a>
