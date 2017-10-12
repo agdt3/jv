@@ -14,6 +14,16 @@
     <?php include_once "header.php" ?>
     <div class="desktop-spacer is-hidden-mobile"></div>
     <div class="mobile-spacer is-hidden-tablet"></div>
+    <section class="section no-padding-bottom is-hidden-tablet">
+      <container class="container">
+        <a class="mobile-donate-button button is-large is-fullwidth has-text-centered is-danger">
+          DONATE
+        </a>
+        <a class="mobile-involve-button button is-large is-fullwidth has-text-centered is-warning">
+          Get involved
+        </a>
+      </container>
+    </section>
     <section class="section">
       <div class="columns">
         <div class="column is-6-desktop is-offset-2-desktop is-8-tablet">
