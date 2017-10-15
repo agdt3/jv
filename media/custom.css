@@ -94,7 +94,7 @@
 
 @media screen and (max-width: 1330px) {
   .header-buttons-wrapper {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding-left: 1rem;
     padding-top: 0.5rem;
   }
@@ -322,7 +322,7 @@
 a.anchor-tag {
   display: block;
   position: relative;
-  top: -174px;
+  top: -190px;
   visibility: hidden;
 }
 
