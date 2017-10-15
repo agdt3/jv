@@ -25,14 +25,7 @@
     <div class="mobile-spacer is-hidden-tablet"></div>
     <?php include_once "hero.php" ?>
     <section class="section no-padding-bottom is-hidden-desktop">
-      <container class="container">
-        <a class="mobile-donate-button button is-large is-fullwidth has-text-centered is-danger">
-          DONATE
-        </a>
-        <a class="mobile-involve-button button is-large is-fullwidth has-text-centered is-warning">
-          Get involved
-        </a>
-      </container>
+      <?php include_once "mobile_buttons_fragment.php" ?>
     </section>
     <section class="section">
       <div class="columns is-desktop">
