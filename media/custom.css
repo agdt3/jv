@@ -55,6 +55,7 @@
   .nav-menu-scroll-container {
     position: relative;
     overflow-y: visible;
+    height: auto;
   }
 }
 

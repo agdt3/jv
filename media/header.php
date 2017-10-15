@@ -6,19 +6,21 @@
       </figure>
     </div>
     <div class="column is-one-quarter is-hidden-mobile no-padding-bottom">
-      <div class="buttons-wrapper is-inline-block is-hidden-touch">
-        <a class="social-icon" href="https://twitter.com/votevandermaas/">
-          <span class="icon is-medium">
-            <i class="fa fa-twitter"></i>
-          </span>
-        </a>
-        <a class="social-icon" href="https://www.facebook.com/votevandermaas2018/">
-          <span class="icon is-medium">
-            <i class="fa fa-facebook"></i>
-          </span>
-        </a>
-        <a href="involved.php" class="button is-warning is-outlined">Get Involved</a>
-        <a href="https://secure.actblue.com/donate/jamesvandermaas" class="button is-danger">DONATE</a>
+      <div class="header-buttons-wrapper is-hidden-mobile">
+        <div class="header-button social-icon-wrapper">
+          <a class="social-icon" href="https://twitter.com/votevandermaas/">
+            <span class="icon is-medium">
+              <i class="fa fa-twitter"></i>
+            </span>
+          </a>
+          <a class="social-icon" href="https://www.facebook.com/votevandermaas2018/">
+            <span class="icon is-medium">
+              <i class="fa fa-facebook"></i>
+            </span>
+          </a>
+        </div>
+        <a href="involved.php" class="header-button button is-warning is-outlined">Get Involved</a>
+        <a href="https://secure.actblue.com/donate/jamesvandermaas" class="header-button button is-danger">DONATE</a>
        </div>
     </div>
   </div>
