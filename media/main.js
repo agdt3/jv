@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function () {
       var activeIndex = getCurrentIndex($currentItem);
       var $nextItem = getItemByIndex(activeIndex + 1, itemCount);
       transitionItem($currentItem, $nextItem);
-    }, 3000);
+    }, 5000);
   }
 });
 

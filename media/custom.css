@@ -92,7 +92,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1221px) {
+@media screen and (max-width: 1330px) {
   .header-buttons-wrapper {
     flex-direction: column;
     padding-left: 1rem;
