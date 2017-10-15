@@ -23,18 +23,19 @@
         <a class="header-button" href="https://secure.actblue.com/donate/jamesvandermaas" class="button is-danger">DONATE</a>
       </div>
     </div>
-    <nav class="navigation navbar">
-      <div class="navbar-brand">
-        <a href="index.html" class="navbar-item is-hidden-tablet">
-          <figure class="title-image-mobile">
-            <img src="/images/header-logo.png"/>
-          </figure>
-        </a>
-        <div class="navbar-burger burger" data-target="navMenu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+  </div>
+  <nav class="navigation navbar">
+    <div class="navbar-brand">
+      <a href="index.html" class="navbar-item is-hidden-tablet">
+        <figure class="title-image-mobile">
+          <img src="/images/header-logo.png"/>
+        </figure>
+      </a>
+      <div class="navbar-burger burger" data-target="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
     <div class="nav-menu-scroll-container">
       <div id="navMenu" class="navbar-menu navbar-menu-centered">
