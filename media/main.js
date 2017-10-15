@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
   /* NAVBAR */
-
   // Get all "navbar-burger" elements
   var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
@@ -37,6 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   /* CAROUSEL */
+  var carousel = document.querySelector('.header .carousel');
 
   function getCurrentIndex($item) {
     return parseInt($item.dataset.index);
@@ -100,13 +100,15 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // Start auto-rotate
-  setInterval(() => {
-    var itemCount = document.querySelectorAll('.hero-image').length;
-    var $currentItem = document.querySelector('.hero-image.active');
-    var activeIndex = getCurrentIndex($currentItem);
-    var $nextItem = getItemByIndex(activeIndex - 1, itemCount);
-    transitionItem($currentItem, $nextItem);
-  }, 3000);
+  if (carousel) {
+    setInterval(() => {
+      var itemCount = document.querySelectorAll('.hero-image').length;
+      var $currentItem = document.querySelector('.hero-image.active');
+      var activeIndex = getCurrentIndex($currentItem);
+      var $nextItem = getItemByIndex(activeIndex + 1, itemCount);
+      transitionItem($currentItem, $nextItem);
+    }, 3000);
+  }
 });
 
 document.addEventListener('DOMContentLoaded', function () {
