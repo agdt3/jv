@@ -1,3 +1,4 @@
+/* Header */
 .header {
   position: fixed;
   width: 100%;
@@ -7,6 +8,10 @@
 
 .navigation {
   background-color: navy;
+}
+
+.navbar-menu {
+  width: 100vw;
 }
 
 .navbar-menu-centered {
@@ -25,6 +30,15 @@
   color: navy;
 }
 
+.nav-menu-scroll-container {
+  display: flex;
+  position: fixed;
+  height: 100%;
+  background-color: navy;
+  overflow-y: scroll;
+  transition: height .2s ease-in-out;
+}
+
 @media handheld and (max-width: 999px), screen and (max-width: 999px) {
   .navbar-link {
     font-size: 2rem;
@@ -37,6 +51,10 @@
   .navbar-dropdown a.navbar-item {
     color: white;
     font-size: 1.2rem;
+  }
+  .nav-menu-scroll-container {
+    position: relative;
+    overflow-y: visible;
   }
 }
 
@@ -60,8 +78,16 @@
   margin-bottom: 1rem;
 }
 
-.buttons-wrapper {
+.header-buttons-wrapper {
   padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.header-button {
+  display: flex;
+  flex: 1 1 3rem;
 }
 
 .title-image {
@@ -271,6 +297,11 @@ a.anchor-tag {
   position: relative;
   top: -174px;
   visibility: hidden;
+}
+
+/* Sidebar */
+.sidebar-wrapper {
+  min-width: 224px;
 }
 
 /* Plan */

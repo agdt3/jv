@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if ($rightControl) {
     $rightControl.addEventListener('click', function() {
       var itemCount = document.querySelectorAll('.hero-image').length;
-      var $currentItem = document.querySelector('.active');
+      var $currentItem = document.querySelector('.hero-image.active');
       var activeIndex = getCurrentIndex($currentItem);
       var $nextItem = getItemByIndex(activeIndex + 1, itemCount);
       transitionItem($currentItem, $nextItem);
@@ -75,8 +75,9 @@ document.addEventListener('DOMContentLoaded', function () {
   var $leftControl = document.querySelector('.carousel-left-control');
   if ($leftControl) {
     $leftControl.addEventListener('click', function() {
+
       var itemCount = document.querySelectorAll('.hero-image').length;
-      var $currentItem = document.querySelector('.active');
+      var $currentItem = document.querySelector('.hero-image.active');
       var activeIndex = getCurrentIndex($currentItem);
       var $nextItem = getItemByIndex(activeIndex - 1, itemCount);
       transitionItem($currentItem, $nextItem);
@@ -97,6 +98,15 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   }
+
+  // Start auto-rotate
+  setInterval(() => {
+    var itemCount = document.querySelectorAll('.hero-image').length;
+    var $currentItem = document.querySelector('.hero-image.active');
+    var activeIndex = getCurrentIndex($currentItem);
+    var $nextItem = getItemByIndex(activeIndex - 1, itemCount);
+    transitionItem($currentItem, $nextItem);
+  }, 3000);
 });
 
 document.addEventListener('DOMContentLoaded', function () {
