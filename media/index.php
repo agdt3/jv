@@ -23,7 +23,7 @@
     <div class="desktop-spacer is-hidden-mobile"></div>
     <div class="mobile-spacer is-hidden-tablet"></div>
     <?php include_once "hero.php" ?>
-    <section class="section no-padding-bottom is-hidden-tablet">
+    <section class="section no-padding-bottom is-hidden-desktop">
       <container class="container">
         <a class="mobile-donate-button button is-large is-fullwidth has-text-centered is-danger">
           DONATE
@@ -34,8 +34,8 @@
       </container>
     </section>
     <section class="section">
-      <div class="columns">
-        <div class="column is-6-desktop is-offset-2-desktop is-12-touch">
+      <div class="columns is-desktop">
+        <div class="column is-6-desktop is-offset-2-desktop">
           <div class="news-wrapper">
             <h1 class="title is-1">Latest News</h1>
              <article class="media">

@@ -15,8 +15,8 @@
     <div class="desktop-spacer is-hidden-mobile"></div>
     <div class="mobile-spacer is-hidden-tablet"></div>
     <section class="section">
-      <div class="columns">
-        <div class="column is-6-desktop is-offset-2-desktop is-8-tablet">
+      <div class="columns is-desktop">
+        <div class="column is-6-desktop is-offset-2-desktop is-12-tablet">
           <article>
             <h1 class="title is-1">A message to the donor</h1>
             <p>
