@@ -35,7 +35,7 @@
     </section>
     <section class="section">
       <div class="columns">
-        <div class="column is-6-desktop is-offset-2-desktop is-8-tablet">
+        <div class="column is-6-desktop is-offset-2-desktop is-12-touch">
           <div class="news-wrapper">
             <h1 class="title is-1">Latest News</h1>
              <article class="media">

@@ -1,5 +1,5 @@
-<div class="column sidebar-wrapper is-2-desktop is-4-tablet">
-  <a class="button sidebar-button is-danger is-fullwidth has-text-centered is-hidden-mobile" href="support.php">
+<div class="column sidebar-wrapper is-2-desktop">
+  <a class="button sidebar-button is-danger is-fullwidth has-text-centered is-hidden-touch" href="support.php">
     Support the campaign
   </a>
   <div class="box update-form-wrapper">
@@ -30,10 +30,10 @@
       </div>
     </form>
   </div>
-  <a href="involved.php" class="button sidebar-button is-warning is-fullwidth has-text-centered is-hidden-mobile">
+  <a href="involved.php" class="button sidebar-button is-warning is-fullwidth has-text-centered is-hidden-touch">
     Volunteer
   </a>
-  <a href="vote.php#district_map" class="button sidebar-button is-fullwidth has-text-centered is-hidden-mobile">
+  <a href="vote.php#district_map" class="button sidebar-button is-fullwidth has-text-centered">
     District Map
   </a>
   <div class="box">
