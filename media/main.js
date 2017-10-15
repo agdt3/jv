@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   /* CAROUSEL */
-  var carousel = document.querySelector('.header .carousel');
+  var carousel = document.querySelector('.hero .carousel');
 
   function getCurrentIndex($item) {
     return parseInt($item.dataset.index);

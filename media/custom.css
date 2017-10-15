@@ -99,7 +99,12 @@
     padding-top: 0.5rem;
   }
 
-  .header-button.social-icon-wrapper {
+  .header-buttons-wrapper .header-button {
+    margin-bottom: 0.25rem;
+    height: 2rem;
+  }
+
+  .header-buttons-wrapper .header-button.social-icon-wrapper {
     justify-content: flex-end;
   }
 }
