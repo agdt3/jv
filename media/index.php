@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="google" content="notranslate">
     <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vandermaas for Congress</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/main.css">
@@ -35,7 +36,7 @@
     </section>
     <section class="section">
       <div class="columns is-desktop">
-        <div class="column is-6-desktop is-offset-2-desktop">
+        <div class="column is-6-desktop is-offset-2-desktop is-12-tablet">
           <div class="news-wrapper">
             <h1 class="title is-1">Latest News</h1>
              <article class="media">

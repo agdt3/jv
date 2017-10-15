@@ -41,16 +41,16 @@
 
 @media handheld and (max-width: 999px), screen and (max-width: 999px) {
   .navbar-link {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
   .navbar-item {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
   .navbar-dropdown a.navbar-item {
     color: white;
-    font-size: 2.5rem;
+    font-size: 1.2rem;
   }
 }
 
