@@ -1,13 +1,16 @@
 document.addEventListener('DOMContentLoaded', function () {
   /* NAVBAR */
   // Get all "navbar-burger" elements
+  var $navbarBurger = document.querySelector('.navbar-burger');
+  var $navbarMenu = document.querySelector('.navbar-menu');
   var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  var $navbarItems = document.querySelectorAll(".navbar-dropdown .navbar-item");
 
   // Check if there are any nav burgers
   if ($navbarBurgers.length > 0) {
 
     // Add a click event on each of them
-    $navbarBurgers.forEach(function ($el) {
+    $navbarBurgers.forEach(($el) => {
       $el.addEventListener('click', () => {
 
         // Get the target from the "data-target" attribute
@@ -17,6 +20,20 @@ document.addEventListener('DOMContentLoaded', function () {
         // Toggle the class on both the "navbar-burger" and the "navbar-menu"
         $el.classList.toggle('is-active');
         $target.classList.toggle('is-active');
+      });
+    });
+  }
+
+  if ($navbarItems.length >0) {
+    $navbarItems.forEach(($navbarItem) => {
+      $navbarItem.addEventListener("click", (e) => {
+        if ($navbarBurger) {
+          $navbarBurger.classList.toggle('is-active');
+        }
+
+        if ($navbarMenu) {
+          $navbarMenu.classList.toggle('is-active');
+        }
       });
     });
   }
