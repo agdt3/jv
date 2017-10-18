@@ -149,6 +149,16 @@
             </form>
           </div>
         </div>
+        <?php
+          $options = array(
+            'show_support_button' => true,
+            'show_updates_form' => false,
+            'show_volunteer_button' => false,
+            'show_district_button' => true,
+            'show_twitter_box' => true,
+            'show_facebook_box' => true,
+          );
+        ?>
         <?php include_once "sidebar.php"; ?>
       </div>
     </section>
