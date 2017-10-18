@@ -40,7 +40,7 @@
                   <figure class="issues-pic issues-pic-right">
                   <img src="images/Pocatello_Train_Oct_Web.jpg"></img>
                 </figure>
-                  James is headed to Pocatello for the Clint Stennett Fall Meeting and Training Weekend! He will be attending Saturday and Sunday, and very pleased to be meeting with U.S. Sen. Jeff Merkley from Oregon, who is the keynote speaker for the conference.
+                  James went to Pocatello for the Clint Stennett Fall Meeting and Training Weekend! He attended Saturday and Sunday, and was very pleased to meet with U.S. Sen. Jeff Merkley from Oregon, who was the keynote speaker for the conference. James and Jeff hit it off from the start, both very down to earth, sharing family stories as well as agreement on many issues. And both clearly concerned about putting people and their interests before politics. They will be keeping in touch...
                   </div>
                 </div>
               </article>
