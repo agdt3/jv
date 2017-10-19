@@ -34,7 +34,6 @@
               <a class="article-learn-more button is-link" data-id="healthcare">Learn more...</a>
               <div class="extra-content is-hidden" data-id="healthcare">
               <div><p> Think of your family, your home, everything you've worked so hard for; and that if just one loved one was in a serious accident or illness, the medical bills would take it all away!</p></div>
-             
           <div><p>What To Do?
                <l>
                   <li>Fix the flaws in the existing law to keep all insured and providers solvent</li>
@@ -139,9 +138,9 @@
               </div>
               <a class="article-learn-more button is-link" data-id="taxes">Learn more...</a>
               <div class="extra-content is-hidden" data-id="taxes">
-                <p> Think of taxes like your income and the Federal budget like your household budget; You have more & more bills and you're in debt up to your eyeballs - So do you run to your boss and say 'I want a pay-cut'?! This is what many in our Congress are trying to do - cut tax revenue when we are already beyond seriously in debt up to our country's eyeballs! This is sound tax policy nor good for our economy - it's just crazy!</p>  
-                <p> Taxes should be for providing essential services and stimulating growth. No business or country can grow without investing in itself in ways that help it's people be productive, facilitate growth in business, and with more emphasis on education, creating a more able workforce. Investment in more forward-thinking infrastructure projects that create an actual return on our investment, creating more jobs and facilitating future job market expansion. This approach increases the number of businesses & citizens working and paying taxes, and that increase in tax revenue means we can balance the budget with a surplus, create a contingency reserve, and pay down our national debt!</p>
-                <p> I will also do everything I can to ensure that there is no misuse of your tax dollars.  As with the recent personal travel scandals that are apparently costing us tax payers into the millions of dollars now, rules & laws should be enforced, these people should be fired and made to pay back every misused tax dollar.</p>
+                <p> Think of taxes like your income and the Federal budget like your household budget; You have more and more bills and you're in debt up to your eyeballs - So do you run to your boss and say 'I want a pay-cut'?! This is what many in our Congress are trying to do - cut tax revenue when we are already beyond seriously in debt up to our country's eyeballs! This is sound tax policy nor good for our economy - it's just crazy!</p>
+                <p> Taxes should be for providing essential services and stimulating growth. No business or country can grow without investing in itself in ways that help it's people be productive, facilitate growth in business, and with more emphasis on education, creating a more able workforce. Investment in more forward-thinking infrastructure projects that create an actual return on our investment, creating more jobs and facilitating future job market expansion. This approach increases the number of businesses and citizens working and paying taxes, and that increase in tax revenue means we can balance the budget with a surplus, create a contingency reserve, and pay down our national debt!</p>
+                <p> I will also do everything I can to ensure that there is no misuse of your tax dollars.  As with the recent personal travel scandals that are apparently costing us tax payers into the millions of dollars now, rules and laws should be enforced, these people should be fired and made to pay back every misused tax dollar.</p>
               </div>
             </article>
             <hr/>
@@ -184,7 +183,7 @@
                 <figure class="issues-pic issues-pic-right">
                   <i class="fa fa-line-chart"></i>
                 </figure>
-                <p>Growth requires infrastructure development and investment in our most precious resource – our people! We create a strong economy when all our citizens are trained and working, and when our citizens and business have the environment necessary to thrive. Supporting both workers and business, encouraging & strengthening that reliance as an 'alliance' in working toward mutual success. Currently, student loan debt is large than all credit card debt in America - decreasing or eliminating that debt will put more cash into the economy, increasing economic health, growth, and employment.</p>
+                <p>Growth requires infrastructure development and investment in our most precious resource – our people! We create a strong economy when all our citizens are trained and working, and when our citizens and business have the environment necessary to thrive. Supporting both workers and business, encouraging and strengthening that reliance as an 'alliance' in working toward mutual success. Currently, student loan debt is large than all credit card debt in America - decreasing or eliminating that debt will put more cash into the economy, increasing economic health, growth, and employment.</p>
               </div>
               <a class="article-learn-more button is-link" data-id="economy">Learn more...</a>
               <div class="extra-content is-hidden" data-id="economy">
