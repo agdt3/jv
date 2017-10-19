@@ -91,7 +91,7 @@
                 <figure class="issues-pic issues-pic-left">
                   <img src="images/issues_education.jpg"></img>
                 </figure>
-                <p>I commit to treating education as though it is one of our most valuable assets - Which it is! I will work to reform legislative support of education to focus on the children, from Pre-K to preparing students for careers, whether a vocational certification or 2 or 4Year college degree. Build relevant curriculum with input from industry leaders. Make college free through revenue neutral tax deductions, incentives and reforms for business and industry. Require graduates to perform community service ‘pay-back’. Unleash tremendous economic activity by eliminating student debt. Our children are an as yet untapped intellectual resource and could do so much more if only provided with the tools for success - Imagine what all our children could do if educated to their potential.  Education is an investment in the future of our children, an essential investment our nation’s future, and the key to our long-term economic success, growth and security.</p>
+                <p>Educated citizens are one of our most valuable assets! I will work to reform legislative support of education to focus on the children, from Pre-K to preparing students for careers, whether a vocational certification or 2 or 4Year college degree. Build relevant curriculum with input from industry leaders. Make college free through revenue neutral tax deductions, incentives and reforms for business and industry. Require graduates to perform community service ‘pay-back’. Unleash tremendous economic activity by eliminating student debt. Our children are an as yet untapped intellectual resource and could do so much more if only provided with the tools for success - Imagine what all our children could do if educated to their potential.  Education is an investment in the future of our children, an essential investment our nation’s future, and the key to our long-term economic success, growth and security.</p>
               </div>
               <a class="article-learn-more button is-link" data-id="education">Learn more...</a>
               <div class="extra-content is-hidden" data-id="education">
@@ -123,7 +123,7 @@
                 <l><p><li>*Affordable Jobs? These are jobs that actually pay respectable wages that afford you the dignity and pride of being self-sufficient, and the ability to live an independent lifestyle.
                 <li> A realistic 'Living Wage' that is fair to business and the employee, utilizing rationally applied changes to the minimum wage based upon regional cost of living indexes.</li>
                 <li>Create jobs that create jobs! Strategic infrastructure projects that create jobs on their own, but also provide existing and new businesses the room for growth in an expanded 'free market'. Case in point; Install fiber optic/broadband throughout Idaho - Imagine all the new business start-ups and business growth in areas that were formerly inaccessible for today's high-sped business environment!</li>
-                <li>One way to stop businesses from replacing humans with automation or robots - besides a move well educated workforce, create 'employment' and 'employee' based tax incentives that encourage business to hire and retain their employees - No employees, no tax write-offs!</li>
+                <li>One way to stop businesses from replacing humans with automation or robots - besides a more well educated workforce, create 'employment' and 'employee' based tax incentives that encourage business to hire and retain their employees - No employees, no tax write-offs!</li>
                 </l>
               </div>
             </article>
@@ -188,7 +188,7 @@
               </div>
               <a class="article-learn-more button is-link" data-id="economy">Learn more...</a>
               <div class="extra-content is-hidden" data-id="economy">
-                <p>In addition to the effects of the education, jobs and healthcare plans on the economy, only invest in infrastructure projects that promote growth and economic development, creating "win-win" scenarios for all stakeholders with an expectation of mutual return on our investment! Employee/employment based tax incentives.</p>
+                <p>In addition to the effects of the education, jobs and healthcare plans on the economy, only invest in infrastructure projects that promote growth and economic development, creating "win-win" scenarios for all stakeholders with an expectation of mutual return on our investment! Migrate business tax incentives to Employee/employment based deductions encouraging employee retention and 'affordable wages'.</p>
               </div>
             </article>
             <hr/>
@@ -199,9 +199,8 @@
                 <figure class="issues-pic issues-pic-left">
                   <i class="fa fa-lock"></i>
                 </figure>
-                <p>I spent over 30 years in Law Enforcement keeping people safe. As a former member of a SWAT Team, Sheriff's Cliff-Dive Search and Rescue, and more, I will continue keeping Americans safe!  I will demand that DHS take the Russian threat seriously and do all it can to protect America’s elections from manipulation.</p>
+                <p>I spent over 44 years in public service, initially as a Fireman/EMT-Paramedic, and with over 30 years in Law Enforcement helping to keep people safe. As a former member of a SWAT Team, Sheriff's Cliff-Dive Search and Rescue, work in our Information Technologies Unit dealing with cyber and security issues, and more, I will continue keeping Americans safe!  I will demand that DHS and the Justice Department take the Russian threat seriously and do all it can to protect America’s elections from manipulation.</p>
               </div>
-              <a class="article-learn-more button is-link" data-id="campaign">Learn more...</a>
               <div class="extra-content is-hidden" data-id="homeland_security">
                 <?php include_once "support_fragment.php" ?>
               </div>
@@ -214,9 +213,11 @@
                 <figure class="issues-pic issues-pic-right">
                   <i class="fa fa-user-circle-o"></i>
                 </figure>
-                <p>Enforce existing laws, and reform what doesn't work! </p>
-              </div>
-              <a class="article-learn-more button is-link" data-id="immigration">Learn more...</a>
+                <p>Enforce existing laws, and reform what doesn't work, with particular attention to worker visas in support of our agriculture and dairy industries!</p>
+               <br>
+            <p><h1 class="title is-1">DACA</h1>
+               These kids were raised here in America, America is all they know or remember, and they are all contributing to America. They learn, they work, pay taxes and contribute to America, and many are serving in our military. And all DACA children have gone through an in depth vetting process before qualifying. I will work to make DACA an actual law with a path to citizenship, so these kids can be protected from and not subject to the whims of any executive in the White House.</p>
+                 
               <div class="extra-content is-hidden" data-id="immigration">
                 <?php include_once "support_fragment.php" ?>
               </div>
@@ -229,10 +230,11 @@
                  <figure class="issues-pic issues-pic-left">
                   <i class="fa fa-money"></i>
                 </figure>
-                <p>[INFORMATION PENDING]</p>
+                <p> We must find a way to reverse the 'Citizens United' decision! Citizen United unfortunately allows unlimited amounts of money from unknown contributors to be used in our elections. Now think about that - unknown contributors could be anyone, including foreign interests, and large corporations that are only looking out for 'their' interests, not those of the average working person. Currently, SuperPACs are formed and the 'unknowns' spend unlimited amounts of money for the purpose of effecting elections through negative and deceptive advertising. In order for our elections to truly be fair, and for the average American citizen's voice to be heard, this must stop!</p>
               </div>
               <a class="article-learn-more button is-link" data-id="campaign">Learn more...</a>
               <div class="extra-content is-hidden" data-id="campaign">
+              <p>In 2010, the Supreme Court, in a 5 to 4 decision, decided that 'money is free speech', super PACs were formed, and in six short years, we now have a Congress that is more interested in corporations and 'Party' than people, and a President named Trump...  If monetary contributions are free speech, considering the spending power of the Koch brothers and those other wealthy corporations that contribute many millions to Super PACs - do you, the average voter, still have the ability to compete? Do you have the same equal influence as the Koch brothers? Or has this caused the 'playing field' to become so un-level that our voices may never be heard? </p>
                 <?php include_once "support_fragment.php" ?>
               </div>
             </article>
@@ -277,7 +279,11 @@
                 <figure class="issues-pic issues-pic-left">
                   <i class="fa fa-stethoscope"></i>
                 </figure>
-                <p>I am a Christian and actually am personally "pro-life". That is my choice. As a Christian, I respect the bible, specifically Matthew 7, "Judge not, that ye be not judged.", so I firmly believe it is not for me to judge the choices of others - it is between them and God.</p>
+                <p>I am a Christian and actually am personally "pro-life". That is my choice. As a Christian, I respect the bible, specifically Matthew 7, "Judge not, lest ye be judged.", so I firmly believe it is not for me to judge the choices of others - it is between them and God.</p>
+              </div>
+               <a class="article-learn-more button is-link" data-id="abortion">Learn more...</a>
+                <div class="extra-content is-hidden" data-id="abortion">
+                <p>Raul Labrador, Russ Fulcher and those who share their political beliefs are actually 'pro-birth', NOT 'pro-life', and have also said that 'healthcare is not a right'...! So using this logic, once born, the mother knows that she and her child are on their own! Knowing the economic hardship she would face, don't the 'pro-birth' people understand that they are actually forcing women to make unwanted choices? Shouldn't being 'Pro-Life' mean that you want create an environment where children and families can thrive? </p>
               </div>
             </article>
           </div>

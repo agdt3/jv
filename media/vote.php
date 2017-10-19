@@ -31,12 +31,16 @@
                 </div>
                 <div class="column is-10">
                   <p>Follow the instructions on this form. Complete the form an deliver or send in to be eligible to vote</p>
-                  <a href="http://www.idahovotes.gov/VoterReg/voter_registration.pdf">Click here to register!</a>
-                </div>
+                  <a href="http://www.idahovotes.gov/VoterReg/voter_registration.pdf" target="_blank" >Click here to register!</a>
+                <p>Vote by Mail? Click below and follow the instructions on the 'Absentee Ballot Application Form'. Complete the form, print, sign, and mail or fax it in.</p>
+                  <a href="http://idahovotes.gov/VoterReg/absentee.pdf" target="_blank">Click here to request an 'Absentee Ballot'!</a>
+               </div>
               </div>
             </article>
+            <a class="anchor-tag" id="check_registration"></a>             
+            </article>
             <a class="anchor-tag" id="check_registration"></a>
-            <hr/>
+           <hr/>
             <article>
               <h1 class="title is-1">Am I Registered?</h1>
               <div class="columns">
@@ -45,7 +49,7 @@
                 </div>
                 <div class="column is-10">
                   <p>Enter your information and make sure your address is correct</p>
-                  <a href="http://www.idahovotes.gov/YPP_NEW/AmIRegistered.aspx">Click here to check if you're registered</a>
+                  <a href="http://www.idahovotes.gov/YPP_NEW/AmIRegistered.aspx" target="_blank">Click here to check if you're registered</a>
                 </div>
               </div>
             </article>
@@ -59,9 +63,9 @@
                 </div>
                 <div class="column is-10">
                   <ul>
-                    <li><a href="https://www.voteriders.org/">Voteriders</a></li>
-                    <li><a href="https://www.fvap.gov/vao/vag">Absentee Voting Guide</a></li>
-                    <li><a href="http://www.dmv.org/id-idaho/voter-registration.php">DMV Voting Registration</a></li>
+                    <li><a href="https://www.voteriders.org/" target="_blank">Voteriders</a></li>
+                    <li><a href="https://www.fvap.gov/vao/vag" target="_blank">Absentee Voting Guide</a></li>
+                    <li><a href="http://www.dmv.org/id-idaho/voter-registration.php" target="_blank">DMV Voting Registration</a></li>
                   </ul>
                 </div>
               </div>
@@ -72,7 +76,7 @@
               <div class="columns">
                 <div class="column is-12">
                   <h1 class="title is-1">District Map</h1>
-                  <iframe width="100%" height="800" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.govtrack.us/congress/members/embed/mapframe?state=id&district=1&bounds=-120.197,49.045,-111.167,41.724"></iframe>
+                  <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.govtrack.us/congress/members/embed/mapframe?state=id&district=1&bounds=-120.197,49.045,-111.167,41.724"></iframe>
                 </div>
               </div>
             </article>
