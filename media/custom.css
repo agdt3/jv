@@ -408,12 +408,12 @@ a.anchor-tag {
     padding-left: 2rem;
   }
 
-  .issues-icon-left {
+  .issues-pic-left {
     float: none;
     padding-right: 0;
   }
 
-  .issues-icon-right {
+  .issues-pic-right {
     float: none;
     padding-left: 0;
   }
@@ -434,9 +434,13 @@ a.anchor-tag {
 }
 
 @media only screen and (max-device-width: 999px) {
+  .vote-option-wrapper .vote-section-header h1 {
+    font-size: 2.3rem;
+  }
+
   .vote-option-wrapper .vote-section-header i {
-    display: flex;
-    font-size: 3rem;
+    display: inline;
+    font-size: 2.3rem;
   }
 
   .vote-option-wrapper .vote-section-icon {
