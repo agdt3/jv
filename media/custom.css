@@ -74,6 +74,17 @@
   border: 1px solid white;
 }
 
+@media only screen and (max-device-width: 999px) {
+  .navbar-brand a.navbar-item:hover {
+    background-color: navy;
+  }
+
+ .navbar-brand .navbar-burger:hover {
+    background-color: navy;
+  }
+}
+
+
 .no-padding-bottom {
   padding-bottom: 0;
 }
@@ -336,7 +347,6 @@ a.anchor-tag {
 
 .box.sidebar-fb-container {
   display: flex;
-  flex-direction: row;
   padding: 0;
 }
 
