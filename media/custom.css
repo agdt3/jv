@@ -337,7 +337,6 @@ a.anchor-tag {
 .box.sidebar-fb-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   padding: 0;
 }
 
@@ -434,7 +433,7 @@ a.anchor-tag {
 }
 
 @media only screen and (max-device-width: 999px) {
-  .vote-option-wrapper .vote-section-header h1 {
+  .vote-option-wrapper .vote-section-header {
     font-size: 2.3rem;
   }
 

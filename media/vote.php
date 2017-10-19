@@ -33,6 +33,7 @@
                   <p>Follow the instructions on this form. Complete the form an deliver or send in to be eligible to vote</p>
                   <a href="http://www.idahovotes.gov/VoterReg/voter_registration.pdf" target="_blank" >Click here to register!</a>
                   <br/>
+                  <br/>
                   <p>Vote by Mail? Click below and follow the instructions on the 'Absentee Ballot Application Form'. Complete the form, print, sign, and mail or fax it in.</p>
                   <a href="http://idahovotes.gov/VoterReg/absentee.pdf" target="_blank">Click here to request an 'Absentee Ballot'!</a>
                </div>
