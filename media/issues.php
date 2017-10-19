@@ -183,7 +183,7 @@
                 <figure class="issues-pic issues-pic-right">
                   <i class="fa fa-line-chart"></i>
                 </figure>
-                <p>Growth requires infrastructure development and investment in our most precious resource – our people! We create a strong economy when all our citizens are trained and working, and when our citizens and business have the environment necessary to thrive. Supporting both workers and business, encouraging and strengthening that reliance as an 'alliance' in working toward mutual success. Currently, student loan debt is large than all credit card debt in America - decreasing or eliminating that debt will put more cash into the economy, increasing economic health, growth, and employment.</p>
+                <p>Growth requires infrastructure development and investment in our most precious resource – our people! We create a strong economy when all our citizens are trained and working, and when our citizens and business have the environment necessary to thrive. Supporting both workers and business, encouraging and strengthening that reliance as an 'alliance' in working toward mutual success. Currently, student loan debt is larger than all credit card debt in America - decreasing or eliminating that debt will put more cash into the economy, increasing economic health, growth, and employment.</p>
               </div>
               <a class="article-learn-more button is-link" data-id="economy">Learn more...</a>
               <div class="extra-content is-hidden" data-id="economy">
@@ -278,7 +278,7 @@
                 <figure class="issues-pic issues-pic-left">
                   <i class="fa fa-stethoscope"></i>
                 </figure>
-                <p>I am a Christian and actually am personally "pro-life". That is my choice. As a Christian, I respect the bible, specifically Matthew 7, "Judge not, lest ye be judged.", so I firmly believe it is not for me to judge the choices of others - it is between them and God.</p>
+                <p>I am a Christian and actually am personally "pro-life". That is my choice. As a Christian, I respect the bible, specifically Matthew 7, "Judge not, lest ye be judged.", so I firmly believe it is not for me to judge the choices of others -  it is a decision each woman must decide for herself.</p>
               </div>
                <a class="article-learn-more button is-link" data-id="abortion">Learn more...</a>
                 <div class="extra-content is-hidden" data-id="abortion">
