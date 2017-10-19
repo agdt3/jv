@@ -13,7 +13,7 @@
               <i class="fa fa-twitter"></i>
             </span>
           </a>
-          <a class="social-icon" href="https://www.facebook.com/votevandermaas2018/">
+          <a class="social-icon" href="https://www.facebook.com/VoteVandermaas-123623828310861/">
             <span class="icon is-medium">
               <i class="fa fa-facebook"></i>
             </span>
