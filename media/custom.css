@@ -321,7 +321,7 @@
 a.anchor-tag {
   display: block;
   position: relative;
-  top: -190px;
+  top: -178px;
   visibility: hidden;
 }
 
@@ -336,11 +336,9 @@ a.anchor-tag {
 
 .box.sidebar-fb-container {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   padding: 0;
-}
-
-.box.sidebar-fb-container .fb-page.fb_iframe_widget {
-  margin: 0 auto;
 }
 
 /* Plan */
@@ -372,20 +370,6 @@ a.anchor-tag {
   max-width: 300px;
 }
 
-.issues-pic i {
-  font-size: 10rem;
-}
-
-@media only screen and (max-device-width: 999px) {
-  .issues-pic i {
-    font-size: 8rem;
-  }
-
-  .extra-content {
-    padding-left: 2rem;
-  }
-}
-
 .issues-pic-left {
   float: left;
   padding-right: 1rem;
@@ -396,14 +380,68 @@ a.anchor-tag {
   padding-left: 1rem;
 }
 
+.issues-icon {
+  height: 100%;
+  max-width: 300px;
+}
+
+.issues-icon i {
+  font-size: 10rem;
+}
+
+.issues-icon-left {
+  float: left;
+  padding-right: 1rem;
+}
+
+.issues-icon-right {
+  float: right;
+  padding-left: 1rem;
+}
+
+@media only screen and (max-device-width: 999px) {
+  .issues-icons i {
+    font-size: 8rem;
+  }
+
+  .extra-content {
+    padding-left: 2rem;
+  }
+
+  .issues-icon-left {
+    float: none;
+    padding-right: 0;
+  }
+
+  .issues-icon-right {
+    float: none;
+    padding-left: 0;
+  }
+}
+
 /* Vote */
-div.vote-option-wrapper i.fa {
+.vote-option-wrapper .vote-section-header i {
+  display: none;
+}
+
+.vote-option-wrapper .vote-section-icon i.fa {
   font-size: 5rem;
 }
 
-div.vote-option-wrapper a {
+.vote-option-wrapper .vote-section-body a {
   color: navy;
   font-size: 2rem;
+}
+
+@media only screen and (max-device-width: 999px) {
+  .vote-option-wrapper .vote-section-header i {
+    display: flex;
+    font-size: 3rem;
+  }
+
+  .vote-option-wrapper .vote-section-icon {
+    display: none;
+  }
 }
 
 /* About */

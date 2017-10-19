@@ -26,7 +26,7 @@
             <article>
               <h1 class="title is-1">Healthcare</h1>
               <div class="main-content">
-                <figure class="issues-pic issues-pic-left">
+                <figure class="issues-icon issues-icon-left">
                   <i class="fa fa-heartbeat"></i>
                 </figure>
                 <p>We ALL have a right to affordable and cost-effective healthcare - it can be a reality. We can strengthen and expand Medicare in phases, covering more people while lowering costs. We can stabilize the market by fixing the current laws, have Congress actually pay what they promised, then reduce more costs by repealing the Republican's prescription law that forces us to pay full price, then allowing Medicare to negotiate down drug prices and other services.</p>
@@ -131,7 +131,7 @@
             <article>
               <h1 class="title is-1">Taxes</h1>
               <div class="main-content">
-                <figure class="issues-pic issues-pic-left">
+                <figure class="issues-icon issues-icon-left">
                   <i class="fa fa-dollar"></i>
                 </figure>
                 <p>I will fight to cut waste and eliminate any unnecessary taxes, invest in infrastructure projects that create actual return on our investment, both from actual work on the projects, but also returns from the markets the new infrastructure helps to create, and increase our tax revenue by creating more 'affordable jobs'. I will work to create a balanced budget, with any and all surplus going into a cash reserve, and to pay down our national debt.</p>
@@ -148,11 +148,10 @@
             <article>
               <h1 class="title is-1">Social Security / Medicare</h1>
               <div class="main-content">
-                <figure class="issues-pic issues-pic-right">
+                <figure class="issues-icon issues-icon-right">
                   <i class="fa fa-medkit"></i>
                 </figure>
                 <p>I will protect these programs. You, your parents and grandparents have paid for these programs all your working lives and you deserve to get the benefits you paid for. I will make sure Congress pays back the trillions of dollars in IOU's it "borrowed" from your Social Security and Medicare. That repayment, plus the current 2.5 Trillion dollar surplus, will keep Social Security and Medicare safe for you and your children. And I will work to ensure that Social Security payments adjust to keep pace with inflation. </p>
-             
               <a class="article-learn-more button is-link" data-id="social_security">Learn more...</a>
               <div class="extra-content is-hidden" data-id="social_security">
                 <p>Contrary to what we've been hearing about Social Security, there is time to evaluate and see what might need to be fixed. We have had some challenges to the system; high unemployment and lower wages resulting in less and lower contributions, Trillions of our dollars being 'borrowed' by the Republican congress and being spent on the general budget of the U.S. - the same general budget that  Ryan Zinke and Tom Price use for their hundreds of thousands of dollars in personal/private travel.</p>
@@ -164,15 +163,14 @@
             <article>
               <h1 class="title is-1">Energy</h1>
               <div class="main-content">
-                <figure class="issues-pic issues-pic-left">
+                <figure class="issues-icon issues-icon-left">
                   <i class="fa fa-bolt"></i>
                 </figure>
                 <p>It's time to increase investment in Solar and Wind energy, especially because they are free. Not only is it cheap, safe and won't run out, but it also creates good-paying jobs here in Idaho. And it just makes sound business sense! Idaho can become an energy independent state, an energy exporting state, and the first state to reduce energy cost while protecting our environment!</p>
-             
               <a class="article-learn-more button is-link" data-id="energy">Learn more...</a>
               <div class="extra-content is-hidden" data-id="energy">
                 <p> Solar (PV) panels installed on homes are now lasting over 20 years, and the average recapture of those costs, after tax credit incentives, is about 7 to 9 years - it's paid off and the energy you generate is free! The installations are done tying into your local power company, Idaho Power in our case, so from day one, once the system is approved and installed, you are then able to obtain offsets through 'net metering'.  Basically, that means if you produce more energy than you use, you are off the grid and get energy credits for any excess that your systems put into the grid - which you can use later at no cost. And on the days when you produce less than you use, Idaho Power supplements the difference. Much of the savings starts right away. This net metering tariff is also available for wind, hydro, biomass, geothermal and fuel cell technologies. </p>
-            <p> Many cities and towns across the country are converting their municipal energy requirements to some combination of Wind/Solar and other sources, and are cutting their power bills dramatically! Whether you support this because of your love of the environment or your love of money - or both - it is a very sound investment for our state, or country, and you.  And there is the 3rd reason I'm particularly fond of it; eventual energy/political independence from foreign energy sources. 
+            <p> Many cities and towns across the country are converting their municipal energy requirements to some combination of Wind/Solar and other sources, and are cutting their power bills dramatically! Whether you support this because of your love of the environment or your love of money - or both - it is a very sound investment for our state, or country, and you.  And there is the 3rd reason I'm particularly fond of it; eventual energy/political independence from foreign energy sources.
               </div>
             </article>
             <hr/>
@@ -180,7 +178,7 @@
             <article>
               <h1 class="title is-1">Economy</h1>
               <div class="main-content">
-                <figure class="issues-pic issues-pic-right">
+                <figure class="issues-icon issues-icon-right">
                   <i class="fa fa-line-chart"></i>
                 </figure>
                 <p>Growth requires infrastructure development and investment in our most precious resource – our people! We create a strong economy when all our citizens are trained and working, and when our citizens and business have the environment necessary to thrive. Supporting both workers and business, encouraging and strengthening that reliance as an 'alliance' in working toward mutual success. Currently, student loan debt is large than all credit card debt in America - decreasing or eliminating that debt will put more cash into the economy, increasing economic health, growth, and employment.</p>
@@ -195,7 +193,7 @@
             <article>
               <h1 class="title is-1">Homeland Security</h1>
               <div class="main-content">
-                <figure class="issues-pic issues-pic-left">
+                <figure class="issues-icon issues-icon-left">
                   <i class="fa fa-lock"></i>
                 </figure>
                 <p>I spent over 44 years in public service, initially as a Fireman/EMT-Paramedic, and with over 30 years in Law Enforcement helping to keep people safe. As a former member of a SWAT Team, Sheriff's Cliff-Dive Search and Rescue, work in our Information Technologies Unit dealing with cyber and security issues, and more, I will continue keeping Americans safe!  I will demand that DHS and the Justice Department take the Russian threat seriously and do all it can to protect America’s elections from manipulation.</p>
@@ -209,14 +207,13 @@
             <article>
               <h1 class="title is-1">Immigration</h1>
               <div class="main-content">
-                <figure class="issues-pic issues-pic-right">
+                <figure class="issues-icon issues-icon-right">
                   <i class="fa fa-user-circle-o"></i>
                 </figure>
                 <p>Enforce existing laws, and reform what doesn't work, with particular attention to worker visas in support of our agriculture and dairy industries!</p>
                <br>
             <p><h1 class="title is-1">DACA</h1>
                These kids were raised here in America, America is all they know or remember, and they are all contributing to America. They learn, they work, pay taxes and contribute to America, and many are serving in our military. And all DACA children have gone through an in depth vetting process before qualifying. I will work to make DACA an actual law with a path to citizenship, so these kids can be protected from and not subject to the whims of any executive in the White House.</p>
-                 
               <div class="extra-content is-hidden" data-id="immigration">
                 <?php include_once "support_fragment.php" ?>
               </div>
@@ -226,7 +223,7 @@
             <article>
               <h1 class="title is-1">Campaign Finance</h1>
               <div class="main-content">
-                 <figure class="issues-pic issues-pic-left">
+                 <figure class="issues-icon issues-icon-left">
                   <i class="fa fa-money"></i>
                 </figure>
                 <p> We must find a way to reverse the 'Citizens United' decision! Citizen United unfortunately allows unlimited amounts of money from unknown contributors to be used in our elections. Now think about that - unknown contributors could be anyone, including foreign interests, and large corporations that are only looking out for 'their' interests, not those of the average working person. Currently, SuperPACs are formed and the 'unknowns' spend unlimited amounts of money for the purpose of effecting elections through negative and deceptive advertising. In order for our elections to truly be fair, and for the average American citizen's voice to be heard, this must stop!</p>
@@ -242,7 +239,7 @@
             <article>
               <h1 class="title is-1">2nd Amendment</h1>
               <div class="main-content">
-                 <figure class="issues-pic issues-pic-right">
+                 <figure class="issues-icon issues-icon-right">
                   <i class="fa fa-balance-scale"></i>
                 </figure>
                 <p>Pro! Over half our population have guns and do handle them responsibly. Our concerns are for those few that endanger our families and loved ones.</p>
@@ -253,7 +250,7 @@
             <article>
               <h1 class="title is-1">Welfare</h1>
               <div class="main-content">
-                 <figure class="issues-pic issues-pic-left">
+                 <figure class="issues-icon issues-icon-left">
                   <i class="fa fa-handshake-o"></i>
                 </figure>
                 <p>Invest in a "Path to Work". We will help the unemployed and those on public assistance by providing education, job training, and placement to help them achieve financial independence. The system is clearly broken and unfortunately misguided efforts to save money trap people on welfare. These folks just need help to be productive, and providing the education and tools necessary for their success save us all money in the long run, and creates productive tax-paying citizens.</p>
@@ -264,7 +261,7 @@
             <article>
               <h1 class="title is-1">Middle Class</h1>
               <div class="main-content">
-                 <figure class="issues-pic issues-pic-right">
+                 <figure class="issues-icon issues-icon-right">
                   <i class="fa fa-group"></i>
                 </figure>
                 <p>A strong and productive middle-class with affordable jobs is the key to a strong and productive economy, and key to keeping our country healthy and safe.</p>
@@ -275,7 +272,7 @@
             <article>
               <h1 class="title is-1">Abortion</h1>
               <div class="main-content">
-                <figure class="issues-pic issues-pic-left">
+                <figure class="issues-icon issues-icon-left">
                   <i class="fa fa-stethoscope"></i>
                 </figure>
                 <p>I am a Christian and actually am personally "pro-life". That is my choice. As a Christian, I respect the bible, specifically Matthew 7, "Judge not, lest ye be judged.", so I firmly believe it is not for me to judge the choices of others - it is between them and God.</p>
