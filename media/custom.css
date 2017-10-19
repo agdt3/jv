@@ -330,6 +330,14 @@ a.anchor-tag {
   min-width: 224px;
 }
 
+.box.sidebar-twitter-container {
+  padding: 1.0rem;
+}
+
+.box.sidebar-fb-container {
+  padding: none;
+}
+
 /* Plan */
 .plan-list li {
   margin: 1rem 0;
@@ -407,4 +415,9 @@ div.vote-option-wrapper a {
 .support-fragment ul {
   list-style-type: disc;
   padding-left: 2rem;
+}
+
+/* Etc */
+.is-alternate-cta {
+  background-color: hsl(48, 100%, 67%);
 }
