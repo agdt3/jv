@@ -35,7 +35,7 @@
         <figure class="title-image-footer">
           <img src="/images/header-logo.png">
         </figure>
-        <div class="disclaimer"><div>Paid for by James Vandermaas for Congress</div></div>
+        <div class="disclaimer"><div>Paid for by James Vandermaas for Idaho</div></div>
         <div class="credits">Political website design by Ragtag</div>
       </div>
     </div>
