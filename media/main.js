@@ -128,6 +128,31 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
+// Articles/Calendar
+document.addEventListener('DOMContentLoaded', function () {
+  var articleToggle = document.querySelector('.section-toggle.news-section-button');
+  var calendarToggle = document.querySelector('.section-toggle.calendar-section-button');
+  var articleSection = document.querySelector('.article-wrapper');
+  var calendarSection = document.querySelector('.calendar-wrapper');
+  if (articleToggle) {
+    articleToggle.addEventListener('click', () => {
+      if (articleSection && calendarSection) {
+        articleSection.classList.remove('is-hidden');
+        calendarSection.classList.add('is-hidden');
+      }
+    });
+  }
+
+  if (calendarToggle) {
+    calendarToggle.addEventListener('click', () => {
+      if (articleSection && calendarSection) {
+        articleSection.classList.add('is-hidden');
+        calendarSection.classList.remove('is-hidden');
+      }
+    });
+  }
+});
+
 document.addEventListener('DOMContentLoaded', function () {
   function getFormData($form) {
     var form_map = {};

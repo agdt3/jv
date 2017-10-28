@@ -23,62 +23,72 @@
       <div class="columns is-desktop">
         <div class="column is-6-desktop is-offset-2-desktop is-12-tablet">
           <div class="news-wrapper">
-            <h1 class="title is-1">Latest News</h1>
+            <h1 class="title is-1">
+              <div class="section-toggle news-section-button">Latest News</div>
+              <div class="section-toggle calendar-section-button">Upcoming Events<div>
+            </h1>
+            <section class="article-wrapper">
+              <article class="media">
+                <div class="media-left">Oct 13-15th</div>
+                <div class="media-content">
+                  <div class="content">
+                    <h2 class="subtitle is-4">Clint Stennett Fall Meeting and Training</h2>
+                    <figure class="issues-pic issues-pic-right">
+                    <img src="images/Pocatello_Train_Oct_Web.jpg"></img>
+                  </figure>
+                    James went to Pocatello for the Clint Stennett Fall Meeting and Training Weekend! He attended Saturday and Sunday, and was very pleased to meet with U.S. Sen. Jeff Merkley from Oregon, who was the keynote speaker for the conference. James and Jeff hit it off from the start, both very down to earth, sharing family stories as well as agreement on many issues. And both clearly concerned about putting people and their interests before politics. They will be keeping in touch...
+                </div>
+              </div>
+              </article>
              <article class="media">
-              <div class="media-left">Oct 13-15th</div>
-              <div class="media-content">
-                <div class="content">
-                  <h2 class="subtitle is-4">Clint Stennett Fall Meeting and Training</h2>
-                  <figure class="issues-pic issues-pic-right">
-                  <img src="images/Pocatello_Train_Oct_Web.jpg"></img>
-                </figure>
-                  James went to Pocatello for the Clint Stennett Fall Meeting and Training Weekend! He attended Saturday and Sunday, and was very pleased to meet with U.S. Sen. Jeff Merkley from Oregon, who was the keynote speaker for the conference. James and Jeff hit it off from the start, both very down to earth, sharing family stories as well as agreement on many issues. And both clearly concerned about putting people and their interests before politics. They will be keeping in touch...
+                <div class="media-left">Oct 6-8th</div>
+                <div class="media-content">
+                  <div class="content">
+                    <h2 class="subtitle is-4">Kootenai County Democrats</h2>
+                    <figure class="issues-pic issues-pic-right">
+                      <img src="images/KC Dems.png"></img>
+                    </figure>
+                    <p>On his latest trip to North Idaho from October 6th-8th, James Vandermaas met with the Kootenai County Democrat Candidate Recruitment and Support Committee to introduce himself and listen to what Kootenai Democrats are concerned with. Some of the Democrats in attendance included Paula Niels, the Chair of the Kootenai Democrat Central Committee, Richard Rolland, the Vice Chair of the KCDCC, Christopher Matthews, the Chair of the Candidate Recruitment Committee, and Shem Hanks, the President of the Kootenai Democratic Club. James showed genuine knowledge and a precise plan for what he would do if elected in areas of Education, Business Relations, Healthcare, and an ingenious idea of factoring in cost of living factors to better adjust the livable wage for specific communities.</p>
+                    <p>James was asked about DACA and the committee was very pleased with his support of these young productive members of our county, who have put themselves out there. When asked how he would respond to moderate and progressive Democrats, Mr. Vandermaas illustrated his plan for a ‘Coalition of Democracy” to bring everyone together to give all Idahoans in Congressional District 1 a voice, one unified voice regardless of whether you are conservative, progressive, Republican, Democrat, or anything in between.</p>
+                    <p>James left the meeting with more support and greater excitement in the prospect of a competent, well-organized, and decisive Democrat running for Congress. A serious contender for a serious seat. The committee was very impressed with the ease and knowledge James was able to show when he answered questions on the fly, showing his genuine and decisive nature. The Committee felt confidant that James Vandermaas could bring together Idahoans regardless of party. On Saturday James and Cindy attended “Disco Inferno 2017: 80’s Dance Explosion": the fourth annual benefit for Coeur d’Alene School District 271 school libraries, taking the night to support our Schools.</p>
+  <p>-Christopher S. Matthews, Candidate Recruitment/Support Committee Chair</p>
+                </div>
+              </div>
+            </article>
+             <article class="media">
+                <div class="media-left">Sept 15th</div>
+                <div class="media-content">
+                  <div class="content">
+                    <h2 class="subtitle is-4">JFK Banquet</h2>
+                    <figure class="issues-pic issues-pic-right">
+                      <img src="images/Ada_Co_Dems.jpg"></img>
+                      <img src="images/JFK Banquet_2017.jpg"></img>
+                    </figure>
+                    <p>Sponsored by the Ada County Democrats, this was fundraiser and wonderful social event. Our friend Sam Sandmire did a great job as emcee, and the keynote speaker, Cook County Commissioner Bridget Gainer, gave quite a relevant talk.  Between good friends, good food, and winning one of the silent auction gift baskets, James and Cindy had a great night!</p>
+                </div>
+              </div>
+            </article>
+              <article class="media">
+                <div class="media-left">June 3rd</div>
+                <div class="media-content">
+                  <div class="content">
+                    <h2 class="subtitle is-4">March for Truth Boise</h2>
+                    <figure class="issues-pic issues-pic-right">
+                      <img src="images/March4Truth_Jim_Crop.jpg"></img>
+                    </figure>
+                    <p>Put together in only 3-4 days, this rally was held on the steps of the Idaho State Capitol.  Speakers included Melissa Wintrow - Idaho Rep. from 19-B, John McCrostie - Idaho Rep. from 16-A, Chase Johnson - Adjunct Professor of Global Studies and Frank Church Institute Research Associate, and James Vandermaas - our candidate for the 1st Congressional District, and was well attended by over 100 concerned citizens. For further info on the 'March for Truth'; <a href="https://www.marchfortruth.info/">https://www.marchfortruth.info/</a></p>
                   </div>
                 </div>
               </article>
-             <article class="media">
-              <div class="media-left">Oct 6-8th</div>
-              <div class="media-content">
-                <div class="content">
-                  <h2 class="subtitle is-4">Kootenai County Democrats</h2>
-                  <figure class="issues-pic issues-pic-right">
-                    <img src="images/KC Dems.png"></img>
-                  </figure>
-                  <p>On his latest trip to North Idaho from October 6th-8th, James Vandermaas met with the Kootenai County Democrat Candidate Recruitment and Support Committee to introduce himself and listen to what Kootenai Democrats are concerned with. Some of the Democrats in attendance included Paula Niels, the Chair of the Kootenai Democrat Central Committee, Richard Rolland, the Vice Chair of the KCDCC, Christopher Matthews, the Chair of the Candidate Recruitment Committee, and Shem Hanks, the President of the Kootenai Democratic Club. James showed genuine knowledge and a precise plan for what he would do if elected in areas of Education, Business Relations, Healthcare, and an ingenious idea of factoring in cost of living factors to better adjust the livable wage for specific communities.</p>
-                  <p>James was asked about DACA and the committee was very pleased with his support of these young productive members of our county, who have put themselves out there. When asked how he would respond to moderate and progressive Democrats, Mr. Vandermaas illustrated his plan for a ‘Coalition of Democracy” to bring everyone together to give all Idahoans in Congressional District 1 a voice, one unified voice regardless of whether you are conservative, progressive, Republican, Democrat, or anything in between.</p>
-                  <p>James left the meeting with more support and greater excitement in the prospect of a competent, well-organized, and decisive Democrat running for Congress. A serious contender for a serious seat. The committee was very impressed with the ease and knowledge James was able to show when he answered questions on the fly, showing his genuine and decisive nature. The Committee felt confidant that James Vandermaas could bring together Idahoans regardless of party. On Saturday James and Cindy attended “Disco Inferno 2017: 80’s Dance Explosion": the fourth annual benefit for Coeur d’Alene School District 271 school libraries, taking the night to support our Schools.</p>
-<p>-Christopher S. Matthews, Candidate Recruitment/Support Committee Chair</p>
-                </div>
-              </div>
-            </article>
-             <article class="media">
-              <div class="media-left">Sept 15th</div>
-              <div class="media-content">
-                <div class="content">
-                  <h2 class="subtitle is-4">JFK Banquet</h2>
-                  <figure class="issues-pic issues-pic-right">
-                    <img src="images/Ada_Co_Dems.jpg"></img>
-                    <img src="images/JFK Banquet_2017.jpg"></img>
-                  </figure>
-                  <p>Sponsored by the Ada County Democrats, this was fundraiser and wonderful social event. Our friend Sam Sandmire did a great job as emcee, and the keynote speaker, Cook County Commissioner Bridget Gainer, gave quite a relevant talk.  Between good friends, good food, and winning one of the silent auction gift baskets, James and Cindy had a great night!</p>
-               </div>
-              </div>
-            </article>
-             <article class="media">
-              <div class="media-left">June 3rd</div>
-              <div class="media-content">
-                <div class="content">
-                  <h2 class="subtitle is-4">March for Truth Boise</h2>
-                  <figure class="issues-pic issues-pic-right">
-                    <img src="images/March4Truth_Jim_Crop.jpg"></img>
-                  </figure>
-                  <p>Put together in only 3-4 days, this rally was held on the steps of the Idaho State Capitol.  Speakers included Melissa Wintrow - Idaho Rep. from 19-B, John McCrostie - Idaho Rep. from 16-A, Chase Johnson - Adjunct Professor of Global Studies and Frank Church Institute Research Associate, and James Vandermaas - our candidate for the 1st Congressional District, and was well attended by over 100 concerned citizens. For further info on the 'March for Truth'; <a href="https://www.marchfortruth.info/">https://www.marchfortruth.info/</a></p>
-                </div>
-              </div>
-              </article>
               <p class="has-text-right">
-             <span class="button is-link learn-more-control">More News...</span>
-            </p>
+                <span class="button is-link learn-more-control">More News...</span>
+              </p>
+            </section>
+            <section class="calendar-wrapper is-hidden">
+              <div class="calendar">
+                <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=votevandermaas%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FToronto" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+              </div>
+            </section>
           </div>
         </div>
         <?php
