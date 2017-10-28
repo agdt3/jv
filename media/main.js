@@ -134,9 +134,11 @@ document.addEventListener('DOMContentLoaded', function () {
   var calendarToggle = document.querySelector('.section-toggle.calendar-section-button');
   var articleSection = document.querySelector('.article-wrapper');
   var calendarSection = document.querySelector('.calendar-wrapper');
+
   if (articleToggle) {
     articleToggle.addEventListener('click', () => {
       if (articleSection && calendarSection) {
+        articleToggle.classList.toggle('active');
         articleSection.classList.remove('is-hidden');
         calendarSection.classList.add('is-hidden');
       }
@@ -146,6 +148,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if (calendarToggle) {
     calendarToggle.addEventListener('click', () => {
       if (articleSection && calendarSection) {
+        calendarToggle.classList.toggle('active');
         articleSection.classList.add('is-hidden');
         calendarSection.classList.remove('is-hidden');
       }

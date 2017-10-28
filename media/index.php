@@ -23,12 +23,13 @@
       <div class="columns is-desktop">
         <div class="column is-6-desktop is-offset-2-desktop is-12-tablet">
           <div class="news-wrapper">
-            <h1 class="title is-1">
-              <div class="section-toggle news-section-button">Latest News</div>
+            <h1 class="title is-1 section-toggle-wrapper">
+              <div class="section-toggle news-section-button active">Latest News</div>
+              &nbsp;|&nbsp;
               <div class="section-toggle calendar-section-button">Upcoming Events<div>
             </h1>
             <section class="article-wrapper">
-              <?php include_once article_fragment.php ?>
+              <?php include_once "article_fragment.php" ?>
               <p class="has-text-right">
                 <span class="button is-link learn-more-control">More News...</span>
               </p>

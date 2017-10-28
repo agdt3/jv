@@ -282,6 +282,28 @@
   border: 2px solid white;
 }
 
+/* Index */
+.section-toggle-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-toggle {
+  cursor: pointer;
+}
+
+.section-toggle:hover {
+  color: rgb(41, 131, 209);
+}
+
+.section-toggle.active {
+  text-decoration: underline;
+}
+
+.calendar-wrapper .calendar iframe {
+  width: 100%;
+}
+
 /* Form */
 .update-form-wrapper {
   background-color: lightgrey;
