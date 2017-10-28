@@ -293,7 +293,7 @@
 }
 
 .section-toggle:hover {
-  border-bottom: 0.1rem solid black;
+  box-shadow: 0 -0.1rem 0 black;
 }
 
 .section-toggle.active {
