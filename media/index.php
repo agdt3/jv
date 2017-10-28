@@ -25,6 +25,18 @@
           <div class="news-wrapper">
             <h1 class="title is-1">Latest News</h1>
              <article class="media">
+              <div class="media-left">Nov 10-14th</div>
+              <div class="media-content">
+                <div class="content">
+                  <h2 class="subtitle is-4"> "Bringing People Together" - James Vandermaas'  Official Announcement Tour</h2>
+                  <figure class="issues-pic issues-pic-right">
+                  <img src="images/VandermaasLogoMark_idahoStar_Comps1_EP.jpg"></img>
+                </figure>
+                  Be prepared to be heard! Jim is planning to officially announce running for the 1st Congressional District of Idaho on Veterans Day weekend.  The Campaign plans to start our announcement 'Bringing People Together/Listening Tour' in Sand Point, then Coeur d'Alene, and continue working southward to, Plummer, Moscow, Lewiston, McCall, Eagle, Meridian, Caldwell & Nampa, New Plymouth/Fruitland area, and ending in Kuna! Stay tuned for more specific details for your area, as we will put out a more detailed itinerary. "Bringing People Together" is so much more than a slogan, and so much more than a campaign message; it is the character and driving concept of our campaign! Most of us want the same things for ourselves, our families, and for Idaho; realizing that our differences are actually smaller than they seem, and that putting those differences aside and voting as one strong block is the solution to winning in 2018!  The Tour details will be posted on our calendar soon - as soon as our calendar is done being built! 
+                  </div>
+                </div>
+              </article>
+             <article class="media">
               <div class="media-left">Oct 13-15th</div>
               <div class="media-content">
                 <div class="content">

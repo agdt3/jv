@@ -8,19 +8,19 @@
     <div class="column is-one-quarter is-hidden-mobile no-padding-bottom">
       <div class="header-buttons-wrapper is-hidden-mobile">
         <div class="header-button social-icon-wrapper">
-          <a class="social-icon" href="https://twitter.com/votevandermaas/">
+          <a class="social-icon" href="https://twitter.com/votevandermaas/" target="_blank">
             <span class="icon is-medium">
               <i class="fa fa-twitter"></i>
             </span>
           </a>
-          <a class="social-icon" href="https://www.facebook.com/VoteVandermaas-123623828310861/">
+          <a class="social-icon" href="https://www.facebook.com/VoteVandermaas-123623828310861/" target="_blank">
             <span class="icon is-medium">
               <i class="fa fa-facebook"></i>
             </span>
           </a>
         </div>
         <a href="involved.php" class="header-button button is-warning is-outlined">Get Involved</a>
-        <a href="https://secure.actblue.com/donate/jamesvandermaas" class="header-button button is-danger">DONATE</a>
+        <a href="https://secure.actblue.com/donate/jamesvandermaas" target="_blank" class="header-button button is-danger">DONATE</a>
        </div>
     </div>
   </div>
@@ -52,7 +52,6 @@
           <div class="navbar-dropdown ">
             <a class="navbar-item " href="about.php#bio">Bio</a>
             <a class="navbar-item " href="about.php#running">Why I'm running</a>
-            <a class="navbar-item " href="about.php#plan">Plan to win</a>
             <a class="navbar-item " href="about.php#support">Ways to Support</a>
             <a class="navbar-item " href="about.php#endorsement">Endorsements</a>
           </div>
@@ -107,8 +106,8 @@
           <div class="navbar-dropdown ">
             <a class="navbar-item " href="media.php#press">Press Releases</a>
             <a class="navbar-item " href="media.php#ads">TV Ads</a>
-            <a class="navbar-item " href="media.php#campaign">Campaign</a>
-            <a class="navbar-item " href="media.php#fake_news">Fake News</a>
+            <a class="navbar-item " href="media.php#campaign">Campaign Photos</a>
+            <a class="navbar-item " href="media.php#fake_news">Fake News?</a>
           </div>
         </div>
       </div>

@@ -35,7 +35,7 @@
     <section class="section">
       <div class="columns">
         <div class="column is-6-desktop is-offset-2-desktop is-8-tablet">
-          <h1 class="title is-1">Ways to support</h1>
+          <h1 class="title is-2">Ways to support</h1>
           <?php include_once "support_fragment.php"; ?>
         </div>
         <?php include_once "sidebar.php"; ?>

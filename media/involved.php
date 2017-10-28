@@ -77,6 +77,14 @@
               <div class="field">
                 <div class="control">
                   <label class="checkbox">
+                    <input type="checkbox" name="house-party">
+                    Hold a House-Party Fundraiser
+                  </label>
+                </div>
+              </div>
+              <div class="field">
+                <div class="control">
+                  <label class="checkbox">
                     <input type="checkbox" name="register">
                     Register Voters
                   </label>

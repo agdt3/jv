@@ -16,9 +16,9 @@
       <figure-caption class="container hero-overlay has-text-centered">
       	<a href="">
           <h2 class="hero-overlay-title title is-2">
-            Bringing People Together!
+            Fighting for our Lands!
           </h2>
-          <p class="hero-overlay-text subtitle is-4 is-hidden-mobile">A leader that is one of us, who will speak for ALL of us!</p>
+          <p class="hero-overlay-text subtitle is-4 is-hidden-mobile">A leader protecting Idaho's beautiful public lands for the enjoyment of generations to come!</p>
         </a>
       </figure-caption>
     </figure>
@@ -30,7 +30,7 @@
           <h2 class="hero-overlay-title title is-2">
             Why am I Running?
           </h2>
-          <p class="hero-overlay-text subtitle is-4 is-hidden-mobile">Because I care about our families, the beauty of our land, and looking out for each other!</p>
+          <p class="hero-overlay-text subtitle is-4 is-hidden-mobile">I care about our families, the beauty of our land, and looking out for each other!</p>
         </a>
       </figure-caption>
     </figure>
@@ -40,9 +40,9 @@
       <figure-caption class="container hero-overlay has-text-centered">
       	<a href="">
           <h2 class="hero-overlay-title title is-2">
-            Ensuring Idaho has a voice!
+            Working to give Idaho a voice!
           </h2>
-          <p class="hero-overlay-text subtitle is-4 is-hidden-mobile">Working Together to Make This an Election of Change</p>
+          <p class="hero-overlay-text subtitle is-2.5 is-hidden-mobile">Working together to improve healthcare and education in Idaho</p>
         </a>
       </figure-caption>
     </figure>
@@ -52,9 +52,9 @@
       <figure-caption class="container hero-overlay has-text-centered">
       	<a href="">
           <h2 class="hero-overlay-title title is-2">
-           ...will James take this job seriously?
+           The experience and courage!
           </h2>
-          <p class="hero-overlay-text subtitle is-1 is-hidden-mobile">Absolutely!</p>
+          <p class="hero-overlay-text subtitle is-3.5 is-hidden-mobile">Find out more about James Vandermaas and why he fights for you...</p>
         </a>
       </figure-caption>
     </figure>

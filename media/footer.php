@@ -17,17 +17,17 @@
         <div class="treasurer">Treasurer | Susan Eastlake</div>
       </div>
       <div class="buttons-wrapper column has-text-centered">
-        <a class="social-icon" href="https://twitter.com/votevandermaas/">
+        <a class="social-icon" href="https://twitter.com/votevandermaas/" target="_blank">
           <span class="icon is-medium">
             <i class="fa fa-twitter"></i>
           </span>
         </a>
-        <a class="social-icon" href="https://www.facebook.com/VoteVandermaas-123623828310861/">
+        <a class="social-icon" href="https://www.facebook.com/VoteVandermaas-123623828310861/" target="_blank">
           <span class="icon is-medium">
             <i class="fa fa-facebook"></i>
           </span>
         </a>
-        <a href="https://secure.actblue.com/donate/jamesvandermaas" class="button is-danger">DONATE</a>
+        <a href="https://secure.actblue.com/donate/jamesvandermaas" target="_blank" class="button is-danger">DONATE</a>
       </div>
     </div>
     <div class="columns">
