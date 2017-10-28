@@ -135,20 +135,20 @@ document.addEventListener('DOMContentLoaded', function () {
   var articleSection = document.querySelector('.article-wrapper');
   var calendarSection = document.querySelector('.calendar-wrapper');
 
-  if (articleToggle) {
+  if (articleToggle && calendarToggle) {
     articleToggle.addEventListener('click', () => {
       if (articleSection && calendarSection) {
-        articleToggle.classList.toggle('active');
+        articleToggle.classList.add('active');
+        calendarToggle.classList.remove('active');
         articleSection.classList.remove('is-hidden');
         calendarSection.classList.add('is-hidden');
       }
     });
-  }
 
-  if (calendarToggle) {
     calendarToggle.addEventListener('click', () => {
       if (articleSection && calendarSection) {
-        calendarToggle.classList.toggle('active');
+        articleToggle.classList.remove('active');
+        calendarToggle.classList.add('active');
         articleSection.classList.add('is-hidden');
         calendarSection.classList.remove('is-hidden');
       }

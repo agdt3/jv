@@ -293,11 +293,11 @@
 }
 
 .section-toggle:hover {
-  color: rgb(41, 131, 209);
+  border-bottom: 0.1rem solid black;
 }
 
 .section-toggle.active {
-  text-decoration: underline;
+  color: rgb(41, 131, 209);
 }
 
 .calendar-wrapper .calendar iframe {
