@@ -282,6 +282,42 @@
   border: 2px solid white;
 }
 
+/* Index */
+.article-wrapper {
+  box-shadow: 0 0.05rem 0 grey;
+}
+
+.section-toggle-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-toggle {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  font-size: 3vw;
+  justify-content: center;
+}
+
+.section-toggle:hover {
+  box-shadow: 0 0.1rem 0 black;
+}
+
+.section-toggle.active {
+  color: rgb(41, 131, 209);
+}
+
+.calendar-wrapper .calendar iframe {
+  width: 100%;
+}
+
+@media handheld and (max-width: 999px), screen and (max-width: 999px) {
+  .section-toggle {
+    font-size: 6vw;
+  }
+}
+
 /* Form */
 .update-form-wrapper {
   background-color: lightgrey;
