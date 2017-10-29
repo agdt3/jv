@@ -35,7 +35,7 @@
           <article>
             <h1 class="title is-2"><strong>TV Ads</strong></h1>
               <a class="article-learn-more button is-link" data-id="ads"><p>Coming Soon...</p></a>
-               <div class="extra-content is-hidden" data-id="ads"> <p>Test! Test! Test! Test!</p> 
+               <div class="extra-content is-hidden" data-id="ads"><p> </p> 
                 </div>
                  <p> </p>
           </article>
@@ -46,13 +46,31 @@
            <a class="article-learn-more button is-link" data-id="campaign"><p>See Photos...</p></a>
                <div class="extra-content is-hidden" data-id="campaign">
                  <figure class="campaign-pic campaign-pic-left">
-                  <img src="images/issues_environment.jpg" alt="Bryce Canyon" height="300" width="300"></img>
+                  <img src="images/C_DSCF3309.JPG" alt="James with US Sen. Jeff Merkley"></img><p>James with US Sen. Jeff Merkley</p>
                 </figure><br>
                  <figure class="campaign-pic campaign-pic-right">
-                  <img src="images/James03_BnrCrop.jpg" alt="Serious" height="250" width="700"></img>
+                  <img src="images/C_DSCF3307.JPG" alt="James with former Congressman Richard Stallings and US Sen. Jeff Merkley"></img><p>James with former Congressman Richard Stallings and US Sen. Jeff Merkley</p>
                 </figure><br>
                  <figure class="campaign-pic campaign-pic-right">
-                  <img src="images/IMG_1761.JPG" alt="Serious" height="425" width="300"></img>
+                  <img src="images/C_DSCF3293.JPG" alt="James with former Congressman Richard Stallings"></img><p>James with former Congressman Richard Stallings</p>
+                </figure><br>                 
+                 <figure class="campaign-pic campaign-pic-left">
+                  <img src="images/C_DSCF3287.JPG" alt="James with Idaho Democratic Party Chair Bert Marley"></img><p>James with Idaho Democratic Party Chair Bert Marley</p>
+                </figure><br>
+                 <figure class="campaign-pic campaign-pic-right">
+                  <img src="images/C_DSCF3318.JPG" alt="James with Anne Richards, former Assistant Secretary of State for Population, Refugees, and Migration"></img><p>James with Anne Richards, former Assistant Secretary of State for Population, Refugees, and Migration</p>
+                </figure><br>
+                 <figure class="campaign-pic campaign-pic-right">
+                  <img src="images/C_DSCF3311.JPG" alt="James with US Sen. Jeff Merkley"></img><p>James with US Sen. Jeff Merkley</p>
+                </figure><br>
+                 <figure class="campaign-pic campaign-pic-left">
+                  <img src="images/issues_environment.jpg" alt="Bryce Canyon"></img>
+                </figure><br>
+                 <figure class="campaign-pic campaign-pic-right">
+                  <img src="images/James03_BnrCrop.jpg" alt="Serious"></img>
+                </figure><br>
+                 <figure class="campaign-pic campaign-pic-right">
+                  <img src="images/IMG_1761.JPG" alt="Exploring"></img>
                 </figure><br>
                </div>
           </article>
@@ -61,12 +79,12 @@
           <article>
            <style>
 h2 {
-    text-indent: 25px;
+    text-indent: 20px;
 }
 </style> <h1 class="title is-2"><strong>Fake News?</strong></h1>
-               <h2 class="title is-4"><strong>National News or Info Found to be Fake:</strong></h2>
+               <h2 class="title is-4"><strong>Reality Check for National News or Info: Is it Fake?:</strong></h2>
               <a class="article-learn-more button is-link" data-id="fake_news"><p>Coming Soon...</p></a>
-               <div class="extra-content is-hidden" data-id="fake_news"> <p>Test! Test! Test! Test!</p> 
+               <div class="extra-content is-hidden" data-id="fake_news"> <p> </p> 
                 </div>
                  <p> </p>
               <style>
@@ -83,7 +101,7 @@ h3 {
        <a class="anchor-tag" id="fake_news1"></a>
                <h3 class="title is-4"><strong>Our Candidate Setting it Straight!:</strong></h3>
               <a class="article-learn-more button is-link" data-id="fake_news1"><p>Coming Soon...</p></a>
-              <div class="extra-content is-hidden" data-id="fake_news1"><p> Test! Test! Test! Test!</p>
+              <div class="extra-content is-hidden" data-id="fake_news1"><p> </p>
               <br>
           </article>
         </div>

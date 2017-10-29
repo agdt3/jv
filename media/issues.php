@@ -24,7 +24,7 @@
           <div class="issues-wrapper">
             <a class="anchor-tag" id="healthcare"></a>
             <article>
-              <h1 class="title is-1">Healthcare</h1>
+              <h1 class="title is-3"><strong>Healthcare</strong></h1>
               <div class="main-content">
                 <figure class="issues-icon issues-icon-left">
                   <i class="fa fa-heartbeat"></i>
@@ -52,7 +52,7 @@
             <hr/>
             <a class="anchor-tag" id="public_lands"></a>
             <article>
-              <h1 class="title is-1">Public Lands</h1>
+              <h1 class="title is-3"><strong>Public Lands</strong></h1>
               <div class="main-content">
                 <figure class="issues-pic issues-pic-right">
                   <img src="images/issues_environment.jpg"></img>
@@ -85,7 +85,7 @@
             <hr/>
             <a class="anchor-tag" id="education"></a>
             <article>
-              <h1 class="title is-1">Education</h1>
+              <h1 class="title is-3"><strong>Education</strong></h1>
               <div class="main-content">
                 <figure class="issues-pic issues-pic-left">
                   <img src="images/issues_education.jpg"></img>
@@ -109,7 +109,7 @@
             <hr/>
             <a class="anchor-tag" id="jobs"></a>
             <article>
-              <h1 class="title is-1">Jobs and Wages</h1>
+              <h1 class="title is-3"><strong>Jobs and Wages</strong></h1>
               <div class="main-content">
                 <figure class="issues-pic issues-pic-right">
                   <img src="images/issues_jobs.jpg"></img>
@@ -129,7 +129,7 @@
             <hr/>
             <a class="anchor-tag" id="taxes"></a>
             <article>
-              <h1 class="title is-1">Taxes</h1>
+              <h1 class="title is-3"><strong>Taxes</strong></h1>
               <div class="main-content">
                 <figure class="issues-icon issues-icon-left">
                   <i class="fa fa-dollar"></i>
@@ -146,7 +146,7 @@
             <hr/>
             <a class="anchor-tag" id="social_security"></a>
             <article>
-              <h1 class="title is-1">Social Security / Medicare</h1>
+              <h1 class="title is-3"><strong>Social Security / Medicare</strong></h1>
               <div class="main-content">
                 <figure class="issues-icon issues-icon-right">
                   <i class="fa fa-medkit"></i>
@@ -161,7 +161,7 @@
             <hr/>
             <a class="anchor-tag" id="energy"></a>
             <article>
-              <h1 class="title is-1">Energy</h1>
+              <h1 class="title is-3"><strong>Energy</strong></h1>
               <div class="main-content">
                 <figure class="issues-icon issues-icon-left">
                   <i class="fa fa-bolt"></i>
@@ -176,7 +176,7 @@
             <hr/>
             <a class="anchor-tag" id="economy"></a>
             <article>
-              <h1 class="title is-1">Economy</h1>
+              <h1 class="title is-3"><strong>Economy</strong></h1>
               <div class="main-content">
                 <figure class="issues-icon issues-icon-right">
                   <i class="fa fa-line-chart"></i>
@@ -191,7 +191,7 @@
             <hr/>
             <a class="anchor-tag" id="homeland_security"></a>
             <article>
-              <h1 class="title is-1">Homeland Security</h1>
+              <h1 class="title is-3"><strong>Homeland Security</strong></h1>
               <div class="main-content">
                 <figure class="issues-icon issues-icon-left">
                   <i class="fa fa-lock"></i>
@@ -205,14 +205,14 @@
             <hr/>
             <a class="anchor-tag" id="immigration"></a>
             <article>
-              <h1 class="title is-1">Immigration</h1>
+              <h1 class="title is-3"><strong>Immigration</strong></h1>
               <div class="main-content">
                 <figure class="issues-icon issues-icon-right">
                   <i class="fa fa-user-circle-o"></i>
                 </figure>
                 <p>Enforce existing laws, and reform what doesn't work, with particular attention to worker visas in support of our agriculture and dairy industries!</p>
                <br>
-            <p><h1 class="title is-1">DACA</h1>
+            <p><h1 class="title is-3"><strong>DACA</strong></h1>
                These kids were raised here in America, America is all they know or remember, and they are all contributing to America. They learn, they work, pay taxes and contribute to America, and many are serving in our military. And all DACA children have gone through an in depth vetting process before qualifying. I will work to make DACA an actual law with a path to citizenship, so these kids can be protected from and not subject to the whims of any executive in the White House.</p>
               <div class="extra-content is-hidden" data-id="immigration">
                 <?php include_once "support_fragment.php" ?>
@@ -221,7 +221,7 @@
             <hr/>
             <a class="anchor-tag" id="campaign_finance"></a>
             <article>
-              <h1 class="title is-1">Campaign Finance</h1>
+              <h1 class="title is-3"><strong>Campaign Finance</strong></h1>
               <div class="main-content">
                  <figure class="issues-icon issues-icon-left">
                   <i class="fa fa-money"></i>
@@ -237,7 +237,7 @@
             <hr/>
             <a class="anchor-tag" id="second_amendment"></a>
             <article>
-              <h1 class="title is-1">2nd Amendment</h1>
+              <h1 class="title is-3"><strong>2nd Amendment</strong></h1>
               <div class="main-content">
                  <figure class="issues-icon issues-icon-right">
                   <i class="fa fa-balance-scale"></i>
@@ -248,7 +248,7 @@
             <hr/>
             <a class="anchor-tag" id="welfare"></a>
             <article>
-              <h1 class="title is-1">Welfare</h1>
+              <h1 class="title is-3"><strong>Welfare</strong></h1>
               <div class="main-content">
                  <figure class="issues-icon issues-icon-left">
                   <i class="fa fa-handshake-o"></i>
@@ -259,7 +259,7 @@
             <hr/>
             <a class="anchor-tag" id="middle_class"></a>
             <article>
-              <h1 class="title is-1">Middle Class</h1>
+              <h1 class="title is-3"><strong>Middle Class</strong></h1>
               <div class="main-content">
                  <figure class="issues-icon issues-icon-right">
                   <i class="fa fa-group"></i>
@@ -270,7 +270,7 @@
             <hr/>
             <a class="anchor-tag" id="abortion"></a>
             <article>
-              <h1 class="title is-1">Abortion</h1>
+              <h1 class="title is-3"><strong>Abortion</strong></h1>
               <div class="main-content">
                 <figure class="issues-icon issues-icon-left">
                   <i class="fa fa-stethoscope"></i>

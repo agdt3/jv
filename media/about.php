@@ -23,7 +23,7 @@
         <div class="column is-6-desktop is-offset-2-desktop is-12-tablet">
           <a class="anchor-tag" id="bio"></a>
           <article>
-            <h1 class="title is-2">Meet James...</h1>
+            <h1 class="title is-3"><strong>Meet James...</strong></h1>
             <div class="about-main-content">
               <figure class="about-pic about-pic-left">
                 <img src="images/James01_Bio1.jpg"></img>
@@ -41,7 +41,7 @@
           <hr/>
           <a class="anchor-tag" id="running"></a>
           <article>
-            <h1 class="title is-2">Why I am Running!</h1>
+            <h1 class="title is-3"><strong>Why I am Running!</strong></h1>
             <div class="about-main-content">
               <figure class="about-pic about-pic-right">
                 <img src="images/family_bio.jpg"></img>
@@ -56,13 +56,13 @@
           <hr/>
           <a class="anchor-tag" id="support"></a>
           <article>
-            <h1 class="title is-2">Ways to support</h1>
+            <h1 class="title is-3"><strong>Ways to support</strong></h1>
             <?php include_once "support_fragment.php" ?>
           </article>
           <hr/>
           <a class="anchor-tag" id="endorsement"></a>
           <article>
-            <h1 class="title is-2">Endorsements and Supporters</h1>
+            <h1 class="title is-3"><strong>Endorsements and Supporters</strong></h1>
             <ul>
             </ul>
           </article>
