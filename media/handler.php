@@ -64,6 +64,18 @@ function handle_post() {
 }
 
 function handle_get() {
+  $sheet_type = $_GET['sheet_type'];
+
+  try {
+    $client = getClient();
+    $service = getService($client);
+
+    $result = readRows($service, $sheet_type);
+    return response($result, 200);
+  }
+  catch (Exception $e) {
+    return response($e->getMessage(), 500);
+  }
 
 }
 

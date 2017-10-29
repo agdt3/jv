@@ -156,6 +156,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
+/* FORMS */
 document.addEventListener('DOMContentLoaded', function () {
   function getFormData($form) {
     var form_map = {};
@@ -309,6 +310,113 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       });
     });
+  }
+
+  var $endorsementButton = document.querySelector('#endorsement-submit');
+  if ($endorsementButton) {
+    $endorsementButton.addEventListener('click', function(e) {
+      e.preventDefault();
+      var $form = $updateButton.parentElement.parentElement.parentElement.parentElement.querySelector("#endorsement-form");
+      var form_values_map = getFormData($form);
+      var handler_url = '/handler.php';
+      var sheet_type = 'endorsement';
+
+      var required_field_names = [
+        'first_name',
+        'last_name',
+        'email'
+      ];
+
+      var error_field_names = validateFormData(form_values_map, required_field_names);
+
+      if (error_field_names.length > 0) {
+        showFormErrors($form, error_field_names);
+        return
+      }
+      else {
+        $endorsementButton.disabled = true;
+        var req = buildJsonPostRequest(handler_url, form_values_map, sheet_type);
+        fetch(req)
+        .then(response => {
+          $endorsementButton.disabled = false;
+          return response.json();
+        })
+        .then(data => {
+          return data;
+        })
+        .catch(error => {
+          return error;
+        });
+      }
+    });
+  }
+});
+
+/* LOAD ENDORSEMENT AND SUPPORTERS */
+document.addEventListener('DOMContentLoaded', function () {
+  var $supportersContainer = document.querySelector(".supporters-list-container");
+  var $endorsementsContainer = document.querySelector(".endorsements-list-container");
+
+  function buildJsonGetRequest(url, sheet_type) {
+    var headers = new Headers({
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    });
+
+    url = url + "&sheet_type=" + sheet_type;
+
+    var init = {
+      method: 'GET',
+      headers: headers,
+      cache: 'default',
+      credentials: 'same-origin',
+    };
+
+    var req = new Request(url, init);
+
+    return req;
+  }
+
+  function populateSupporters(data) {
+    if ($supportersContainer) {
+    
+    }
+  }
+
+  function populateEndorsements(data) {
+    if ($endorsementsContainer) {
+    
+    }
+  }
+
+  if ($supportersContainer) {
+    var sheet_type = 'supporters';
+    var req = buildJsonGetRequest(handler_url, sheet_type);
+    fetch(req)
+      .then(response => {
+        return response.json();
+      })
+      .then(data => {
+        populateSupporters(data);
+      })
+      .catch(error => {
+        return error;
+      });
+  }
+
+  if ($endorsementsContainer) {
+    var sheet_type = 'endorsements';
+    var req = buildJsonPostRequest(handler_url, sheet_type);
+    fetch(req)
+      .then(response => {
+        return response.json();
+      })
+      .then(data => {
+        populateEndorsements(data);
+      })
+      .catch(error => {
+        return error;
+      });
   }
 });
 
