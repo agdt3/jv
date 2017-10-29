@@ -297,6 +297,7 @@
   flex-direction: column;
   cursor: pointer;
   font-size: 3vw;
+  justify-content: center;
 }
 
 .section-toggle:hover {
@@ -311,10 +312,9 @@
   width: 100%;
 }
 
-@media handheld and (max-width: 768px), screen and (max-width: 768px) {
+@media handheld and (max-width: 999px), screen and (max-width: 999px) {
   .section-toggle {
-    font-size: 1.5rem;
-    justify-content: center;
+    font-size: 6vw;
   }
 }
 
