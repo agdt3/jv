@@ -63,8 +63,47 @@
           <a class="anchor-tag" id="endorsement"></a>
           <article>
             <h1 class="title is-3"><strong>Endorsements and Supporters</strong></h1>
-            <ul>
-            </ul>
+            <h2 class="supporters-title subtitle is-4">Supporters</h2>
+            <div class="supporters-body">
+              <div class="supporters-list-container">
+              </div>
+            </div>
+            <h2 class="endorsements-title subtitle is-4">Enorsements</h2>
+            <div class="endorsements-body">
+              <div class="endorsements-list-container">
+              </div>
+              <div class="endorsements-form-container">
+                <form id="endorsements-form">
+                  <h4 class="form-caption has-text-centered title is-4">Endorse James Vandermaas!</h4>
+                  <div class="field is-grouped">
+                    <div class="control is-expanded">
+                      <input class="input is-info" type="text" name="first_name" placeholder="First Name">
+                    </div>
+                    <div class="control is-expanded">
+                      <input class="input is-info" type="text" name="last_name" placeholder="Last Name">
+                    </div>
+                  </div>
+                  <div class="field">
+                    <div class="control has-icons-left">
+                      <input class="input is-info" type="email" name="email" placeholder="Email (will not be published)">
+                      <span class="icon is-small is-left">
+                        <i class="fa fa-envelope"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <div class="control">
+                      <textarea class="textarea" maxlength="255" name="message" placeholder="Leave an endorsement for James Vandermaas"></textarea>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <div class="control">
+                      <button id="endorsement-submit" class="button is-warning is-fullwidth">Submit</button>
+                    </div>
+                  </div>
+                </form>
+              <div>
+            </div>
           </article>
         </div>
         <?php
