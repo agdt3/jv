@@ -1,6 +1,6 @@
-<article class="media">
-  <div class="media-left">Nov 10-14th</div>
-  <div class="media-content">
+<article class="columns is-desktop">
+  <div class="column is-3">Nov 10-14th</div>
+  <div class="column is-9">
     <div class="content">
       <h2 class="subtitle is-4"> "Bringing People Together" - James Vandermaas'  Official Announcement Tour</h2>
       <figure class="issues-pic issues-pic-right">
@@ -11,9 +11,9 @@
     </div>
   </div>
 </article>
-<article class="media">
-  <div class="media-left">Oct 13-15th</div>
-  <div class="media-content">
+<article class="columns is-desktop">
+  <div class="column is-3">Oct 13-15th</div>
+  <div class="column is-9">
     <div class="content">
       <h2 class="subtitle is-4">Clint Stennett Fall Meeting and Training</h2>
       <figure class="issues-pic issues-pic-right">
@@ -23,9 +23,9 @@
     </div>
   </div>
 </article>
-<article class="media">
-  <div class="media-left">Oct 6-8th</div>
-  <div class="media-content">
+<article class="columns is-desktop">
+  <div class="column is-3">Oct 6-8th</div>
+  <div class="column is-9">
     <div class="content">
       <h2 class="subtitle is-4">Kootenai County Democrats</h2>
       <figure class="issues-pic issues-pic-right">
@@ -38,9 +38,9 @@
     </div>
   </div>
 </article>
-<article class="media">
-  <div class="media-left">Sept 15th</div>
-  <div class="media-content">
+<article class="columns is-desktop">
+  <div class="column is-3">Sept 15th</div>
+  <div class="column is-9">
     <div class="content">
       <h2 class="subtitle is-4">JFK Banquet</h2>
       <figure class="issues-pic issues-pic-right">
@@ -51,9 +51,9 @@
     </div>
   </div>
 </article>
-<article class="media">
-  <div class="media-left">June 3rd</div>
-  <div class="media-content">
+<article class="columns is-desktop">
+  <div class="column is-3">June 3rd</div>
+  <div class="column is-9">
     <div class="content">
       <h2 class="subtitle is-4">March for Truth Boise</h2>
       <figure class="issues-pic issues-pic-right">

@@ -289,11 +289,13 @@
 }
 
 .section-toggle {
+  display: flex;
+  flex-direction: column;
   cursor: pointer;
 }
 
 .section-toggle:hover {
-  box-shadow: 0 -0.1rem 0 black;
+  box-shadow: 0 0.1rem 0 black;
 }
 
 .section-toggle.active {
@@ -302,6 +304,13 @@
 
 .calendar-wrapper .calendar iframe {
   width: 100%;
+}
+
+@media handheld and (max-width: 768px), screen and (max-width: 768px) {
+  .section-toggle {
+    font-size: 1.5rem;
+    justify-content: center;
+  }
 }
 
 /* Form */
