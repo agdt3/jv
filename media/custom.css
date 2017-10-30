@@ -533,10 +533,6 @@ a.anchor-tag {
   padding-bottom: 2rem;
 }
 
-.supporters-list-container ul {
-  padding-left: 2rem;
-}
-
 .supporters-list-container ul li {
   padding-bottom: 0.5rem;
 }
@@ -550,7 +546,7 @@ a.anchor-tag {
 }
 
 .endorsement-form-container {
-  padding-top: 1rem;
+  margin-top: 2rem;
   background-color: lightgrey;
 }
 

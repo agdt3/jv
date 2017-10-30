@@ -69,7 +69,7 @@
               </div>
             </div>
             <hr>
-            <h2 class="endorsements-title subtitle is-4">Enorsements</h2>
+            <h2 class="endorsements-title subtitle is-4">Endorsements</h2>
             <div class="endorsements-body">
               <div class="endorsements-list-container">
               </div>
