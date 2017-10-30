@@ -381,13 +381,12 @@ document.addEventListener('DOMContentLoaded', function () {
     if ($supportersContainer && data.message.values) {
       var rows = data.message.values;
       var html = "<ul>";
-      for (var i = 1; i < values.length; i++) {
-        var first_name = values[i][0];
-        var last_name = values[i][1];
-        var position = values[i][2];
+      for (var i = 1; i < rows.length; i++) {
+        var first_name = rows[i][0];
+        var last_name = rows[i][1];
+        var position = rows[i][2];
 
-        var supporter = "<li>" + first_name + " " + last_name + ", " + position + "</li>";
-        html += supporter;
+        html += "<li>" + first_name + " " + last_name + ", " + position + "</li>";
       }
       html += "</ul>";
       $supportersContainer.innerHTML = html;
@@ -398,11 +397,11 @@ document.addEventListener('DOMContentLoaded', function () {
     if ($endorsementsContainer && data.message.values) {
       var rows = data.message.values;
       var html = "<ul>";
-      for (var i = 1; i < values.length; i++) {
-        var first_name = values[i][0];
-        var last_name = values[i][1];
-        var endorsement = values[i][2];
-        var valid = values[i][3];
+      for (var i = 1; i < rows.length; i++) {
+        var first_name = rows[i][0];
+        var last_name = rows[i][1];
+        var endorsement = rows[i][3];
+        var valid = rows[i][4];
 
         if (valid !== "TRUE") continue;
 

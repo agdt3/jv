@@ -529,7 +529,28 @@ a.anchor-tag {
   }
 }
 
+.supporters-body {
+  padding-bottom: 2rem;
+}
+
+.supporters-list-container ul {
+  padding-left: 2rem;
+}
+
+.supporters-list-container ul li {
+  padding-bottom: 0.5rem;
+}
+
+.endorsements-list-container ul {
+  padding-left: 2rem;
+}
+
+.endorsements-list-container ul li {
+  padding-bottom: 0.5rem;
+}
+
 .endorsement-form-container {
+  padding-top: 1rem;
   background-color: lightgrey;
 }
 
