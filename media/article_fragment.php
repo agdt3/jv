@@ -1,6 +1,6 @@
 <article class="article-wrapper columns is-desktop">
-  <div class="column is-3-desktop">Nov 10-14th</div>
-  <div class="column is-9-desktop is-12-tablet">
+  <div class="column is-2-desktop">Nov 10-14th</div>
+  <div class="column is-10-desktop is-12-tablet">
     <div class="content">
       <h2 class="subtitle is-4"> "Bringing People Together" - James Vandermaas'  Official Announcement Tour</h2>
       <figure class="issues-pic issues-pic-right">
@@ -12,8 +12,8 @@
   </div>
 </article>
 <article class="article-wrapper columns is-desktop">
-  <div class="column is-3-desktop">Oct 13-15th</div>
-  <div class="column is-9-desktop is-12-tablet">
+  <div class="column is-2-desktop">Oct 13-15th</div>
+  <div class="column is-10-desktop is-12-tablet">
     <div class="content">
       <h2 class="subtitle is-4">Clint Stennett Fall Meeting and Training</h2>
       <figure class="issues-pic issues-pic-right">
@@ -24,8 +24,8 @@
   </div>
 </article>
 <article class="article-wrapper columns is-desktop">
-  <div class="column is-3-desktop">Oct 6-8th</div>
-  <div class="column is-9-desktop is-12-tablet">
+  <div class="column is-2-desktop">Oct 6-8th</div>
+  <div class="column is-10-desktop is-12-tablet">
     <div class="content">
       <h2 class="subtitle is-4">Kootenai County Democrats</h2>
       <figure class="issues-pic issues-pic-right">
@@ -39,8 +39,8 @@
   </div>
 </article>
 <article class="article-wrapper columns is-desktop">
-  <div class="column is-3-desktop">Sept 15th</div>
-  <div class="column is-9-desktop is-12-tablet">
+  <div class="column is-2-desktop">Sept 15th</div>
+  <div class="column is-10-desktop is-12-tablet">
     <div class="content">
       <h2 class="subtitle is-4">JFK Banquet</h2>
       <figure class="issues-pic issues-pic-right">
@@ -52,8 +52,8 @@
   </div>
 </article>
 <article class="article-wrapper columns is-desktop">
-  <div class="column is-3-desktop">June 3rd</div>
-  <div class="column is-9-desktop is-12-tablet">
+  <div class="column is-2-desktop">June 3rd</div>
+  <div class="column is-10-desktop is-12-tablet">
     <div class="content">
       <h2 class="subtitle is-4">March for Truth Boise</h2>
       <figure class="issues-pic issues-pic-right">
