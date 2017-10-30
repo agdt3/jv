@@ -19,7 +19,7 @@ function getService($client) {
 function getSheetId($sheet_type) {
   $sheets = array(
     'updates' => '1r5N99_MQWmEG_jEUWZg6pFeUlYQwtDgYVAod-DxY9o0',
-    'volunteer' => '12QvUM0slsI25WX_W5U7gRQClawydTNOfxpIukboWX_U'
+    'volunteer' => '12QvUM0slsI25WX_W5U7gRQClawydTNOfxpIukboWX_U',
     'supporters' => '1dXTKkMBARMODuYE7ZZlvwLOs2yTReaSyOKPQuWwrvW8',
     'endorsements' => '13uLiPmltYm-SUoOfkNiBwOAklZEr-CQaHi2c_R-ibyw'
   );

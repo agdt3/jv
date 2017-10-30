@@ -316,7 +316,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if ($endorsementButton) {
     $endorsementButton.addEventListener('click', function(e) {
       e.preventDefault();
-      var $form = $updateButton.parentElement.parentElement.parentElement.parentElement.querySelector("#endorsement-form");
+      var $form = $endorsementButton.parentElement.parentElement.parentElement.parentElement.querySelector("#endorsement-form");
       var form_values_map = getFormData($form);
       var handler_url = '/handler.php';
       var sheet_type = 'endorsement';
@@ -363,7 +363,7 @@ document.addEventListener('DOMContentLoaded', function () {
       'Content-Type': 'application/json'
     });
 
-    url = url + "&sheet_type=" + sheet_type;
+    url = url + "?sheet_type=" + sheet_type;
 
     var init = {
       method: 'GET',

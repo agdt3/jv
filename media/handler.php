@@ -2,16 +2,16 @@
 include_once "post.php";
 
 function handle_request() {
-  switch ($SERVER['REQUEST_METHOD']) {
+  switch ($_SERVER['REQUEST_METHOD']) {
     case 'GET':
       $resp = handle_get();
       break;
-    case 'POST'
+    case 'POST':
       $resp = handle_post();
       break;
     default:
       $resp = handle_unsupported_request();
-      break
+      break;
   }
 
   echo $resp;
