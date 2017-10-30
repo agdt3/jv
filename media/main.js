@@ -319,7 +319,7 @@ document.addEventListener('DOMContentLoaded', function () {
       var $form = $endorsementButton.parentElement.parentElement.parentElement.parentElement.querySelector("#endorsement-form");
       var form_values_map = getFormData($form);
       var handler_url = '/handler.php';
-      var sheet_type = 'endorsement';
+      var sheet_type = 'endorsements';
 
       var required_field_names = [
         'first_name',
@@ -378,14 +378,41 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function populateSupporters(data) {
-    if ($supportersContainer) {
-    
+    if ($supportersContainer && data.message.values) {
+      var rows = data.message.values;
+      var html = "<ul>";
+      for (var i = 1; i < values.length; i++) {
+        var first_name = values[i][0];
+        var last_name = values[i][1];
+        var position = values[i][2];
+
+        var supporter = "<li>" + first_name + " " + last_name + ", " + position + "</li>";
+        html += supporter;
+      }
+      html += "</ul>";
+      $supportersContainer.innerHTML = html;
     }
   }
 
   function populateEndorsements(data) {
-    if ($endorsementsContainer) {
-    
+    if ($endorsementsContainer && data.message.values) {
+      var rows = data.message.values;
+      var html = "<ul>";
+      for (var i = 1; i < values.length; i++) {
+        var first_name = values[i][0];
+        var last_name = values[i][1];
+        var endorsement = values[i][2];
+        var valid = values[i][3];
+
+        if (valid !== "TRUE") continue;
+
+        html += "<li>";
+        html += "<p>" + endorsement + "</p>";
+        html += "<p>" + "-" + first_name + " " + last_name + "</p>";
+        html += "</li>";
+      }
+      html += "</ul>";
+      $endorsementsContainer.innerHTML = html;
     }
   }
 
@@ -399,11 +426,9 @@ document.addEventListener('DOMContentLoaded', function () {
         return response.json();
       })
       .then(data => {
-        console.log(data);
         populateSupporters(data);
       })
       .catch(error => {
-        console.log(error);
         return error;
       });
   }
@@ -418,11 +443,9 @@ document.addEventListener('DOMContentLoaded', function () {
         return response.json();
       })
       .then(data => {
-        console.log(data);
         populateEndorsements(data);
       })
       .catch(error => {
-        console.log(error);
         return error;
       });
   }
