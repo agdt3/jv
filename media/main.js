@@ -412,7 +412,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var sheet_type = 'endorsements';
     var handler_url = '/handler.php';
 
-    var req = buildJsonPostRequest(handler_url, sheet_type);
+    var req = buildJsonGetRequest(handler_url, sheet_type);
     fetch(req)
       .then(response => {
         return response.json();
