@@ -52,7 +52,7 @@
       <figure-caption class="container hero-overlay has-text-centered">
       	<a href="">
           <h2 class="hero-overlay-title title is-2">
-           The experience and courage!
+           Experience and courage!
           </h2>
           <p class="hero-overlay-text subtitle is-3.5 is-hidden-mobile">Find out more about James Vandermaas and why he fights for you...</p>
         </a>
