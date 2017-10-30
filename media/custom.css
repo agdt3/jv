@@ -529,6 +529,10 @@ a.anchor-tag {
   }
 }
 
+.endorsements-form-container {
+  background-color: lightgrey;
+}
+
 /* Support */
 .support-fragment ul {
   list-style-type: disc;

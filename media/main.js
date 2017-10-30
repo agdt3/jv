@@ -391,30 +391,38 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if ($supportersContainer) {
     var sheet_type = 'supporters';
+    var handler_url = '/handler.php';
+
     var req = buildJsonGetRequest(handler_url, sheet_type);
     fetch(req)
       .then(response => {
         return response.json();
       })
       .then(data => {
+        console.log(data);
         populateSupporters(data);
       })
       .catch(error => {
+        console.log(error);
         return error;
       });
   }
 
   if ($endorsementsContainer) {
     var sheet_type = 'endorsements';
+    var handler_url = '/handler.php';
+
     var req = buildJsonPostRequest(handler_url, sheet_type);
     fetch(req)
       .then(response => {
         return response.json();
       })
       .then(data => {
+        console.log(data);
         populateEndorsements(data);
       })
       .catch(error => {
+        console.log(error);
         return error;
       });
   }

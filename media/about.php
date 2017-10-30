@@ -72,7 +72,7 @@
             <div class="endorsements-body">
               <div class="endorsements-list-container">
               </div>
-              <div class="endorsements-form-container">
+              <div class="endorsements-form-container box">
                 <form id="endorsements-form">
                   <h4 class="form-caption has-text-centered title is-4">Endorse James Vandermaas!</h4>
                   <div class="field is-grouped">
