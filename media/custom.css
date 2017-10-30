@@ -533,6 +533,10 @@ a.anchor-tag {
   padding-bottom: 2rem;
 }
 
+.supporters-list-container ul {
+  padding-left: 2rem;
+}
+
 .supporters-list-container ul li {
   padding-bottom: 0.5rem;
 }
