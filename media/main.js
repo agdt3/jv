@@ -406,7 +406,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (valid !== "TRUE") continue;
 
         html += "<li>";
-        html += "<p>" + endorsement + "</p>";
+        html += "<q>" + endorsement + "</q>";
         html += "<p>" + "-" + first_name + " " + last_name + "</p>";
         html += "</li>";
       }

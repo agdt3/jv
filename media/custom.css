@@ -190,11 +190,11 @@
 
 @media handheld and (max-width: 999px), screen and (max-width: 999px) {
   .hero-overlay-title.is-2 {
-    font-size: 2em;
+    font-size: 1.75rem;
   }
 
   .hero-overlay-text.is-4 {
-    font-size: 1em;
+    font-size: 1rem;
   }
 }
 
@@ -235,11 +235,11 @@
 }
 
 .icon .fa.fa-angle-left {
-  font-size: 9em;
+  font-size: 9rem;
 }
 
 .icon .fa.fa-angle-right {
-  font-size: 9em;
+  font-size: 9rem;
 }
 
 /* Footer */
@@ -398,7 +398,7 @@ a.anchor-tag {
 }
 
 .extra-content {
-  padding-left: 4em;
+  padding-left: 4rem;
 }
 
 .extra-content p {
@@ -538,11 +538,22 @@ a.anchor-tag {
 }
 
 .endorsements-list-container ul {
-  padding-left: 2rem;
 }
 
 .endorsements-list-container ul li {
-  padding-bottom: 0.5rem;
+  background-color: #E6E6E6;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+
+}
+
+.endorsements-list-container ul li q {
+  quotes: "\201C" "\201D";
+}
+
+.endorsements-list-container ul li p {
+  text-align: right;
 }
 
 .endorsement-form-container {
@@ -554,6 +565,10 @@ a.anchor-tag {
 .support-fragment ul {
   list-style-type: disc;
   padding-left: 2rem;
+}
+
+.support-fragment a {
+  color: navy;
 }
 
 /* Etc */

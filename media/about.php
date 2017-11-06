@@ -71,8 +71,6 @@
             <hr>
             <h2 class="endorsements-title subtitle is-4">Endorsements</h2>
             <div class="endorsements-body">
-              <div class="endorsements-list-container">
-              </div>
               <div class="endorsement-form-container box">
                 <form id="endorsement-form">
                   <h4 class="form-caption has-text-centered title is-4">Endorse James Vandermaas!</h4>
@@ -104,6 +102,8 @@
                   </div>
                 </form>
               <div>
+              <div class="endorsements-list-container">
+              </div>
             </div>
           </article>
         </div>

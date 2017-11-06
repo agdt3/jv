@@ -38,6 +38,16 @@
           <h1 class="title is-2">Ways to support</h1>
           <?php include_once "support_fragment.php"; ?>
         </div>
+        <?php
+          $options = array(
+            'show_support_button' => true,
+            'show_updates_form' => true,
+            'show_volunteer_button' => true,
+            'show_district_button' => true,
+            'show_twitter_box' => true,
+            'show_facebook_box' => true,
+          );
+        ?>
         <?php include_once "sidebar.php"; ?>
       </div>
     </section>
