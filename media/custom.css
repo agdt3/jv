@@ -571,6 +571,18 @@ a.anchor-tag {
   color: navy;
 }
 
+.support-fragment a:hover {
+  color: #228B22;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.support-fragment a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 /* Etc */
 .is-alternate-cta {
   background-color: hsl(48, 100%, 67%);
