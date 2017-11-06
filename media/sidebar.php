@@ -39,7 +39,7 @@
     Volunteer
   </a>
   <?php } ?>
-  <a href="about.php#endorsement" class="button sidebar-button is-warning is-fullwidth has-text-centered is-hidden-touch is-alternate-cta">
+  <a href="about.php#endorsement" class="button sidebar-button is-fullwidth has-text-centered is-hidden-touch is-alternate-cta">
     Endorse James
   </a>
   <?php if ($options && $options['show_district_button']) { ?>

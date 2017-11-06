@@ -89,12 +89,14 @@
   padding-bottom: 0;
 }
 
-.mobile-donate-button {
+.mobile-top-button {
   margin-bottom: 1rem;
 }
 
 .mobile-endorsement-button {
-  background-color: lightgrey;
+  font-weight: 600;
+  color; white;
+  background-color: grey;
 }
 
 .header-buttons-wrapper {
