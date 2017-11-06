@@ -93,12 +93,6 @@
   margin-bottom: 1rem;
 }
 
-.mobile-endorsement-button {
-  font-weight: 600;
-  color; white;
-  background-color: grey;
-}
-
 .header-buttons-wrapper {
   padding-top: 1rem;
   padding-right: 1rem;
@@ -593,4 +587,10 @@ a.anchor-tag {
 .is-alternate-cta {
   background-color: hsl(48, 100%, 67%);
   font-weight: 600;
+}
+
+.is-grey-cta {
+  background-color: hsl(48, 100%, 67%);
+  font-weight: 600;
+  color: white;
 }
