@@ -44,7 +44,7 @@
             <h1 class="title is-3"><strong>Why I am Running!</strong></h1>
             <div class="about-main-content">
               <figure class="about-pic about-pic-right">
-                <img src="images/family_bio.jpg"></img>
+                <img src="images/family_bio.jpg"></img><p><font size="2">Very proud father with my son at his wedding. He served over 8 years, with three tours in Iraq.</font></p>
               </figure>
               <p>I am tired of sitting on the sidelines when I know the people of Idaho are not being properly represented or respected. I have good ideas and solutions that can help make life better for us all.</p>
               <br/>
@@ -62,14 +62,14 @@
           <hr/>
           <a class="anchor-tag" id="endorsement"></a>
           <article>
-            <h1 class="title is-3"><strong>Endorsements and Supporters</strong></h1>
-            <h2 class="supporters-title subtitle is-4">Supporters</h2>
+            <h1 class="title is-3"><strong>Endorsements and Supporters</strong></h1><p></p>
+            <h2 class="supporters-title subtitle is-4"><strong>Supporters</strong></h2>
             <div class="supporters-body">
               <div class="supporters-list-container">
               </div>
             </div>
             <hr>
-            <h2 class="endorsements-title subtitle is-4">Endorsements</h2>
+            <h2 class="endorsements-title subtitle is-4"><strong>Endorsements</strong></h2>
             <div class="endorsements-body">
               <div class="endorsements-list-container">
               </div>
@@ -105,6 +105,7 @@
                 </form>
               <div>
             </div>
+
           </article>
         </div>
         <?php

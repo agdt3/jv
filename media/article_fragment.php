@@ -57,7 +57,7 @@
     <div class="content">
       <h2 class="subtitle is-4">March for Truth Boise</h2>
       <figure class="issues-pic issues-pic-right">
-        <img src="images/March4Truth_Jim_Crop.jpg"></img>
+        <img src="images/March4Truth.jpg"></img>
       </figure>
       <p>Put together in only 3-4 days, this rally was held on the steps of the Idaho State Capitol.  Speakers included Melissa Wintrow - Idaho Rep. from 19-B, John McCrostie - Idaho Rep. from 16-A, Chase Johnson - Adjunct Professor of Global Studies and Frank Church Institute Research Associate, and James Vandermaas - our candidate for the 1st Congressional District, and was well attended by over 100 concerned citizens. For further info on the 'March for Truth'; <a href="https://www.marchfortruth.info/">https://www.marchfortruth.info/</a></p>
     </div>
