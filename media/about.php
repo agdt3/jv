@@ -102,10 +102,9 @@
                   </div>
                 </form>
               <div>
-              <div class="endorsements-list-container">
-              </div>
             </div>
-
+            <div class="endorsements-list-container">
+            </div>
           </article>
         </div>
         <?php

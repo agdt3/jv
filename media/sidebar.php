@@ -39,6 +39,9 @@
     Volunteer
   </a>
   <?php } ?>
+  <a href="about.php#endorsement" class="button sidebar-button is-warning is-fullwidth has-text-centered is-hidden-touch is-alternate-cta">
+    Endorse James
+  </a>
   <?php if ($options && $options['show_district_button']) { ?>
   <a href="vote.php#district_map" class="button sidebar-button is-fullwidth has-text-centered is-alternate-cta">
     District Map
