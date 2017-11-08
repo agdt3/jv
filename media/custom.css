@@ -595,3 +595,8 @@ a.anchor-tag {
   font-weight: 600;
   color: white;
 }
+
+.is-grey-cta:hover {
+  background-color: lightgrey;
+  color: black;
+}

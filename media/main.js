@@ -231,6 +231,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   var $volunteerButton = document.querySelector('#volunteer-submit');
   if ($volunteerButton) {
+    $volunteerButtonText = $volunteerButton.querySelector('.button-text');
+    $volunteerButtonSuccess = $volunteerButton.querySelector('.button-success');
     $volunteerButton.addEventListener('click', function (e) {
       e.preventDefault();
       var $form = document.getElementById('volunteer-form');
@@ -254,17 +256,24 @@ document.addEventListener('DOMContentLoaded', function () {
       }
       else {
         $volunteerButton.disabled = true;
+        $volunteerButton.classList.add('is-loading');
         var req = buildJsonPostRequest(handler_url, form_values_map, sheet_type);
         fetch(req)
         .then(response => {
           $volunteerButton.disabled = false;
+          $volunteerButton.classList.remove('is-loading');
           return response.json();
         })
         .then(data => {
+          console.log(data);
+          $volunteerButton.classList.add('is-success');
+          $volunteerButtonText.classList.add('is-hidden');
+          $volunteerButtonSuccess.classList.remove('is-hidden');
           return data;
         })
         .catch(error => {
           $volunteerButton.disabled = false;
+          $volunteerButton.classList.remove('is-loading');
           return error;
         });
       }
@@ -274,6 +283,8 @@ document.addEventListener('DOMContentLoaded', function () {
   var $updateButtons = document.querySelectorAll('#update-submit');
   if ($updateButtons.length > 0) {
     $updateButtons.forEach(($updateButton) => {
+      $updateButtonText = $updateButton.querySelector('.button-text');
+      $updateButtonSuccess = $updateButton.querySelector('.button-success');
       $updateButton.addEventListener('click', function(e) {
         e.preventDefault();
         var $form = $updateButton.parentElement.parentElement.parentElement.parentElement.querySelector("#update-form");
@@ -294,17 +305,23 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         else {
           $updateButton.disabled = true;
+          $updateButton.classList.add('is-loading');
           var req = buildJsonPostRequest(handler_url, form_values_map, sheet_type);
           fetch(req)
           .then(response => {
             $updateButton.disabled = false;
+            $updateButton.classList.remove('is-loading');
             return response.json();
           })
           .then(data => {
+            $updateButton.classList.add('is-success');
+            $updateButtonText.classList.add('is-hidden');
+            $updateButtonSuccess.classList.remove('is-hidden');
             return data;
           })
           .catch(error => {
             $updateButton.disabled = false;
+            $updateButton.classList.remove('is-loading');
             return error;
           });
         }
@@ -314,6 +331,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   var $endorsementButton = document.querySelector('#endorsement-submit');
   if ($endorsementButton) {
+    $endorsementButtonText = $endorsementButton.querySelector('.button-text');
+    $endorsementButtonSuccess = $endorsementButton.querySelector('.button-success');
     $endorsementButton.addEventListener('click', function(e) {
       e.preventDefault();
       var $form = $endorsementButton.parentElement.parentElement.parentElement.parentElement.querySelector("#endorsement-form");
@@ -335,16 +354,22 @@ document.addEventListener('DOMContentLoaded', function () {
       }
       else {
         $endorsementButton.disabled = true;
+        $endorsementButton.classList.add('is-loading');
         var req = buildJsonPostRequest(handler_url, form_values_map, sheet_type);
         fetch(req)
         .then(response => {
           $endorsementButton.disabled = false;
+          $endorsementButton.classList.remove('is-loading');
           return response.json();
         })
         .then(data => {
+          $endorsementButton.classList.add('is-success');
+          $endorsementButtonText.classList.add('is-hidden');
+          $endorsementButtonSuccess.classList.remove('is-hidden');
           return data;
         })
         .catch(error => {
+          $endorsementButton.classList.remove('is-loading');
           return error;
         });
       }

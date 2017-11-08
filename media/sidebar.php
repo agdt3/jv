@@ -28,7 +28,7 @@
       </div>
       <div class="field">
         <div class="control">
-          <button id="update-submit" class="button is-warning is-fullwidth">Register</button>
+          <button id="update-submit" class="button is-warning is-fullwidth"><span class="button-text">Register</span><span class="button-success is-hidden"><i class="fa fa-check"></i></span></button>
         </div>
       </div>
     </form>

@@ -97,7 +97,7 @@
                   </div>
                   <div class="field">
                     <div class="control">
-                      <button id="endorsement-submit" class="button is-warning is-fullwidth">Submit</button>
+                      <button id="endorsement-submit" class="button is-warning is-fullwidth"><span class="button-text">Submit</span><span class="button-success is-hidden"><i class="fa fa-check"></i></span></button>
                     </div>
                   </div>
                 </form>
