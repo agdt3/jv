@@ -260,15 +260,20 @@ document.addEventListener('DOMContentLoaded', function () {
         var req = buildJsonPostRequest(handler_url, form_values_map, sheet_type);
         fetch(req)
         .then(response => {
-          $volunteerButton.disabled = false;
           $volunteerButton.classList.remove('is-loading');
           return response.json();
         })
         .then(data => {
-          console.log(data);
-          $volunteerButton.classList.add('is-success');
-          $volunteerButtonText.classList.add('is-hidden');
-          $volunteerButtonSuccess.classList.remove('is-hidden');
+          if (data.status > 200 && data.status < 300) {
+            $volunteerButton.disabled = true;
+            $volunteerButton.classList.add('is-success');
+            $volunteerButton.classList.remove('is-warning');
+            $volunteerButtonText.classList.add('is-hidden');
+            $volunteerButtonSuccess.classList.remove('is-hidden');
+          }
+          else {
+            $volunteerButton.disabled = false;
+          }
           return data;
         })
         .catch(error => {
@@ -309,14 +314,20 @@ document.addEventListener('DOMContentLoaded', function () {
           var req = buildJsonPostRequest(handler_url, form_values_map, sheet_type);
           fetch(req)
           .then(response => {
-            $updateButton.disabled = false;
             $updateButton.classList.remove('is-loading');
             return response.json();
           })
           .then(data => {
-            $updateButton.classList.add('is-success');
-            $updateButtonText.classList.add('is-hidden');
-            $updateButtonSuccess.classList.remove('is-hidden');
+            if (data.status > 200 && data.status < 300) {
+              $updateButton.disabled = true;
+              $updateButton.classList.add('is-success');
+              $updateButton.classList.remove('is-warning');
+              $updateButtonText.classList.add('is-hidden');
+              $updateButtonSuccess.classList.remove('is-hidden');
+            }
+            else {
+              $updateButton.disabled = false;
+            }
             return data;
           })
           .catch(error => {
@@ -358,14 +369,20 @@ document.addEventListener('DOMContentLoaded', function () {
         var req = buildJsonPostRequest(handler_url, form_values_map, sheet_type);
         fetch(req)
         .then(response => {
-          $endorsementButton.disabled = false;
           $endorsementButton.classList.remove('is-loading');
           return response.json();
         })
         .then(data => {
-          $endorsementButton.classList.add('is-success');
-          $endorsementButtonText.classList.add('is-hidden');
-          $endorsementButtonSuccess.classList.remove('is-hidden');
+          if (data.status > 200 && data.status < 300) {
+            $endorsementButton.disabled = true;
+            $endorsementButton.classList.add('is-success');
+            $endorsementButton.classList.remove('is-warning');
+            $endorsementButtonText.classList.add('is-hidden');
+            $endorsementButtonSuccess.classList.remove('is-hidden');
+          }
+          else {
+            $endorsementButton.disabled = false;
+          }
           return data;
         })
         .catch(error => {
