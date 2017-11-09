@@ -264,7 +264,7 @@ document.addEventListener('DOMContentLoaded', function () {
           return response.json();
         })
         .then(data => {
-          if (data.status > 200 && data.status < 300) {
+          if (data.status >= 200 && data.status < 300) {
             $volunteerButton.disabled = true;
             $volunteerButton.classList.add('is-success');
             $volunteerButton.classList.remove('is-warning');
@@ -318,7 +318,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return response.json();
           })
           .then(data => {
-            if (data.status > 200 && data.status < 300) {
+            if (data.status >= 200 && data.status < 300) {
               $updateButton.disabled = true;
               $updateButton.classList.add('is-success');
               $updateButton.classList.remove('is-warning');
@@ -373,7 +373,7 @@ document.addEventListener('DOMContentLoaded', function () {
           return response.json();
         })
         .then(data => {
-          if (data.status > 200 && data.status < 300) {
+          if (data.status >= 200 && data.status < 300) {
             $endorsementButton.disabled = true;
             $endorsementButton.classList.add('is-success');
             $endorsementButton.classList.remove('is-warning');

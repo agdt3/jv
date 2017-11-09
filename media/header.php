@@ -101,6 +101,14 @@
               <i class="fa fa-star"></i>
             </span>
         </div>
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="calendar.php">Calendar</a>
+        </div>
+        <div class="navbar-vertical-divider is-hidden-touch">
+            <span class="icon is-small">
+              <i class="fa fa-star"></i>
+            </span>
+        </div>
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link" href="media.php">Media</a>
           <div class="navbar-dropdown ">

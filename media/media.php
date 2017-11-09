@@ -34,10 +34,11 @@
           <a class="anchor-tag" id="ads"></a>
           <article>
             <h1 class="title is-2"><strong>TV Ads</strong></h1>
-              <a class="article-learn-more button is-link" data-id="ads"><p>Coming Soon...</p></a>
-               <div class="extra-content is-hidden" data-id="ads"><p> </p> 
-                </div>
-                 <p> </p>
+            <a class="article-learn-more button is-link" data-id="ads"><p>Coming Soon...</p></a>
+            <div class="extra-content is-hidden" data-id="ads">
+              <p> </p>
+            </div>
+            <p> </p>
           </article>
           <hr/>
           <a class="anchor-tag" id="campaign"></a>
@@ -53,7 +54,7 @@
                 </figure><br>
                  <figure class="campaign-pic campaign-pic-right">
                   <img src="images/C_DSCF3293.JPG" alt="James with former Congressman Richard Stallings"></img><p>James with former Congressman Richard Stallings</p>
-                </figure><br>                 
+                </figure><br>
                  <figure class="campaign-pic campaign-pic-left">
                   <img src="images/C_DSCF3287.JPG" alt="James with Idaho Democratic Party Chair Bert Marley"></img><p>James with Idaho Democratic Party Chair Bert Marley</p>
                 </figure><br>
@@ -98,11 +99,20 @@ h3 {
     text-indent: 25px;
 }
 </style> <br>
-       <a class="anchor-tag" id="fake_news1"></a>
-               <h3 class="title is-4"><strong>Our Candidate Setting it Straight!:</strong></h3>
+            <a class="anchor-tag" id="fake_news1"></a>
+              <h3 class="title is-4"><strong>Our Candidate Setting it Straight!:</strong></h3>
               <a class="article-learn-more button is-link" data-id="fake_news1"><p>Coming Soon...</p></a>
               <div class="extra-content is-hidden" data-id="fake_news1"><p> </p>
               <br>
+          </article>
+          <hr/>
+          <a class="anchor-tag" id="resources"></a>
+          <article>
+            <h1 class="title is-2"><strong>Resources</strong></h1>
+            <a class="article-learn-more button is-link" data-id="resources"><p>Coming Soon...</p></a>
+            <div class="extra-content is-hidden" data-id="resources">
+            </div>
+            <p> </p>
           </article>
         </div>
         <?php

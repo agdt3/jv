@@ -319,8 +319,9 @@
 }
 
 /* Form */
-.update-form-wrapper {
-  background-color: lightgrey;
+.update-form-wrapper,
+.volunteer-form-wrapper {
+  background-color: #E6E6E6;
 }
 
 /* Buttons */
