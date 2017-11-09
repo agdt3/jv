@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var $learnMoreControl = document.querySelector('.learn-more-control');
   if ($learnMoreControl) {
     $learnMoreControl.addEventListener('click', function() {
-      var $hiddenNews = document.querySelectorAll('article.media.is-hidden');
+      var $hiddenNews = document.querySelectorAll('article.article-container.is-hidden');
       var max = 3;
       if ($hiddenNews.length < 3) {
         max = $hiddenNews.length;

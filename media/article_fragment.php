@@ -1,4 +1,4 @@
-<article class="article-wrapper columns is-desktop">
+<article class="article-container columns is-desktop">
   <div class="column is-2-desktop">Nov 10-14th</div>
   <div class="column is-10-desktop is-12-tablet">
     <div class="content">
@@ -11,7 +11,7 @@
     </div>
   </div>
 </article>
-<article class="article-wrapper columns is-desktop">
+<article class="article-container columns is-desktop">
   <div class="column is-2-desktop">Oct 13-15th</div>
   <div class="column is-10-desktop is-12-tablet">
     <div class="content">
@@ -23,7 +23,7 @@
     </div>
   </div>
 </article>
-<article class="article-wrapper columns is-desktop">
+<article class="article-container columns is-desktop">
   <div class="column is-2-desktop">Oct 6-8th</div>
   <div class="column is-10-desktop is-12-tablet">
     <div class="content">
@@ -38,7 +38,7 @@
     </div>
   </div>
 </article>
-<article class="article-wrapper columns is-desktop">
+<article class="article-container columns is-desktop is-hidden">
   <div class="column is-2-desktop">Sept 15th</div>
   <div class="column is-10-desktop is-12-tablet">
     <div class="content">
@@ -51,7 +51,7 @@
     </div>
   </div>
 </article>
-<article class="article-wrapper columns is-desktop">
+<article class="article-container columns is-desktop is-hidden">
   <div class="column is-2-desktop">June 3rd</div>
   <div class="column is-10-desktop is-12-tablet">
     <div class="content">

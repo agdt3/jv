@@ -101,9 +101,7 @@
               <i class="fa fa-star"></i>
             </span>
         </div>
-        <div class="navbar-item is-hoverable">
-          <a class="navbar-link" href="calendar.php">Calendar</a>
-        </div>
+        <a class="navbar-item" href="calendar.php">Calendar</a>
         <div class="navbar-vertical-divider is-hidden-touch">
             <span class="icon is-small">
               <i class="fa fa-star"></i>
@@ -116,6 +114,7 @@
             <a class="navbar-item " href="media.php#ads">TV Ads</a>
             <a class="navbar-item " href="media.php#campaign">Campaign Photos</a>
             <a class="navbar-item " href="media.php#fake_news">Fake News?</a>
+            <a class="navbar-item " href="media.php#resources">Resources</a>
           </div>
         </div>
       </div>
