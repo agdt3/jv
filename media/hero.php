@@ -23,8 +23,8 @@
       </figure-caption>
     </figure>
     <figure class="hero-image is-hidden" data-index="2">
-      <!--img src="images/IMG_2096_Crop.jpg"/-->
-      <img src="images/IMG_2096_Crop.jpg"/>
+      <!--img src="images/Jim_Cindy_Tetons2.png"/-->
+      <img src="images/Jim_Cindy_Tetons2.png"/>
       <figure-caption class="container hero-overlay has-text-centered">
       	<a href="">
           <h2 class="hero-overlay-title title is-2">

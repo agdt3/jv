@@ -110,9 +110,10 @@
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link" href="media.php">Media</a>
           <div class="navbar-dropdown ">
-            <a class="navbar-item " href="media.php#press">Press Releases</a>
+            <a class="navbar-item " href="media.php#pressarticle">Press Articles</a>
             <a class="navbar-item " href="media.php#ads">TV Ads</a>
             <a class="navbar-item " href="media.php#campaign">Campaign Photos</a>
+            <a class="navbar-item " href="media.php#press">Press Releases</a>
             <a class="navbar-item " href="media.php#fake_news">Fake News?</a>
             <a class="navbar-item " href="media.php#resources">Resources</a>
           </div>

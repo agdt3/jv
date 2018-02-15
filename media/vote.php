@@ -30,12 +30,15 @@
                   <span><i class="fa fa-check-circle"></i></span>
                 </div>
                 <div class="column vote-section-body is-10">
-                  <p>Follow the instructions on this form. Complete the form an deliver or send in to be eligible to vote</p>
-                  <a href="http://www.idahovotes.gov/VoterReg/voter_registration.pdf" target="_blank" >Click here to register!</a>
-                  <br/>
-                  <br/>
-                  <p>Vote by Mail? Click below and follow the instructions on the 'Absentee Ballot Application Form'. Complete the form, print, sign, and mail or fax it in.</p>
-                  <a href="http://idahovotes.gov/VoterReg/absentee.pdf" target="_blank">Click here to request an 'Absentee Ballot'!</a>
+                  <a href="https://apps.idahovotes.gov/OnlineVoterRegistration" target="_blank" >Click here to register or update your voter registration online!</a>
+                    <p>Follow the instructions to complete the online voter registration to be eligible to vote!</p>
+                   <hr/>
+                <div class="column vote-section-body is-10">
+                  <a href="https://idahovotes.gov/media/voter_registration.pdf" target="_blank" >Click here to register by mail (Required if you don't have any Idaho DMV identification)!</a>
+                    <p>To register by mail, follow the instructions on this form. IF YOU DON’T HAVE A DRIVER’S LICENSE OR IDENTIFICATION CARD ISSUED BY THE IDAHO DEPARTMENT OF MOTOR VEHICLES; You MUST complete this form to register to vote and deliver to your local County Clerk’s Office by mail or in-person to be eligible to vote!</p>
+                   <hr/>
+                  <a href="https://idahovotes.gov/absentee-voter-information/" target="_blank">Click here to request an 'Absentee Ballot'!</a>
+                <p>Vote by Mail? Click below and follow the instructions on the 'Absentee Ballot Application Form'. Complete the form, print, sign, and mail or fax it in.</p>
                </div>
               </div>
             </article>
@@ -48,8 +51,8 @@
                   <span><i class="fa fa-question-circle"></i></span>
                 </div>
                 <div class="column vote-section-body is-10">
+                  <a href="https://apps.idahovotes.gov/YourPollingPlace/AmIRegistered.aspx" target="_blank">Click here to check if you're registered</a>
                   <p>Enter your information and make sure your address is correct</p>
-                  <a href="http://www.idahovotes.gov/YPP_NEW/AmIRegistered.aspx" target="_blank">Click here to check if you're registered</a>
                 </div>
               </div>
             </article>
@@ -63,10 +66,12 @@
                 </div>
                 <div class="column vote-section-body is-10">
                   <ul>
-                    <li><a href="https://www.voteriders.org/" target="_blank">Voteriders</a></li>
-                    <li><a href="https://www.fvap.gov/vao/vag" target="_blank">Absentee Voting Guide</a></li>
-                    <li><a href="http://www.dmv.org/id-idaho/voter-registration.php" target="_blank">DMV Voting Registration</a></li>
-                  </ul>
+                    <li><a href="https://www.voteriders.org/" target="_blank">> Voteriders</a></li>
+                    <li><a href="https://www.fvap.gov/vao/vag" target="_blank">> Absentee Voting Guide</a></li>
+                    <li><a href="http://www.dmv.org/id-idaho/voter-registration.php" target="_blank">> DMV Voting Registration</a></li>
+                    <li><a href="https://ballotpedia.org/Idaho_elections,_2018" target="_blank">> Ballotopedia; Idaho Elections 2018</a></li>
+                    <li><a href="https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Idaho,_2018" target="_blank">> Ballotopedia; Idaho Congressional Elections 2018</a></li>
+                 </ul>
                 </div>
               </div>
             </article>
